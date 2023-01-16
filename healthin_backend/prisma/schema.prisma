@@ -1,0 +1,52 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum BloodType {
+  aNegative
+  aPositive
+  bNegative
+  bPositive
+  abNegative
+  abPositive
+  oNegative
+  oPositive
+}
+
+enum Gender {
+  masculine
+  feminine
+  notBinary
+}
+
+enum PaymentWay {
+  pix
+  creditCard
+  debitCard
+  money
+}
+
+enum BillStatus {
+  open
+  cancelled
+  delayed
+  paid
+}
+
+model Address {
+  id           String  @id @default(uuid())
+  street       String  @db.VarChar(50)
+  number       String  @db.VarChar(6)
+  neighborhood String  @db.VarChar(40)
+  complement   String?
+  reference    String?
+  city         String // need to create a table to city and state and country
+}
