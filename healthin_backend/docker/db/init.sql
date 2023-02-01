@@ -3,7 +3,8 @@ create extension if not exists "uuid-ossp";
 
 create table Specialization (
     id uuid primary key default uuid_generate_v4(),
-    name varchar(40) unique not null
+    name varchar(40) unique not null,
+    status boolean default true not null
 );
 
 insert into Specialization(name) values ('Acupuntura');
@@ -75,7 +76,8 @@ create table Users (
     email varchar(50) unique not null,
     username varchar(30) unique not null,
     password varchar(50) not null,
-    createdAt timestamp not null default now()
+    createdAt timestamp not null default now(),
+    status boolean default true not null
 );
 
 create table AdminUser (
@@ -84,7 +86,8 @@ create table AdminUser (
 
 create table AdminUserRoles (
     roleId uuid not null references Role(id),
-    adminUserId uuid not null references AdminUser(userId)
+    adminUserId uuid not null references AdminUser(userId),
+    primary key (roleId, adminUserId)
 );
 
 insert into Users values('4D18C35B-6422-4007-A852-51C33D045056', 'joao_paulo767@hotmail.com', 'weth767', '123456');
@@ -16466,3 +16469,88 @@ insert into Medicine (name, activePrinciple, register, laboratoryId, expiration)
 insert into Medicine (name, activePrinciple, register, laboratoryId, expiration) values ('ácido zoledrônico', 'ÁCIDO ZOLEDRÔNICO', '100470601', 'A6726F68-3E29-4974-8320-B27FC64B2308', '2027-01-01 00:00:00');
 insert into Medicine (name, activePrinciple, register, laboratoryId, expiration) values ('ácido zoledrônico', 'ácido zoledrônico monoidratado', '146820032', '4AC8736B-DC46-4D17-A9CC-6E82CB59509E', '2028-02-01 00:00:00');
 insert into Medicine (name, activePrinciple, register, laboratoryId, expiration) values ('ácido zoledrônico monoidratado', 'ácido zoledrônico monoidratado', '102980566', 'DA461770-9DB9-4F1E-901F-79AAFDA1E610', '2031-09-01 00:00:00');
+
+create table Symptom (
+    id uuid primary key default uuid_generate_v4(),
+    description varchar(100) unique not null,
+    status boolean default true not null
+);
+
+insert into Symptom (description) values ('Constipação');
+insert into Symptom (description) values ('Diarreia');
+insert into Symptom (description) values ('Coceira');
+insert into Symptom (description) values ('Coceira Anal');
+insert into Symptom (description) values ('Coceira Genital');
+insert into Symptom (description) values ('Difuldade em Engolir Alimentos');
+insert into Symptom (description) values ('Má Digestão/Dispepsia');
+insert into Symptom (description) values ('Dor Aguda');
+insert into Symptom (description) values ('Dor Crônica');
+insert into Symptom (description) values ('Gases');
+insert into Symptom (description) values ('Náusea');
+insert into Symptom (description) values ('Vômito');
+insert into Symptom (description) values ('Sensação de Obstrução');
+insert into Symptom (description) values ('Soluços');
+insert into Symptom (description) values ('Tosse com Sangue');
+insert into Symptom (description) values ('Hemorragia');
+insert into Symptom (description) values ('Hematomas');
+insert into Symptom (description) values ('Sangramento');
+insert into Symptom (description) values ('Sangue no Sêmen');
+insert into Symptom (description) values ('Hematúria');
+insert into Symptom (description) values ('Cãinbras Musculares');
+insert into Symptom (description) values ('Desmaio');
+insert into Symptom (description) values ('Dormência');
+insert into Symptom (description) values ('Insônia');
+insert into Symptom (description) values ('Sonolência');
+insert into Symptom (description) values ('Amnésia');
+insert into Symptom (description) values ('Tontura');
+insert into Symptom (description) values ('Vertigem');
+insert into Symptom (description) values ('Tremor');
+insert into Symptom (description) values ('Estridor');
+insert into Symptom (description) values ('Palpitações');
+insert into Symptom (description) values ('Tosse');
+insert into Symptom (description) values ('Sibilos');
+insert into Symptom (description) values ('Choro');
+insert into Symptom (description) values ('Coriza');
+insert into Symptom (description) values ('Corrimento');
+insert into Symptom (description) values ('Perda de Audição');
+insert into Symptom (description) values ('Secreção no Ouvido');
+insert into Symptom (description) values ('Ressonar/Ronco');
+insert into Symptom (description) values ('Zumbido');
+insert into Symptom (description) values ('Perda do Olfato');
+insert into Symptom (description) values ('Anisocoria');
+insert into Symptom (description) values ('Edema');
+insert into Symptom (description) values ('Inchaço');
+insert into Symptom (description) values ('Moscas Volantes');
+insert into Symptom (description) values ('Olhos Lacrimejantes');
+insert into Symptom (description) values ('Olhos Salientes');
+insert into Symptom (description) values ('Perda de Visão');
+insert into Symptom (description) values ('Pontos Flutuantes');
+insert into Symptom (description) values ('Vermelhidão');
+insert into Symptom (description) values ('Visão Dupla');
+insert into Symptom (description) values ('Visão embaçada');
+insert into Symptom (description) values ('Falta de Ar');
+insert into Symptom (description) values ('Alterações de Comportamento e/ou Personalidade');
+insert into Symptom (description) values ('Dor de Cabeça');
+insert into Symptom (description) values ('Febre');
+insert into Symptom (description) values ('Fraqueza');
+insert into Symptom (description) values ('Icterícia');
+insert into Symptom (description) values ('Disfunção Erétil');
+insert into Symptom (description) values ('Urticária');
+insert into Symptom (description) values ('Ereção Involuntária');
+insert into Symptom (description) values ('Incontinência');
+insert into Symptom (description) values ('Dor ao Urinar');
+insert into Symptom (description) values ('Retenção');
+insert into Symptom (description) values ('Urina Incessante');
+insert into Symptom (description) values ('Amenorreia');
+insert into Symptom (description) values ('Cólicas');
+insert into Symptom (description) values ('Nódulos');
+insert into Symptom (description) values ('Secreções');
+insert into Symptom (description) values ('Caroços');
+insert into Symptom (description) values ('Massa Cervical');
+insert into Symptom (description) values ('Boca Seca');
+insert into Symptom (description) values ('Feridas');
+insert into Symptom (description) values ('Inflamações');
+insert into Symptom (description) values ('Mau Hálito');
+insert into Symptom (description) values ('Alopecia');
+insert into Symptom (description) values ('Hirsutimo');
+insert into Symptom (description) values ('Outro');
