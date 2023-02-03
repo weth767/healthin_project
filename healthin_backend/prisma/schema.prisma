@@ -7,84 +7,86 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model adminuser {
-  userid         String           @id @db.Uuid
-  users          users            @relation(fields: [userid], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  adminuserroles adminuserroles[]
+model AdminUser {
+  userId         String           @id @db.Uuid
+  users          Users            @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  adminUserRoles AdminUserRoles[]
 }
 
-model adminuserroles {
-  roleid      String    @db.Uuid
-  adminuserid String    @db.Uuid
-  adminuser   adminuser @relation(fields: [adminuserid], references: [userid], onDelete: NoAction, onUpdate: NoAction)
-  role        role      @relation(fields: [roleid], references: [id], onDelete: NoAction, onUpdate: NoAction)
+model AdminUserRoles {
+  roleId      String    @db.Uuid
+  adminUserId String    @db.Uuid
+  adminUser   AdminUser @relation(fields: [adminUserId], references: [userId], onDelete: NoAction, onUpdate: NoAction)
+  role        Role      @relation(fields: [roleId], references: [id], onDelete: NoAction, onUpdate: NoAction)
 
-  @@id([roleid, adminuserid])
+  @@id([roleId, adminUserId])
 }
 
-model city {
+model City {
   id      String    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name    String    @db.VarChar(100)
-  stateuf String    @db.Char(2)
-  state   state     @relation(fields: [stateuf], references: [uf], onDelete: NoAction, onUpdate: NoAction)
+  uf      String    @db.Char(2)
+  state   State     @relation(fields: [uf], references: [uf], onDelete: NoAction, onUpdate: NoAction)
   Address Address[]
 }
 
-model laboratory {
+model Laboratory {
   id       String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name     String
   cnpj     String?    @db.Char(14)
   status   Boolean    @default(true)
-  medicine medicine[]
+  medicine Medicine[]
 }
 
-model medicine {
+model Medicine {
   id              String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name            String
-  activeprinciple String
+  activePrinciple String
   register        String     @db.VarChar(20)
-  laboratoryid    String     @db.Uuid
+  laboratoryId    String     @db.Uuid
   situation       Boolean    @default(true)
   expiration      DateTime?  @db.Timestamp(6)
-  laboratory      laboratory @relation(fields: [laboratoryid], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  laboratory      Laboratory @relation(fields: [laboratoryId], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
-model role {
+model Role {
   id             String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name           String           @unique @db.VarChar(30)
   status         Boolean          @default(true)
-  adminuserroles adminuserroles[]
+  adminuserroles AdminUserRoles[]
 }
 
-model specialization {
+model Specialization {
   id     String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name   String  @unique @db.VarChar(40)
   status Boolean @default(true)
 }
 
-model state {
+model State {
   uf   String @id @db.Char(2)
   name String @db.VarChar(40)
-  city city[]
+  city City[]
 }
 
-model symptom {
-  id          String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  description String  @unique @db.VarChar(100)
-  status      Boolean @default(true)
+model Symptom {
+  id               String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  description      String             @unique @db.VarChar(100)
+  status           Boolean            @default(true)
+  symptomOcorrence SymptomOcorrence[]
 }
 
-model users {
+model Users {
   id        String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   email     String     @unique @db.VarChar(50)
   username  String     @unique @db.VarChar(30)
   password  String     @db.VarChar(50)
   createdat DateTime   @default(now()) @db.Timestamp(6)
   status    Boolean    @default(true)
-  adminuser adminuser?
+  adminuser AdminUser?
+  pacient   Pacient[]
 }
 
-enum BloodType {
+enum Bloodtype {
   aNegative
   aPositive
   bNegative
@@ -116,12 +118,62 @@ enum BillStatus {
 }
 
 model Address {
-  id           String  @id @default(uuid())
+  id           String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   street       String  @db.VarChar(50)
   number       String  @db.VarChar(6)
   neighborhood String  @db.VarChar(40)
   complement   String?
   reference    String?
   cityId       String  @db.Uuid
-  city         city    @relation(fields: [cityId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  city         City    @relation(fields: [cityId], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
+
+enum Ocorrence {
+  never
+  rare
+  sometimes
+  common
+  always
+}
+
+model SymptomOcorrence {
+  id               String          @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  ocorrence        Ocorrence
+  description      String?
+  symptomId        String          @db.Uuid
+  symptom          Symptom         @relation(fields: [symptomId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pacientHistory   Pacienthistory? @relation(fields: [pacientHistoryId], references: [id])
+  pacientHistoryId String?         @db.Uuid
+}
+
+model Pacienthistory {
+  id                  String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  pacientId           String             @db.Uuid
+  pacient             Pacient            @relation(fields: [pacientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  symptomsocorrences  SymptomOcorrence[]
+  datetime            DateTime           @default(now()) @db.Timestamp(6)
+  diagnosticDiseaseId String?            @db.Uuid
+  //diagnosticDisease   Disease?           @relation(fields: [diagnosticDiseaseId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model Pacient {
+  id        String    @id @db.Uuid
+  user      Users     @relation(fields: [id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  firstname String    @db.VarChar(40)
+  lastname  String    @db.VarChar(60)
+  cpf       String?   @db.Char(11)
+  document  String?
+  suscard   String?
+  birthday  DateTime  @db.Date
+  height    Int?
+  weight    Float?
+  bloodtype Bloodtype
+
+  pacienthistory Pacienthistory[]
+}
+
+//model Pretriage {
+//}
+
+//model Triage {
+//}

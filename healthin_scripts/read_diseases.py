@@ -10,7 +10,7 @@ for record in records:
     if re.search('[a-zA-Z][0-9]+:', str(record[1])):
         name = str(record[1]).split(':')[1]
         cid = str(record[1]).split(':')[0]
-        sql = "insert into inlness (name, cid, status) values('%s', '%s', true)" % (
+        sql = "insert into Inlness (name, cid, status) values('%s', '%s', true)" % (
             name, cid)
         file.write(sql + '\n')
 file.close()
