@@ -30,6 +30,14 @@ model City {
   Address Address[]
 }
 
+model Illness {
+  id             String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name           String           @db.VarChar(255)
+  cid            String           @db.VarChar(4)
+  status         Boolean          @default(true)
+  Pacienthistory Pacienthistory[]
+}
+
 model Laboratory {
   id       String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name     String
@@ -152,23 +160,22 @@ model Pacienthistory {
   pacient             Pacient            @relation(fields: [pacientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   symptomsocorrences  SymptomOcorrence[]
   datetime            DateTime           @default(now()) @db.Timestamp(6)
-  diagnosticDiseaseId String?            @db.Uuid
-  //diagnosticDisease   Disease?           @relation(fields: [diagnosticDiseaseId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  diagnosticIllnessId String?            @db.Uuid
+  diagnosticIllness   Illness?           @relation(fields: [diagnosticIllnessId], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
 model Pacient {
-  id        String    @id @db.Uuid
-  user      Users     @relation(fields: [id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  firstname String    @db.VarChar(40)
-  lastname  String    @db.VarChar(60)
-  cpf       String?   @db.Char(11)
-  document  String?
-  suscard   String?
-  birthday  DateTime  @db.Date
-  height    Int?
-  weight    Float?
-  bloodtype Bloodtype
-
+  id             String           @id @db.Uuid
+  user           Users            @relation(fields: [id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  firstname      String           @db.VarChar(40)
+  lastname       String           @db.VarChar(60)
+  cpf            String?          @db.Char(11)
+  document       String?
+  suscard        String?
+  birthday       DateTime         @db.Date
+  height         Int?
+  weight         Float?
+  bloodtype      Bloodtype
   pacienthistory Pacienthistory[]
 }
 
