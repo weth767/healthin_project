@@ -1,1680 +1,1680 @@
-insert into Inlness (name, cid, status) values('Colera', 'A00', true)
-insert into Inlness (name, cid, status) values('Febres Tifoide e Paratifoide', 'A01', true)
-insert into Inlness (name, cid, status) values('Outras Infecções por Salmonella', 'A02', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Intestinais Bacterianas', 'A04', true)
-insert into Inlness (name, cid, status) values('Outras Intoxicacões Alimentares Bacterianas', 'A05', true)
-insert into Inlness (name, cid, status) values('Amebiase', 'A06', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Intestinais por Protozoarios', 'A07', true)
-insert into Inlness (name, cid, status) values('Infecções Intestinais Virais, Outras e as Não Especificadas', 'A08', true)
-insert into Inlness (name, cid, status) values('Diarreia e Gastroenterite de Origem Infecciosa Presumivel', 'A09', true)
-insert into Inlness (name, cid, status) values('Tuberculose Respiratoria, com Confirmação Bacteriologica e Histologica', 'A15', true)
-insert into Inlness (name, cid, status) values('Tuberculose das Vias Respiratorias, sem Confirmação Bacteriologica ou Histologica', 'A16', true)
-insert into Inlness (name, cid, status) values('Tuberculose do Sistema Nervoso', 'A17', true)
-insert into Inlness (name, cid, status) values('Tuberculose de Outros Orgãos', 'A18', true)
-insert into Inlness (name, cid, status) values('Tuberculose Miliar', 'A19', true)
-insert into Inlness (name, cid, status) values('Carbunculo', 'A22', true)
-insert into Inlness (name, cid, status) values('Brucelose', 'A23', true)
-insert into Inlness (name, cid, status) values('Febres Transmitidas por Mordedura de Rato', 'A25', true)
-insert into Inlness (name, cid, status) values('Erisipeloide', 'A26', true)
-insert into Inlness (name, cid, status) values('Leptospirose', 'A27', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Bacterianas Zoonoticas Não Classificadas em Outra Parte', 'A28', true)
-insert into Inlness (name, cid, status) values('Hanseniase [Doenca de Hansen] [Lepra]', 'A30', true)
-insert into Inlness (name, cid, status) values('Infecções Devidas a Outras Micobacterias', 'A31', true)
-insert into Inlness (name, cid, status) values('Listeriose [Listeriase]', 'A32', true)
-insert into Inlness (name, cid, status) values('Outros Tipos de Tetano', 'A35', true)
-insert into Inlness (name, cid, status) values('Escarlatina', 'A38', true)
-insert into Inlness (name, cid, status) values('Infecção Meningogocica', 'A39', true)
-insert into Inlness (name, cid, status) values('Septicemia Estreptococica', 'A40', true)
-insert into Inlness (name, cid, status) values('Outras Septicemias', 'A41', true)
-insert into Inlness (name, cid, status) values('Actinomicose', 'A42', true)
-insert into Inlness (name, cid, status) values('Nocardiose', 'A43', true)
-insert into Inlness (name, cid, status) values('Bartonelose', 'A44', true)
-insert into Inlness (name, cid, status) values('Erisipela', 'A46', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Bacterianas Não Classificadas em Outra Parte', 'A48', true)
-insert into Inlness (name, cid, status) values('Infecção Bacteriana de Local Não Especificado', 'A49', true)
-insert into Inlness (name, cid, status) values('Sifilis Congenita', 'A50', true)
-insert into Inlness (name, cid, status) values('Sifilis Precoce', 'A51', true)
-insert into Inlness (name, cid, status) values('Sifilis Tardia', 'A52', true)
-insert into Inlness (name, cid, status) values('Outras Formas e as Não Especificadas da Sifilis', 'A53', true)
-insert into Inlness (name, cid, status) values('Infecção Gonococica', 'A54', true)
-insert into Inlness (name, cid, status) values('Linfogranuloma (Venereo) por Clamidia', 'A55', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Causadas por Clamidias Transmitidas por Via Sexual', 'A56', true)
-insert into Inlness (name, cid, status) values('Granuloma Inguinal', 'A58', true)
-insert into Inlness (name, cid, status) values('Tricomoniase', 'A59', true)
-insert into Inlness (name, cid, status) values('Infecções Anogenitais Pelo Virus do Herpes [Herpes Simples]', 'A60', true)
-insert into Inlness (name, cid, status) values('Outras Doencas de Transmissão Predominantemente Sexual, Não Classificadas em Outra Parte', 'A63', true)
-insert into Inlness (name, cid, status) values('Doencas Sexualmente Transmitidas, Não Especificadas', 'A64', true)
-insert into Inlness (name, cid, status) values('Bouba', 'A66', true)
-insert into Inlness (name, cid, status) values('Pinta [Carate]', 'A67', true)
-insert into Inlness (name, cid, status) values('Febres Recorrentes [Borrelioses]', 'A68', true)
-insert into Inlness (name, cid, status) values('Outras Infecções por Espiroquetas', 'A69', true)
-insert into Inlness (name, cid, status) values('Infecções Causadas por Clamidia Psittaci', 'A70', true)
-insert into Inlness (name, cid, status) values('Tifo Exantematico', 'A75', true)
-insert into Inlness (name, cid, status) values('Febre Maculosa [Rickettsioses Transmitidas por Carrapatos]', 'A77', true)
-insert into Inlness (name, cid, status) values('Outras Rickettsioses', 'A79', true)
-insert into Inlness (name, cid, status) values('Poliomielite Aguda', 'A80', true)
-insert into Inlness (name, cid, status) values('Infecções por Virus Atipico do Sistema Nervoso Central', 'A81', true)
-insert into Inlness (name, cid, status) values('Outras Encefalites Virais, Não Classificadas em Outra Parte', 'A85', true)
-insert into Inlness (name, cid, status) values('Encefalite Viral, Não Especificada', 'A86', true)
-insert into Inlness (name, cid, status) values('Meningite Viral', 'A87', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Virais do Sistema Nervoso Central Não Classificadas em Outra Parte', 'A88', true)
-insert into Inlness (name, cid, status) values('Infecções Virais Não Especificadas do Sistema Nervoso Central', 'A89', true)
-insert into Inlness (name, cid, status) values('Dengue [Dengue Classico]', 'A90', true)
-insert into Inlness (name, cid, status) values('Febre Hemorragica Devida ao Virus do Dengue', 'A91', true)
-insert into Inlness (name, cid, status) values('Outras Febres Virais Transmitidas por Mosquitos', 'A92', true)
-insert into Inlness (name, cid, status) values('Outras Febres por Virus Transmitidas por Artropodes Não Classificadas em Outra Parte', 'A93', true)
-insert into Inlness (name, cid, status) values('Febre Viral Transmitida por Artropodes, Não Especificada', 'A94', true)
-insert into Inlness (name, cid, status) values('Febre Amarela', 'A95', true)
-insert into Inlness (name, cid, status) values('Febre Hemorragica por Arenavirus', 'A96', true)
-insert into Inlness (name, cid, status) values('Outras Febres Hemorragicas por Virus, Não Classificadas em Outra Parte', 'A98', true)
-insert into Inlness (name, cid, status) values('Febres Hemorragicas Virais Não Especificadas', 'A99', true)
-insert into Inlness (name, cid, status) values('Infecçõs Pelo Virus do Herpes [Herpes Simples]', 'B00', true)
-insert into Inlness (name, cid, status) values('Varicela', 'B01', true)
-insert into Inlness (name, cid, status) values('Herpes Zoster [Zona]', 'B02', true)
-insert into Inlness (name, cid, status) values('Sarampo', 'B05', true)
-insert into Inlness (name, cid, status) values('Rubeola', 'B06', true)
-insert into Inlness (name, cid, status) values('Verrugas de Origem Viral', 'B07', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Virais Caracterizadas por Lesões da Pele e das Membranas Mucosas, Não Classificadas em Outra Parte', 'B08', true)
-insert into Inlness (name, cid, status) values('Infecção Viral Não Especificada Caracterizada por Lesões da Pele e Membranas Mucosas', 'B09', true)
-insert into Inlness (name, cid, status) values('Hepatite Aguda A', 'B15', true)
-insert into Inlness (name, cid, status) values('Hepatite Aguda B', 'B16', true)
-insert into Inlness (name, cid, status) values('Outras Hepatites Virais Agudas', 'B17', true)
-insert into Inlness (name, cid, status) values('Hepatite Viral Cronica', 'B18', true)
-insert into Inlness (name, cid, status) values('Hepatite Viral Não Especificada', 'B19', true)
-insert into Inlness (name, cid, status) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv], Resultando em Doencas Infecciosas e Parasitarias', 'B20', true)
-insert into Inlness (name, cid, status) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv], Resultando em Neoplasias Malignas', 'B21', true)
-insert into Inlness (name, cid, status) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Resultando em Outras Doencas Especificadas', 'B22', true)
-insert into Inlness (name, cid, status) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Resultando em Outras Doencas', 'B23', true)
-insert into Inlness (name, cid, status) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Não Especificada', 'B24', true)
-insert into Inlness (name, cid, status) values('Doenca por Citomegalovirus', 'B25', true)
-insert into Inlness (name, cid, status) values('Caxumba [Parotidite Epidemica]', 'B26', true)
-insert into Inlness (name, cid, status) values('Mononucleose Infecciosa', 'B27', true)
-insert into Inlness (name, cid, status) values('Conjuntivite Viral', 'B30', true)
-insert into Inlness (name, cid, status) values('Outras Doencas por Virus Não Classificada em Outra Parte', 'B33', true)
-insert into Inlness (name, cid, status) values('Doencas por Virus, de Localização Não Especificada', 'B34', true)
-insert into Inlness (name, cid, status) values('Dermatofitose', 'B35', true)
-insert into Inlness (name, cid, status) values('Outras Micoses Superficiais', 'B36', true)
-insert into Inlness (name, cid, status) values('Candidiase', 'B37', true)
-insert into Inlness (name, cid, status) values('Coccidioidomicose', 'B38', true)
-insert into Inlness (name, cid, status) values('Histoplasmose', 'B39', true)
-insert into Inlness (name, cid, status) values('Blastomicose', 'B40', true)
-insert into Inlness (name, cid, status) values('Paracoccidioidomicose', 'B41', true)
-insert into Inlness (name, cid, status) values('Esporotricose', 'B42', true)
-insert into Inlness (name, cid, status) values('Cromomicose e Abscesso Feomicotico', 'B43', true)
-insert into Inlness (name, cid, status) values('Aspergilose', 'B44', true)
-insert into Inlness (name, cid, status) values('Criptococose', 'B45', true)
-insert into Inlness (name, cid, status) values('Zigomicose', 'B46', true)
-insert into Inlness (name, cid, status) values('Micetoma', 'B47', true)
-insert into Inlness (name, cid, status) values('Outras Micoses, Não Classificadas em Outra Parte', 'B48', true)
-insert into Inlness (name, cid, status) values('Micose Não Especificada', 'B49', true)
-insert into Inlness (name, cid, status) values('Malaria por Plasmodium Falciparum', 'B50', true)
-insert into Inlness (name, cid, status) values('Malaria por Plasmodium Vivax', 'B51', true)
-insert into Inlness (name, cid, status) values('Outras Formas de Malaria Confirmadas por Exames Parasitologicos', 'B53', true)
-insert into Inlness (name, cid, status) values('Malaria Não Especificada', 'B54', true)
-insert into Inlness (name, cid, status) values('Leishmaniose', 'B55', true)
-insert into Inlness (name, cid, status) values('Tripanossomiase Africana', 'B56', true)
-insert into Inlness (name, cid, status) values('Doenca de Chagas', 'B57', true)
-insert into Inlness (name, cid, status) values('Toxoplasmose', 'B58', true)
-insert into Inlness (name, cid, status) values('Pneumocistose', 'B59', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Devidas a Protozoarios, Não Classificadas em Outra Parte', 'B60', true)
-insert into Inlness (name, cid, status) values('Doenca Não Especificada Devida a Protozoarios', 'B64', true)
-insert into Inlness (name, cid, status) values('Esquistossomose [Bilharziose] [Schistosomiase]', 'B65', true)
-insert into Inlness (name, cid, status) values('Outras Infestações por Trematodeos', 'B66', true)
-insert into Inlness (name, cid, status) values('Equinococose', 'B67', true)
-insert into Inlness (name, cid, status) values('Cisticercose', 'B69', true)
-insert into Inlness (name, cid, status) values('Filariose', 'B74', true)
-insert into Inlness (name, cid, status) values('Triquinose', 'B75', true)
-insert into Inlness (name, cid, status) values('Ancilostomiase', 'B76', true)
-insert into Inlness (name, cid, status) values('Ascaridiase', 'B77', true)
-insert into Inlness (name, cid, status) values('Estrongiloidiase', 'B78', true)
-insert into Inlness (name, cid, status) values('Outras Helmintiases Intestinais, Não Classificadas em Outra Parte', 'B81', true)
-insert into Inlness (name, cid, status) values('Outras Helmintiases', 'B83', true)
-insert into Inlness (name, cid, status) values('Escabiose [Sarna]', 'B86', true)
-insert into Inlness (name, cid, status) values('Miiase', 'B87', true)
-insert into Inlness (name, cid, status) values('Outras Infestacões', 'B88', true)
-insert into Inlness (name, cid, status) values('Doenca Parasitaria Não Especificada', 'B89', true)
-insert into Inlness (name, cid, status) values('Sequelas de Tuberculose', 'B90', true)
-insert into Inlness (name, cid, status) values('Sequelas de Poliomielite', 'B91', true)
-insert into Inlness (name, cid, status) values('Sequelas de Hanseniase [Lepra]', 'B92', true)
-insert into Inlness (name, cid, status) values('Sequelas de Outras Doencas Infecciosas e Parasitarias e das Não Especificadas', 'B94', true)
-insert into Inlness (name, cid, status) values('Estreptococos e Estafilococos Como Causa de Doencas Classificadas em Outros Capitulos', 'B95', true)
-insert into Inlness (name, cid, status) values('Outros Agentes Bacterianos, Como Causa de Doencas Classificadas em Outros Capitulos', 'B96', true)
-insert into Inlness (name, cid, status) values('Virus Como Causa de Doencas Classificadas em Outros Capitulos', 'B97', true)
-insert into Inlness (name, cid, status) values('Doencas Infecciosas, Outras e as Não Especificadas', 'B99', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Labio', 'C00', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Base da Lingua', 'C01', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Partes e de Partes Não Especificadas da Lingua', 'C02', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Gengiva', 'C03', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Assoalho da Boca', 'C04', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Palato', 'C05', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Partes e de Partes Não Especificadas da Boca', 'C06', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Glandula Parotida', 'C07', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Glandulas Salivares Maiores e as Não Especificadas', 'C08', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Amigdala', 'C09', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Orofaringe', 'C10', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Nasofaringe', 'C11', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Seio Piriforme', 'C12', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Hipofaringe', 'C13', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Localizacões e de Localizacões Mal Definida, do Labio, Cavidade Oral e Faringe', 'C14', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Esofago', 'C15', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Estomago', 'C16', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Intestino Delgado', 'C17', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Colon', 'C18', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Junção Retossigmoide', 'C19', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Reto', 'C20', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Anus e do Canal Anal', 'C21', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Figado e das Vias Biliares Intra-Hepaticas', 'C22', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Vesicula Biliar', 'C23', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Partes, e de Partes Não Especificadas das Vias Biliares', 'C24', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Pancreas', 'C25', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outros Orgãos Digestivos e de Localizacções Mal Definidas no Aparelho Digestivo', 'C26', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Cavidade Nasal e do Ouvido Medio', 'C30', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Seios da Face', 'C31', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Laringe', 'C32', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Traqueia', 'C33', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Bronquios e dos Pulmões', 'C34', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Timo', 'C37', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Coracção, Mediastino e Pleura', 'C38', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Localizações e de Localizações Mal Definidas do Aparelho Respiratorio e dos Orgãos Intratoracicos', 'C39', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Ossos e Cartilagens Articulares dos Membros', 'C40', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Ossos e das Cartilagens Articulares de Outras Localizações e de Localizações Não Especificadas', 'C41', true)
-insert into Inlness (name, cid, status) values('Melanoma Maligno da Pele', 'C43', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias Malignas da Pele', 'C44', true)
-insert into Inlness (name, cid, status) values('Mesotelioma', 'C45', true)
-insert into Inlness (name, cid, status) values('Sarcoma de Kaposi', 'C46', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Nervos Perifericos e do Sistema Nervoso Autonomo', 'C47', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Tecidos Moles do Retroperitonio e do Peritonio', 'C48', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Tecido Conjuntivo e de Outros Tecidos Moles', 'C49', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Mama', 'C50', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Vulva', 'C51', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Vagina', 'C52', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Colo do Utero', 'C53', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Corpo do Utero', 'C54', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Utero, Porção Não Especificada', 'C55', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Ovario', 'C56', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outros Orgãos Genitais Femininos e dos Não Especificados', 'C57', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Placenta', 'C58', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Penis', 'C60', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Prostata', 'C61', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Testiculos', 'C62', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outros Orgãos Genitais Masculinos e dos Não Especificados', 'C63', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Rim, Exceto Pelve Renal', 'C64', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Pelve Renal', 'C65', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna dos Ureteres', 'C66', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Bexiga', 'C67', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outros Orgãos Urinarios e dos Não Especificados', 'C68', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Olho e Anexos', 'C69', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna das Meninges', 'C70', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna do Encefalo', 'C71', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Medula Espinhal, dos Nervos Cranianos e de Outras Partes do Sistema Nervoso Central', 'C72', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Glandula Tireoide', 'C73', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna da Glandula Supra-Renal', 'C74', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Glandulas Endocrinas e de Estruturas Relacionadas', 'C75', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna de Outras Localizações e de Localizações Mal Definidas', 'C76', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna Secundaria e Não Especificada dos Ganglios Linfaticos', 'C77', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna Secundaria dos Orgãos Respiratorios e Digestivos', 'C78', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna Secundaria de Outras Localizacões', 'C79', true)
-insert into Inlness (name, cid, status) values('Neoplasia Maligna, sem Especificação de Localização', 'C80', true)
-insert into Inlness (name, cid, status) values('Doenca de Hodgkin', 'C81', true)
-insert into Inlness (name, cid, status) values('Linfoma Não-Hodgkin, Folicular (Nodular)', 'C82', true)
-insert into Inlness (name, cid, status) values('Linfoma Não-Hodgkin Difuso', 'C83', true)
-insert into Inlness (name, cid, status) values('Linfomas de Celulas T Cutaneas e Perifericas', 'C84', true)
-insert into Inlness (name, cid, status) values('Linfoma Não-Hodgkin de Outros Tipos e de Tipo Não Especificado', 'C85', true)
-insert into Inlness (name, cid, status) values('Doencas Imunoproliferativas Malignas', 'C88', true)
-insert into Inlness (name, cid, status) values('Mieloma Multiplo e Neoplasias Malignas de Plasmocitos', 'C90', true)
-insert into Inlness (name, cid, status) values('Leucemia Linfoide', 'C91', true)
-insert into Inlness (name, cid, status) values('Leucemia Mieloide', 'C92', true)
-insert into Inlness (name, cid, status) values('Leucemia Monocitica', 'C93', true)
-insert into Inlness (name, cid, status) values('Outras Leucemias de Celulas de Tipo Especificado', 'C94', true)
-insert into Inlness (name, cid, status) values('Leucemia de Tipo Celular Não Especificado', 'C95', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias Malignas e as Não Especificadas dos Tecidos Linfatico, Hematopoetico e Tecidos Correlatos', 'C96', true)
-insert into Inlness (name, cid, status) values('Neoplasias Malignas de Localizações Multiplas Independentes (Primarias)', 'C97', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ da Cavidade Oral, do Esofago e do Estomago', 'D00', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ de Outros Orgãos Digestivos', 'D01', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ do Ouvido Medio e do Aparelho Respiratorio', 'D02', true)
-insert into Inlness (name, cid, status) values('Melanoma In Situ', 'D03', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ da Pele', 'D04', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ da Mama', 'D05', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ do Colo do Utero (Cervix)', 'D06', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ de Outros Orgãos Genitais e dos Não Especificados', 'D07', true)
-insert into Inlness (name, cid, status) values('Carcinoma In Situ de Outras Localizações e das Não Especificadas', 'D09', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna da Boca e da Faringe', 'D10', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Glandulas Salivares Maiores', 'D11', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna do Colon, Reto, Canal Anal e Anus', 'D12', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Outras Partes e de Partes Mal Definidas do Aparelho Digestivo', 'D13', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna do Ouvido Medio e do Aparelho Respiratorio', 'D14', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Outros Orgãos Intratoracicos e dos Não Especificados', 'D15', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Osso e de Cartilagem Articular', 'D16', true)
-insert into Inlness (name, cid, status) values('Neoplasia Lipomatosa Benigna', 'D17', true)
-insert into Inlness (name, cid, status) values('Hemangioma e Linfangioma de Qualquer Localização', 'D18', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Tecido Mesotelial', 'D19', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Tecido Mole do Retroperitonio e do Peritonio', 'D20', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias Benignas do Tecido Conjuntivo e de Outros Tecidos Moles', 'D21', true)
-insert into Inlness (name, cid, status) values('Nevos Melanociticos', 'D22', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias Benignas da Pele', 'D23', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna da Mama', 'D24', true)
-insert into Inlness (name, cid, status) values('Leiomioma do Utero', 'D25', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias Benignas do Utero', 'D26', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna do Ovario', 'D27', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Outros Orgãos Genitais Femininos e de Orgãos Não Especificados', 'D28', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna dos Orgãos Genitais Masculinos', 'D29', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna dos Orgãos Urinarios', 'D30', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna do Olho e Anexos', 'D31', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna das Meninges', 'D32', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna do Encefalo e de Outras Partes do Sistema Nervoso Central', 'D33', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna da Glandula Tireoide', 'D34', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Outras Glandulas Endocrinas e das Não Especificadas', 'D35', true)
-insert into Inlness (name, cid, status) values('Neoplasia Benigna de Outras Localizacões e de Localizacões Não Especificadas', 'D36', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido da Cavidade Oral e dos Orgãos Digestivos', 'D37', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido do Ouvido Medio e dos Orgãos Respiratorios e Intratoracicos', 'D38', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Genitais Femininos', 'D39', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Genitais Masculinos', 'D40', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Urinarios', 'D41', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido das Meninges', 'D42', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido do Encefalo e do Sistema Nervoso Central', 'D43', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido das Glandulas Endocrinas', 'D44', true)
-insert into Inlness (name, cid, status) values('Policitemia Vera', 'D45', true)
-insert into Inlness (name, cid, status) values('Sindromes Mielodisplasicas', 'D46', true)
-insert into Inlness (name, cid, status) values('Outras Neoplasias de Comportamento Incerto ou Desconhecido dos Tecidos Linfatico, Hematopoetico e Tecidos Correlatos', 'D47', true)
-insert into Inlness (name, cid, status) values('Neoplasia de Comportamento Incerto ou Desconhecido de Outras Localizações e de Localizações Não Especificadas', 'D48', true)
-insert into Inlness (name, cid, status) values('Anemia por Deficiencia de Ferro', 'D50', true)
-insert into Inlness (name, cid, status) values('Anemia por Deficiencia de Vitamina B12', 'D51', true)
-insert into Inlness (name, cid, status) values('Anemia por Deficiencia de Folato', 'D52', true)
-insert into Inlness (name, cid, status) values('Outras Anemias Nutricionais', 'D53', true)
-insert into Inlness (name, cid, status) values('Anemia Devida a Transtornos Enzimaticos', 'D55', true)
-insert into Inlness (name, cid, status) values('Talassemia', 'D56', true)
-insert into Inlness (name, cid, status) values('Transtornos Falciformes', 'D57', true)
-insert into Inlness (name, cid, status) values('Outras Anemias Hemoliticas Hereditarias', 'D58', true)
-insert into Inlness (name, cid, status) values('Anemia Hemolitica Adquirida', 'D59', true)
-insert into Inlness (name, cid, status) values('Aplasia Pura da Serie Vermelha, Adquirida [Eritroblastopenia]', 'D60', true)
-insert into Inlness (name, cid, status) values('Outras Anemias Aplasticas', 'D61', true)
-insert into Inlness (name, cid, status) values('Anemia Aguda Pos-Hemorragica', 'D62', true)
-insert into Inlness (name, cid, status) values('Anemia em Doencas Cronicas Classificadas em Outra Parte', 'D63', true)
-insert into Inlness (name, cid, status) values('Outras Anemias', 'D64', true)
-insert into Inlness (name, cid, status) values('Coagulação Intravascular Disseminada [Sindrome de Desfibrinação]', 'D65', true)
-insert into Inlness (name, cid, status) values('Deficiencia Hereditaria do Fator Viii', 'D66', true)
-insert into Inlness (name, cid, status) values('Deficiencia Hereditaria do Fator Ix', 'D67', true)
-insert into Inlness (name, cid, status) values('Outros Defeitos da Coagulação', 'D68', true)
-insert into Inlness (name, cid, status) values('Purpura e Outras Afecções Hemorragicas', 'D69', true)
-insert into Inlness (name, cid, status) values('Agranulocitose', 'D70', true)
-insert into Inlness (name, cid, status) values('Transtornos Funcionais dos Neutrofilos Polimorfonucleares', 'D71', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos dos Globulos Brancos', 'D72', true)
-insert into Inlness (name, cid, status) values('Doencas do Baco', 'D73', true)
-insert into Inlness (name, cid, status) values('Metemoglobinemia', 'D74', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Sangue e dos Orgãos Hematopoeticos', 'D75', true)
-insert into Inlness (name, cid, status) values('Algumas Doencas Que Envolvem O Tecido Linforreticular e O Sistema Reticulohistiocitico', 'D76', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Sangue e dos Orgãos Hematopoeticos em Doencas Classificadas em Outra Parte', 'D77', true)
-insert into Inlness (name, cid, status) values('Imunodeficiencia com Predominancia de Defeitos de Anticorpos', 'D80', true)
-insert into Inlness (name, cid, status) values('Deficiencias Imunitarias Combinadas', 'D81', true)
-insert into Inlness (name, cid, status) values('Imunodeficiencia Associada com Outros Defeitos  Major ', 'D82', true)
-insert into Inlness (name, cid, status) values('Imunodeficiencia Comum Variavel', 'D83', true)
-insert into Inlness (name, cid, status) values('Outras Imunodeficiencias', 'D84', true)
-insert into Inlness (name, cid, status) values('Sarcoidose', 'D86', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Que Comprometem O Mecanismo Imunitario Não Classificados em Outra Parte', 'D89', true)
-insert into Inlness (name, cid, status) values('Transtornos Tireoidianos e Afecções Associadas, Relacionados a Deficiencia de Iodo', 'E01', true)
-insert into Inlness (name, cid, status) values('Hipotireoidismo Subclinico por Deficiencia de Iodo', 'E02', true)
-insert into Inlness (name, cid, status) values('Outros Hipotireoidismos', 'E03', true)
-insert into Inlness (name, cid, status) values('Outros Bocios Não-Toxicos', 'E04', true)
-insert into Inlness (name, cid, status) values('Tireotoxicose [Hipertireoidismo]', 'E05', true)
-insert into Inlness (name, cid, status) values('Tireoidite', 'E06', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Tireoide', 'E07', true)
-insert into Inlness (name, cid, status) values('Diabetes Mellitus Insulino-Dependente', 'E10', true)
-insert into Inlness (name, cid, status) values('Diabetes Mellitus Não-Insulino-Dependente', 'E11', true)
-insert into Inlness (name, cid, status) values('Diabetes Mellitus Relacionado com a Desnutrição', 'E12', true)
-insert into Inlness (name, cid, status) values('Outros Tipos Especificados de Diabetes Mellitus', 'E13', true)
-insert into Inlness (name, cid, status) values('Diabetes Mellitus Não Especificado', 'E14', true)
-insert into Inlness (name, cid, status) values('Coma Hipoglicemico Não-Diabetico', 'E15', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Secreção Pancreatica Interna', 'E16', true)
-insert into Inlness (name, cid, status) values('Hipoparatireoidismo', 'E20', true)
-insert into Inlness (name, cid, status) values('Hiperparatireoidismo e Outros Transtornos da Glandula Paratireoide', 'E21', true)
-insert into Inlness (name, cid, status) values('Hiperfuncção da Hipofise', 'E22', true)
-insert into Inlness (name, cid, status) values('Hipofunção e Outros Transtornos da Hipofise', 'E23', true)
-insert into Inlness (name, cid, status) values('Sindrome de Cushing', 'E24', true)
-insert into Inlness (name, cid, status) values('Transtornos Adrenogenitais', 'E25', true)
-insert into Inlness (name, cid, status) values('Hiperaldosteronismo', 'E26', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Glandula Supra-Renal', 'E27', true)
-insert into Inlness (name, cid, status) values('Disfunção Ovariana', 'E28', true)
-insert into Inlness (name, cid, status) values('Disfunção Testicular', 'E29', true)
-insert into Inlness (name, cid, status) values('Transtornos da Puberdade Não Classificados em Outra Parte', 'E30', true)
-insert into Inlness (name, cid, status) values('Disfuncção Poliglandular', 'E31', true)
-insert into Inlness (name, cid, status) values('Doencas do Timo', 'E32', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Endocrinos', 'E34', true)
-insert into Inlness (name, cid, status) values('Transtornos das Glandulas Endocrinas em Doencas Classificadas em Outra Parte', 'E35', true)
-insert into Inlness (name, cid, status) values('Kwashiorkor', 'E40', true)
-insert into Inlness (name, cid, status) values('Marasmo Nutricional', 'E41', true)
-insert into Inlness (name, cid, status) values('Kwashiorkor Marasmatico', 'E42', true)
-insert into Inlness (name, cid, status) values('Desnutrição Proteico-Calorica Grave Não Especificada', 'E43', true)
-insert into Inlness (name, cid, status) values('Desnutrição Proteico-Calorica de Graus Moderado e Leve', 'E44', true)
-insert into Inlness (name, cid, status) values('Desnutrição Proteico-Calorica Não Especificada', 'E46', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Vitamina A', 'E50', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Tiamina', 'E51', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Niacina [Pelagra]', 'E52', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Outras Vitaminas do Grupo B', 'E53', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Vitamina D', 'E55', true)
-insert into Inlness (name, cid, status) values('Outras Deficiencias Vitaminicas', 'E56', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Zinco da Dieta', 'E60', true)
-insert into Inlness (name, cid, status) values('Deficiencia de Outros Elementos Nutrientes', 'E61', true)
-insert into Inlness (name, cid, status) values('Outras Deficiencias Nutricionais', 'E63', true)
-insert into Inlness (name, cid, status) values('Sequelas de Desnutrição e de Outras Deficiencias Nutricionais', 'E64', true)
-insert into Inlness (name, cid, status) values('Adiposidade Localizada', 'E65', true)
-insert into Inlness (name, cid, status) values('Obesidade', 'E66', true)
-insert into Inlness (name, cid, status) values('Sequelas de Hiperalimentação', 'E68', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Aminoacidos Aromaticos', 'E70', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Aminoacidos de Cadeia Ramificada e do Metabolismo dos Acidos Graxos', 'E71', true)
-insert into Inlness (name, cid, status) values('Intolerancia a Lactose', 'E73', true)
-insert into Inlness (name, cid, status) values('Outros Disturbios do Metabolismo de Carboidratos', 'E74', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Esfingolipides e Outros Disturbios de Deposito de Lipides', 'E75', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo do Glicosaminoglicano', 'E76', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Lipoproteinas e Outras Lipidemias', 'E78', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Purina e Pirimidina', 'E79', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo da Porfirina e da Bilirrubina', 'E80', true)
-insert into Inlness (name, cid, status) values('Disturbios do Metabolismo de Minerais', 'E83', true)
-insert into Inlness (name, cid, status) values('Fibrose Cistica', 'E84', true)
-insert into Inlness (name, cid, status) values('Amiloidose', 'E85', true)
-insert into Inlness (name, cid, status) values('Depleção de Volume', 'E86', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Equilibrio Hidroeletrolitico e Acido-Basico', 'E87', true)
-insert into Inlness (name, cid, status) values('Outros Disturbios Metabolicos', 'E88', true)
-insert into Inlness (name, cid, status) values('Transtornos Endocrinos e Metabolicos Pos-Procedimentos, Não Classificados em Outra Parte', 'E89', true)
-insert into Inlness (name, cid, status) values('Transtornos Nutricionais e Metabolicos em Doencas Classificadas em Outra Parte', 'E90', true)
-insert into Inlness (name, cid, status) values('Demencia na Doenca de Alzheimer (G30.-+)', 'F00', true)
-insert into Inlness (name, cid, status) values('Demencia Vascular', 'F01', true)
-insert into Inlness (name, cid, status) values('Demencia em Outras Doencas Classificadas em Outra Parte', 'F02', true)
-insert into Inlness (name, cid, status) values('Demencia NãoEspecificada', 'F03', true)
-insert into Inlness (name, cid, status) values('Sindrome Amnesica Organica Não Induzida Pelo Alcool ou por Outras Substancias Psicoativas', 'F04', true)
-insert into Inlness (name, cid, status) values('Delirium Não Induzido Pelo Alcool ou por Outras Substancias Psicoativas', 'F05', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Mentais Devidos a Lesão e Disfunção Cerebral e a Doenca Fisica', 'F06', true)
-insert into Inlness (name, cid, status) values('Transtornos de Personalidade e do Comportamento Devidos a Doenca, a Lesão e a Disfunção Cerebral', 'F07', true)
-insert into Inlness (name, cid, status) values('Transtorno Mental Organico ou Sintomatico Não Especificado', 'F09', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Alcool', 'F10', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Opiaceos', 'F11', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Canabinoides', 'F12', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Sedativos e Hipnoticos', 'F13', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso da Cocaina', 'F14', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Outros Estimulantes, Inclusive a Cafeina', 'F15', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Alucinogenos', 'F16', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Fumo', 'F17', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Solventes Volateis', 'F18', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Multiplas Drogas e ao Uso de Outras Substancias Psicoativas', 'F19', true)
-insert into Inlness (name, cid, status) values('Esquizofrenia', 'F20', true)
-insert into Inlness (name, cid, status) values('Transtorno Esquizotipico', 'F21', true)
-insert into Inlness (name, cid, status) values('Transtornos Delirantes Persistentes', 'F22', true)
-insert into Inlness (name, cid, status) values('Transtornos Psicoticos Agudos e Transitorios', 'F23', true)
-insert into Inlness (name, cid, status) values('Transtorno Delirante Induzido', 'F24', true)
-insert into Inlness (name, cid, status) values('Transtornos Esquizoafetivos', 'F25', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Psicoticos Não-Organicos', 'F28', true)
-insert into Inlness (name, cid, status) values('Psicose Não-Organica Não Especificada', 'F29', true)
-insert into Inlness (name, cid, status) values('Episodio Maniaco', 'F30', true)
-insert into Inlness (name, cid, status) values('Transtorno Afetivo Bipolar', 'F31', true)
-insert into Inlness (name, cid, status) values('Episodios Depressivos', 'F32', true)
-insert into Inlness (name, cid, status) values('Transtorno Depressivo Recorrente', 'F33', true)
-insert into Inlness (name, cid, status) values('Transtornos de Humor [Afetivos] Persistentes', 'F34', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Humor [Afetivos]', 'F38', true)
-insert into Inlness (name, cid, status) values('Transtorno do Humor [Afetivo] Não Especificado', 'F39', true)
-insert into Inlness (name, cid, status) values('Transtornos Fobico-Ansiosos', 'F40', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Ansiosos', 'F41', true)
-insert into Inlness (name, cid, status) values('Transtorno Obsessivo-Compulsivo', 'F42', true)
-insert into Inlness (name, cid, status) values('Reações ao  Stress  Grave e Transtornos de Adaptação', 'F43', true)
-insert into Inlness (name, cid, status) values('Transtornos Dissociativos [De Conversão]', 'F44', true)
-insert into Inlness (name, cid, status) values('Transtornos Somatoformes', 'F45', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Neuroticos', 'F48', true)
-insert into Inlness (name, cid, status) values('Transtornos da Alimentação', 'F50', true)
-insert into Inlness (name, cid, status) values('Transtornos Não-Organicos do Sono Devidos a Fatores Emocionais', 'F51', true)
-insert into Inlness (name, cid, status) values('Disfunção Sexual, Não Causada por Transtorno ou Doenca Organica', 'F52', true)
-insert into Inlness (name, cid, status) values('Transtornos Mentais e Comportamentais Associados ao Puerperio, Não Classificados em Outra Parte', 'F53', true)
-insert into Inlness (name, cid, status) values('Fatores Psicologicos ou Comportamentais Associados a Doenca ou a Transtornos Classificados em Outra Parte', 'F54', true)
-insert into Inlness (name, cid, status) values('Abuso de Substancias Que Não Produzem Dependencia', 'F55', true)
-insert into Inlness (name, cid, status) values('Sindromes Comportamentais Associados a Transtornos das Funções Fisiologicas e a Fatores Fisicos, Não Especificadas', 'F59', true)
-insert into Inlness (name, cid, status) values('Transtornos Especificos da Personalidade', 'F60', true)
-insert into Inlness (name, cid, status) values('Transtornos Mistos da Personalidade e Outros Transtornos da Personalidade', 'F61', true)
-insert into Inlness (name, cid, status) values('Modificações Duradouras da Personalidade Não Atribuiveis a Lesão ou Doenca Cerebral', 'F62', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Habitos e dos Impulsos', 'F63', true)
-insert into Inlness (name, cid, status) values('Transtornos da Identidade Sexual', 'F64', true)
-insert into Inlness (name, cid, status) values('Transtornos Psicologicos e Comportamentais Associados ao Desenvolvimento Sexual e a Sua Orientação', 'F66', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Personalidade e do Comportamento do Adulto', 'F68', true)
-insert into Inlness (name, cid, status) values('Transtorno da Personalidade e do Comportamento do Adulto, Não Especificado', 'F69', true)
-insert into Inlness (name, cid, status) values('Retardo Mental Leve', 'F70', true)
-insert into Inlness (name, cid, status) values('Retardo Mental Moderado', 'F71', true)
-insert into Inlness (name, cid, status) values('Retardo Mental Grave', 'F72', true)
-insert into Inlness (name, cid, status) values('Retardo Mental Profundo', 'F73', true)
-insert into Inlness (name, cid, status) values('Outro Retardo Mental', 'F78', true)
-insert into Inlness (name, cid, status) values('Retardo Mental Não Especificado', 'F79', true)
-insert into Inlness (name, cid, status) values('Transtornos Especificos do Desenvolvimento da Fala e da Linguagem', 'F80', true)
-insert into Inlness (name, cid, status) values('Transtornos Especificos do Desenvolvimento das Habilidades Escolares', 'F81', true)
-insert into Inlness (name, cid, status) values('Transtorno Especifico do Desenvolvimento Motor', 'F82', true)
-insert into Inlness (name, cid, status) values('Transtornos Especificos Misto do Desenvolvimento', 'F83', true)
-insert into Inlness (name, cid, status) values('Transtornos Globais do Desenvolvimento', 'F84', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Desenvolvimento Psicologico', 'F88', true)
-insert into Inlness (name, cid, status) values('Transtornos Hipercineticos', 'F90', true)
-insert into Inlness (name, cid, status) values('Disturbios de Conduta', 'F91', true)
-insert into Inlness (name, cid, status) values('Transtornos Mistos de Conduta e das Emoções', 'F92', true)
-insert into Inlness (name, cid, status) values('Transtornos Emocionais com Inicio Especificamente na Infancia', 'F93', true)
-insert into Inlness (name, cid, status) values('Transtornos do Funcionamento Social com Inicio Especificamente Durante a Infancia ou a Adolescencia', 'F94', true)
-insert into Inlness (name, cid, status) values('Tiques', 'F95', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Comportamentais e Emocionais com Inicio Habitualmente Durante a Infancia ou a Adolescencia', 'F98', true)
-insert into Inlness (name, cid, status) values('Transtorno Mental Não Especificado em Outra Parte', 'F99', true)
-insert into Inlness (name, cid, status) values('Meningite Bacteriana Não Classificada em Outra Parte', 'G00', true)
-insert into Inlness (name, cid, status) values('Meningite em Outras Doencas Infecciosas e Parasitarias Classificadas em Outra Parte', 'G02', true)
-insert into Inlness (name, cid, status) values('Meningite Devida a Outras Causas e a Causas Não Especificadas', 'G03', true)
-insert into Inlness (name, cid, status) values('Encefalite, Mielite e Encefalomielite', 'G04', true)
-insert into Inlness (name, cid, status) values('Encefalite, Mielite e Encefalomielite em Doencas Classificadas em Outra Parte', 'G05', true)
-insert into Inlness (name, cid, status) values('Abscesso e Granuloma Intracranianos e Intra-Raquidianos', 'G06', true)
-insert into Inlness (name, cid, status) values('Abscesso e Granuloma Intracranianos e Intraspinais em Doencas Classificadas em Outra Parte', 'G07', true)
-insert into Inlness (name, cid, status) values('Flebite e Tromboflebite Intracranianas e Intra-Raquidianas', 'G08', true)
-insert into Inlness (name, cid, status) values('Sequelas de Doencas Inflamatorias do Sistema Nervoso Central', 'G09', true)
-insert into Inlness (name, cid, status) values('Doenca de Huntington', 'G10', true)
-insert into Inlness (name, cid, status) values('Ataxia Hereditaria', 'G11', true)
-insert into Inlness (name, cid, status) values('Atrofia Muscular Espinal e Sindromes Correlatas', 'G12', true)
-insert into Inlness (name, cid, status) values('Atrofias Sistemicas Que Afetam Principalmente O Sistema Nervoso Central em Doencas Classificadas em Outra Parte', 'G13', true)
-insert into Inlness (name, cid, status) values('Doenca de Parkinson', 'G20', true)
-insert into Inlness (name, cid, status) values('Parkinsonismo Secundario', 'G21', true)
-insert into Inlness (name, cid, status) values('Parkinsonismo em Doencas Classificadas em Outra Parte', 'G22', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Degenerativas dos Ganglios da Base', 'G23', true)
-insert into Inlness (name, cid, status) values('Distonia', 'G24', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Extrapiramidais e Transtornos dos Movimentos', 'G25', true)
-insert into Inlness (name, cid, status) values('Doencas Extrapiramidais e Transtornos dos Movimentos em Doencas Classificadas em Outra Parte', 'G26', true)
-insert into Inlness (name, cid, status) values('Doenca de Alzheimer', 'G30', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Degenerativas do Sistema Nervoso Não Classificadas em Outra Parte', 'G31', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Degenerativos do Sistema Nervoso em Doencas Classificadas em Outra Parte', 'G32', true)
-insert into Inlness (name, cid, status) values('Esclerose Multipla', 'G35', true)
-insert into Inlness (name, cid, status) values('Outras Desmielinizações Disseminadas Agudas', 'G36', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Desmielinizantes do Sistema Nervoso Central', 'G37', true)
-insert into Inlness (name, cid, status) values('Epilepsia', 'G40', true)
-insert into Inlness (name, cid, status) values('Estado de Mal Epileptico', 'G41', true)
-insert into Inlness (name, cid, status) values('Enxaqueca', 'G43', true)
-insert into Inlness (name, cid, status) values('Outras Sindromes de Algias Cefalicas', 'G44', true)
-insert into Inlness (name, cid, status) values('Acidentes Vasculares Cerebrais Isquemicos Transitorios e Sindromes Correlatas', 'G45', true)
-insert into Inlness (name, cid, status) values('Sindromes Vasculares Cerebrais Que Ocorrem em Doencas Cerebrovasculares (I60-I67+)', 'G46', true)
-insert into Inlness (name, cid, status) values('Disturbios do Sono', 'G47', true)
-insert into Inlness (name, cid, status) values('Transtornos do Nervo Trigemeo', 'G50', true)
-insert into Inlness (name, cid, status) values('Transtornos do Nervo Facial', 'G51', true)
-insert into Inlness (name, cid, status) values('Transtornos de Outros Nervos Cranianos', 'G52', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Nervos Cranianos em Doencas Classificadas em Outra Parte', 'G53', true)
-insert into Inlness (name, cid, status) values('Transtornos das Raizes e dos Plexos Nervosos', 'G54', true)
-insert into Inlness (name, cid, status) values('Compressões das Raizes e dos Plexos Nervosos em Doencas Classificadas em Outra Parte', 'G55', true)
-insert into Inlness (name, cid, status) values('Mononeuropatias dos Membros Superiores', 'G56', true)
-insert into Inlness (name, cid, status) values('Mononeuropatias dos Membros Inferiores', 'G57', true)
-insert into Inlness (name, cid, status) values('Outras Mononeuropatias', 'G58', true)
-insert into Inlness (name, cid, status) values('Mononeuropatias em Doencas Classificadas em Outra Parte', 'G59', true)
-insert into Inlness (name, cid, status) values('Neuropatia Hereditaria e Idiopatica', 'G60', true)
-insert into Inlness (name, cid, status) values('Polineuropatia Inflamatoria', 'G61', true)
-insert into Inlness (name, cid, status) values('Outras Polineuropatias', 'G62', true)
-insert into Inlness (name, cid, status) values('Polineuropatia em Doencas Classificadas em Outra Parte', 'G63', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Sistema Nervoso Periferico', 'G64', true)
-insert into Inlness (name, cid, status) values('Miastenia Gravis e Outros Transtornos Neuromusculares', 'G70', true)
-insert into Inlness (name, cid, status) values('Transtornos Primarios dos Musculos', 'G71', true)
-insert into Inlness (name, cid, status) values('Outras Miopatias', 'G72', true)
-insert into Inlness (name, cid, status) values('Transtornos da Junção Mioneural e dos Musculos em Doencas Classificadas em Outra Parte', 'G73', true)
-insert into Inlness (name, cid, status) values('Paralisia Cerebral Infantil', 'G80', true)
-insert into Inlness (name, cid, status) values('Hemiplegia', 'G81', true)
-insert into Inlness (name, cid, status) values('Paraplegia e Tetraplegia', 'G82', true)
-insert into Inlness (name, cid, status) values('Outras Sindromes Paraliticas', 'G83', true)
-insert into Inlness (name, cid, status) values('Transtornos do Sistema Nervoso Autonomo', 'G90', true)
-insert into Inlness (name, cid, status) values('Hidrocefalia', 'G91', true)
-insert into Inlness (name, cid, status) values('Encefalopatia Toxica', 'G92', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Encefalo', 'G93', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Encefalo em Doencas Classificadas em Outra Parte', 'G94', true)
-insert into Inlness (name, cid, status) values('Outras Doencas da Medula Espinal', 'G95', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Sistema Nervoso Central', 'G96', true)
-insert into Inlness (name, cid, status) values('Transtornos Pos-Procedimento do Sistema Nervoso Não  Classificados em Outra Parte', 'G97', true)
-insert into Inlness (name, cid, status) values('Outras Transtornos do Sistema Nervoso Não Classificados em Outra Parte', 'G98', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Sistema Nervoso em Doencas Classificadas em Outra Parte', 'G99', true)
-insert into Inlness (name, cid, status) values('Hordeolo e Calazio', 'H00', true)
-insert into Inlness (name, cid, status) values('Outras Inflamações da Palpebra', 'H01', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Palpebra', 'H02', true)
-insert into Inlness (name, cid, status) values('Transtornos da Palpebra em Doencas Classificadas em Outras Partes', 'H03', true)
-insert into Inlness (name, cid, status) values('Transtornos do Aparelho Lacrimal', 'H04', true)
-insert into Inlness (name, cid, status) values('Transtornos da Orbita', 'H05', true)
-insert into Inlness (name, cid, status) values('Transtornos do Aparelho Lacrimal e da Orbita em Doencas Classificadas em Outra Parte', 'H06', true)
-insert into Inlness (name, cid, status) values('Conjuntivite', 'H10', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Conjuntiva', 'H11', true)
-insert into Inlness (name, cid, status) values('Transtornos da Conjuntiva em Doencas Classificadas em Outra Parte', 'H13', true)
-insert into Inlness (name, cid, status) values('Transtornos da Esclerotica', 'H15', true)
-insert into Inlness (name, cid, status) values('Ceratite', 'H16', true)
-insert into Inlness (name, cid, status) values('Cicatrizes e Opacidades da Cornea', 'H17', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Cornea', 'H18', true)
-insert into Inlness (name, cid, status) values('Transtorno da Esclerotica e da Cornea em Doencas Classificadas em Outra Parte', 'H19', true)
-insert into Inlness (name, cid, status) values('Iridociclite', 'H20', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Iris e do Corpo Ciliar', 'H21', true)
-insert into Inlness (name, cid, status) values('Transtornos da Iris e do Corpo Ciliar em Doencas Classificadas em Outra Parte', 'H22', true)
-insert into Inlness (name, cid, status) values('Catarata Senil', 'H25', true)
-insert into Inlness (name, cid, status) values('Outras Cataratas', 'H26', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Cristalino', 'H27', true)
-insert into Inlness (name, cid, status) values('Catarata e Outros Transtornos do Cristalino em Doencas Classificadas em Outra Parte', 'H28', true)
-insert into Inlness (name, cid, status) values('Inflamação Coriorretiniana', 'H30', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Coroide', 'H31', true)
-insert into Inlness (name, cid, status) values('Transtornos Coriorretinianos em Doencas Classificadas em Outra Parte', 'H32', true)
-insert into Inlness (name, cid, status) values('Descolamentos e Defeitos da Retina', 'H33', true)
-insert into Inlness (name, cid, status) values('Oclusões Vasculares da Retina', 'H34', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Retina', 'H35', true)
-insert into Inlness (name, cid, status) values('Transtornos da Retina em Doencas Classificadas em Outra Parte', 'H36', true)
-insert into Inlness (name, cid, status) values('Glaucoma', 'H40', true)
-insert into Inlness (name, cid, status) values('Glaucoma em Doencas Classificadas em Outra Parte', 'H42', true)
-insert into Inlness (name, cid, status) values('Transtornos do Humor Vitreo', 'H43', true)
-insert into Inlness (name, cid, status) values('Transtornos do Globo Ocular', 'H44', true)
-insert into Inlness (name, cid, status) values('Transtornos do Humor Vitreo e do Globo Ocular em Doencas Classificadas em Outra Parte', 'H45', true)
-insert into Inlness (name, cid, status) values('Neurite Optica', 'H46', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Nervo Optico e das Vias Opticas', 'H47', true)
-insert into Inlness (name, cid, status) values('Transtornos do Nervo Optico [Segundo Par] e das Vias Opticas em Doencas Classificadas em Outra Parte', 'H48', true)
-insert into Inlness (name, cid, status) values('Estrabismo Paralitico', 'H49', true)
-insert into Inlness (name, cid, status) values('Outros Estrabismos', 'H50', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Movimento Binocular', 'H51', true)
-insert into Inlness (name, cid, status) values('Transtornos da Refração e da Acomodação', 'H52', true)
-insert into Inlness (name, cid, status) values('Disturbios Visuais', 'H53', true)
-insert into Inlness (name, cid, status) values('Cegueira e Visão Subnormal', 'H54', true)
-insert into Inlness (name, cid, status) values('Nistagmo e Outros Movimentos Irregulares do Olho', 'H55', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Olho e Anexos', 'H57', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Olho e Anexos em Doencas Classificadas em Outra Parte', 'H58', true)
-insert into Inlness (name, cid, status) values('Transtornos do Olho e Anexos Pos-Procedimento Não Classificados em Outra Parte', 'H59', true)
-insert into Inlness (name, cid, status) values('Otite Externa', 'H60', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido Externo', 'H61', true)
-insert into Inlness (name, cid, status) values('Transtornos do Ouvido Externo em Doencas Classificadas em Outra Parte', 'H62', true)
-insert into Inlness (name, cid, status) values('Otite Media Não-Supurativa', 'H65', true)
-insert into Inlness (name, cid, status) values('Otite Media Supurativa e as Não Especificadas', 'H66', true)
-insert into Inlness (name, cid, status) values('Otite Media em Doencas Classificadas em Outra Parte', 'H67', true)
-insert into Inlness (name, cid, status) values('Salpingite e Obstrução da Trompa de Eustaquio', 'H68', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Trompa de Eustaquio', 'H69', true)
-insert into Inlness (name, cid, status) values('Mastoidite e Afecções Correlatas', 'H70', true)
-insert into Inlness (name, cid, status) values('Colesteatoma do Ouvido Medio', 'H71', true)
-insert into Inlness (name, cid, status) values('Perfuração da Membrana do Timpano', 'H72', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Membrana do Timpano', 'H73', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido Medio e da Mastoide', 'H74', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido Medio e da Mastoide em Doencas Classificadas em Outra Parte', 'H75', true)
-insert into Inlness (name, cid, status) values('Otosclerose', 'H80', true)
-insert into Inlness (name, cid, status) values('Transtornos da Função Vestibular', 'H81', true)
-insert into Inlness (name, cid, status) values('Sindromes Vertiginosas em Doencas Classificadas em Outra Parte', 'H82', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido Interno', 'H83', true)
-insert into Inlness (name, cid, status) values('Perda de Audição por Transtorno de Condução e/ou Neuro-Sensorial', 'H90', true)
-insert into Inlness (name, cid, status) values('Outras Perdas de Audição', 'H91', true)
-insert into Inlness (name, cid, status) values('Otalgia e Secreção Auditiva', 'H92', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido Não Classificados em Outra Parte', 'H93', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Ouvido em Doencas Classificadas em Outra Parte', 'H94', true)
-insert into Inlness (name, cid, status) values('Transtornos do Ouvido e da Apofise Mastoide Pos-Procedimentos, Não Classificados em Outra Parte', 'H95', true)
-insert into Inlness (name, cid, status) values('Febre Reumatica sem Menção de Comprometimento do Coração', 'I00', true)
-insert into Inlness (name, cid, status) values('Febre Reumatica com Comprometimento do Coração', 'I01', true)
-insert into Inlness (name, cid, status) values('Coreia Reumatica', 'I02', true)
-insert into Inlness (name, cid, status) values('Doencas Reumaticas da Valva Mitral', 'I05', true)
-insert into Inlness (name, cid, status) values('Doencas Reumaticas da Valva Aortica', 'I06', true)
-insert into Inlness (name, cid, status) values('Doencas Reumaticas da Valva Tricuspide', 'I07', true)
-insert into Inlness (name, cid, status) values('Doencas de Multiplas Valvas', 'I08', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Reumaticas do Coração', 'I09', true)
-insert into Inlness (name, cid, status) values('HipertensãoEssencial (Primaria)', 'I10', true)
-insert into Inlness (name, cid, status) values('Doenca Cardiaca Hipertensiva', 'I11', true)
-insert into Inlness (name, cid, status) values('Doenca Renal Hipertensiva', 'I12', true)
-insert into Inlness (name, cid, status) values('Doenca Cardiaca e Renal Hipertensiva', 'I13', true)
-insert into Inlness (name, cid, status) values('Hipertensão Secundaria', 'I15', true)
-insert into Inlness (name, cid, status) values('Angina Pectoris', 'I20', true)
-insert into Inlness (name, cid, status) values('Infarto Agudo do Miocardio', 'I21', true)
-insert into Inlness (name, cid, status) values('Infarto do Miocardio Recorrente', 'I22', true)
-insert into Inlness (name, cid, status) values('Algumas Complicacções Atuais Subsequentes ao Infarto Agudo do Miocardio', 'I23', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Isquemicas Agudas do Coração', 'I24', true)
-insert into Inlness (name, cid, status) values('Doenca Isquemica Cronica do Coração', 'I25', true)
-insert into Inlness (name, cid, status) values('Embolia Pulmonar', 'I26', true)
-insert into Inlness (name, cid, status) values('Outras Formas de Doenca Cardiaca Pulmonar', 'I27', true)
-insert into Inlness (name, cid, status) values('Outras Doencas dos Vasos Pulmonares', 'I28', true)
-insert into Inlness (name, cid, status) values('Pericardite Aguda', 'I30', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Pericardio', 'I31', true)
-insert into Inlness (name, cid, status) values('Pericardite em Doencas Classificadas em Outra Parte', 'I32', true)
-insert into Inlness (name, cid, status) values('Endocardite Aguda e Subaguda', 'I33', true)
-insert into Inlness (name, cid, status) values('Transtornos Não-Reumaticos da Valva Mitral', 'I34', true)
-insert into Inlness (name, cid, status) values('Transtornos Não-Reumaticos da Valva Aortica', 'I35', true)
-insert into Inlness (name, cid, status) values('Transtornos Não-Reumaticos da Valva Tricuspide', 'I36', true)
-insert into Inlness (name, cid, status) values('Transtornos da Valva Pulmonar', 'I37', true)
-insert into Inlness (name, cid, status) values('Endocardite de Valva Não Especificada', 'I38', true)
-insert into Inlness (name, cid, status) values('Endocardite e Transtornos Valvulares Cardiacos em Doencas Classificadas em Outra Parte', 'I39', true)
-insert into Inlness (name, cid, status) values('Miocardite Aguda', 'I40', true)
-insert into Inlness (name, cid, status) values('Miocardite em Doencas Classificadas em Outra Parte', 'I41', true)
-insert into Inlness (name, cid, status) values('Cardiomiopatias', 'I42', true)
-insert into Inlness (name, cid, status) values('Cardiomiopatia em Doencas Classificadas em Outra Parte', 'I43', true)
-insert into Inlness (name, cid, status) values('Bloqueio Atrioventricular e do Ramo Esquerdo', 'I44', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos de Condução', 'I45', true)
-insert into Inlness (name, cid, status) values('Parada Cardiaca', 'I46', true)
-insert into Inlness (name, cid, status) values('Taquicardia Paroxistica', 'I47', true)
-insert into Inlness (name, cid, status) values(' Flutter  e Fibrilação Atrial', 'I48', true)
-insert into Inlness (name, cid, status) values('Outras Arritmias Cardiacas', 'I49', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Cardiaca', 'I50', true)
-insert into Inlness (name, cid, status) values('Complicações de Cardiopatias e Doencas Cardiacas Mal Definidas', 'I51', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Cardiacas em Doencas Classificadas em Outra Parte', 'I52', true)
-insert into Inlness (name, cid, status) values('Hemorragia Subaracnoide', 'I60', true)
-insert into Inlness (name, cid, status) values('Hemorragia Intracerebral', 'I61', true)
-insert into Inlness (name, cid, status) values('Outras Hemorragias Intracranianas Não-Traumaticas', 'I62', true)
-insert into Inlness (name, cid, status) values('Infarto Cerebral', 'I63', true)
-insert into Inlness (name, cid, status) values('Acidente Vascular Cerebral, Não Especificado Como Hemorragico ou Isquemico', 'I64', true)
-insert into Inlness (name, cid, status) values('Oclusão e Estenose de Arterias Pre-Cerebrais Que Não Resultam em Infarto Cerebral', 'I65', true)
-insert into Inlness (name, cid, status) values('Oclusão e Estenose de Arterias Cerebrais Que Não Resultam em Infarto Cerebral', 'I66', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Cerebrovasculares', 'I67', true)
-insert into Inlness (name, cid, status) values('Transtornos Cerebrovasculares em Doencas Classificadas em Outra Parte', 'I68', true)
-insert into Inlness (name, cid, status) values('Sequelas de Doencas Cerebrovasculares', 'I69', true)
-insert into Inlness (name, cid, status) values('Aterosclerose', 'I70', true)
-insert into Inlness (name, cid, status) values('Aneurisma e Dissecção da Aorta', 'I71', true)
-insert into Inlness (name, cid, status) values('Outros Aneurismas', 'I72', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Vasculares Perifericas', 'I73', true)
-insert into Inlness (name, cid, status) values('Embolia e Trombose Arteriais', 'I74', true)
-insert into Inlness (name, cid, status) values('Outras Afecções das Arterias e Arteriolas', 'I77', true)
-insert into Inlness (name, cid, status) values('Doencas dos Capilares', 'I78', true)
-insert into Inlness (name, cid, status) values('Transtornos das Arterias, das Arteriolas e dos Capilares em Doencas Classificadas em Outra Parte', 'I79', true)
-insert into Inlness (name, cid, status) values('Flebite e Tromboflebite', 'I80', true)
-insert into Inlness (name, cid, status) values('Trombose da Veia Porta', 'I81', true)
-insert into Inlness (name, cid, status) values('Outra Embolia e Trombose Venosas', 'I82', true)
-insert into Inlness (name, cid, status) values('Varizes dos Membros Inferiores', 'I83', true)
-insert into Inlness (name, cid, status) values('Hemorroidas', 'I84', true)
-insert into Inlness (name, cid, status) values('Varizes Esofagianas', 'I85', true)
-insert into Inlness (name, cid, status) values('Varizes de Outras Localizações', 'I86', true)
-insert into Inlness (name, cid, status) values('Outras Transtornos das Veias', 'I87', true)
-insert into Inlness (name, cid, status) values('Linfadenite Inespecifica', 'I88', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Não-Infecciosos dos Vasos Linfaticos e dos Ganglios Linfaticos', 'I89', true)
-insert into Inlness (name, cid, status) values('Hipotensão', 'I95', true)
-insert into Inlness (name, cid, status) values('Transtornos do Aparelho Circulatorio, Subsequentes a Procedimentos Não Classificados em Outra Parte', 'I97', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Aparelho Circulatorio em Doencas Classificadas em Outra Parte', 'I98', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Aparelho Circulatorio e Os Não Especificados', 'I99', true)
-insert into Inlness (name, cid, status) values('Nasofaringite Aguda [Resfriado Comum]', 'J00', true)
-insert into Inlness (name, cid, status) values('Sinusite Aguda', 'J01', true)
-insert into Inlness (name, cid, status) values('Faringite Aguda', 'J02', true)
-insert into Inlness (name, cid, status) values('Amigdalite Aguda', 'J03', true)
-insert into Inlness (name, cid, status) values('Laringite e Traqueite Agudas', 'J04', true)
-insert into Inlness (name, cid, status) values('Laringite Obstrutiva Aguda [Crupe] e Epiglotite', 'J05', true)
-insert into Inlness (name, cid, status) values('Infecções Agudas das Vias Aereas Superiores de Localizações Multiplas e Não Especificadas', 'J06', true)
-insert into Inlness (name, cid, status) values('Influenza [Gripe] Devida a Virus Identificado da Gripe Aviaria', 'J09', true)
-insert into Inlness (name, cid, status) values('Influenza Devida a Virus da Influenza [Gripe] Identificado', 'J10', true)
-insert into Inlness (name, cid, status) values('Influenza [Gripe] Devida a Virus Não Identificado', 'J11', true)
-insert into Inlness (name, cid, status) values('Pneumonia Viral Não Classificada em Outra Parte', 'J12', true)
-insert into Inlness (name, cid, status) values('Pneumonia Devida a Streptococcus Pneumoniae', 'J13', true)
-insert into Inlness (name, cid, status) values('Pneumonia Devida a Haemophilus Infuenzae', 'J14', true)
-insert into Inlness (name, cid, status) values('Pneumonia Bacteriana Não Classificada em Outra Parte', 'J15', true)
-insert into Inlness (name, cid, status) values('Pneumonia Devida a Outros Microorganismos Infecciosos Especificados Não Classificados em Outra Parte', 'J16', true)
-insert into Inlness (name, cid, status) values('Pneumonia em Doencas Classificadas em Outra Parte', 'J17', true)
-insert into Inlness (name, cid, status) values('Pneumonia por Microorganismo Não Especificada', 'J18', true)
-insert into Inlness (name, cid, status) values('Bronquite Aguda', 'J20', true)
-insert into Inlness (name, cid, status) values('Bronquiolite Aguda', 'J21', true)
-insert into Inlness (name, cid, status) values('Infecções Agudas Não Especificada das Vias Aereas Inferiores', 'J22', true)
-insert into Inlness (name, cid, status) values('Rinite Alergica e Vasomotora', 'J30', true)
-insert into Inlness (name, cid, status) values('Rinite, Nasofaringite e Faringite Cronicas', 'J31', true)
-insert into Inlness (name, cid, status) values('Sinusite Cronica', 'J32', true)
-insert into Inlness (name, cid, status) values('Polipo Nasal', 'J33', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Nariz e dos Seios Paranasais', 'J34', true)
-insert into Inlness (name, cid, status) values('Doencas Cronicas das Amigdalas e das Adenoides', 'J35', true)
-insert into Inlness (name, cid, status) values('Abscesso Periamigdaliano', 'J36', true)
-insert into Inlness (name, cid, status) values('Laringite e Laringotraqueite Cronicas', 'J37', true)
-insert into Inlness (name, cid, status) values('Doencas das Cordas Vocais e da Laringe Não Classificadas em Outra Parte', 'J38', true)
-insert into Inlness (name, cid, status) values('Outras Doencas das Vias Aereas Superiores', 'J39', true)
-insert into Inlness (name, cid, status) values('Bronquite Não Especificada Como Aguda ou Cronica', 'J40', true)
-insert into Inlness (name, cid, status) values('Bronquite Cronica Simples e a Mucopurulenta', 'J41', true)
-insert into Inlness (name, cid, status) values('Bronquite Cronica Não Especificada', 'J42', true)
-insert into Inlness (name, cid, status) values('Enfisema', 'J43', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Pulmonares Obstrutivas Cronicas', 'J44', true)
-insert into Inlness (name, cid, status) values('Asma', 'J45', true)
-insert into Inlness (name, cid, status) values('Estado de Mal Asmatico', 'J46', true)
-insert into Inlness (name, cid, status) values('Bronquectasia', 'J47', true)
-insert into Inlness (name, cid, status) values('Pneumoconiose Devida a Poeira Que Contenham Silica', 'J62', true)
-insert into Inlness (name, cid, status) values('Pneumoconiose Devida a Outras Poeiras Inorganicas', 'J63', true)
-insert into Inlness (name, cid, status) values('Pneumoconiose Não Especificada', 'J64', true)
-insert into Inlness (name, cid, status) values('Pneumoconiose Associada com Tuberculose', 'J65', true)
-insert into Inlness (name, cid, status) values('Doencas das Vias Aereas Devida a Poeiras Organicas Especificas', 'J66', true)
-insert into Inlness (name, cid, status) values('Pneumonite de Hipersensibilidade Devida a Poeiras Organicas', 'J67', true)
-insert into Inlness (name, cid, status) values('Afecções Respiratorias Devidas a Inalação de Produtos Quimicos, Gases, Fumacas e Vapores', 'J68', true)
-insert into Inlness (name, cid, status) values('Pneumonite Devida a Solidos e Liquidos', 'J69', true)
-insert into Inlness (name, cid, status) values('Afecções Respiratorias Devida a Outros Agentes Externos', 'J70', true)
-insert into Inlness (name, cid, status) values('Sindrome do Desconforto Respiratorio do Adulto', 'J80', true)
-insert into Inlness (name, cid, status) values('Edema Pulmonar, Não Especificado de Outra Forma', 'J81', true)
-insert into Inlness (name, cid, status) values('Eosinofilia Pulmonar, Não Classificada em Outra Parte', 'J82', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Pulmonares Intersticiais', 'J84', true)
-insert into Inlness (name, cid, status) values('Abscesso do Pulmão e do Mediastino', 'J85', true)
-insert into Inlness (name, cid, status) values('Piotorax', 'J86', true)
-insert into Inlness (name, cid, status) values('Derrame Pleural Não Classificado em Outra Parte', 'J90', true)
-insert into Inlness (name, cid, status) values('Derrame Pleural em Afecções Classificadas em Outra Parte', 'J91', true)
-insert into Inlness (name, cid, status) values('Placas Pleurais', 'J92', true)
-insert into Inlness (name, cid, status) values('Pneumotorax', 'J93', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Pleurais', 'J94', true)
-insert into Inlness (name, cid, status) values('Afecções Respiratorias Pos-Procedimentos Não Classificadas em Outra Parte', 'J95', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Respiratoria Não Classificada de Outra Parte', 'J96', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Respiratorios', 'J98', true)
-insert into Inlness (name, cid, status) values('Transtornos Respiratorios em Doencas Classificadas em Outra Parte', 'J99', true)
-insert into Inlness (name, cid, status) values('Disturbios do Desenvolvimento e da Erupção dos Dentes', 'K00', true)
-insert into Inlness (name, cid, status) values('Dentes Inclusos e Impactados', 'K01', true)
-insert into Inlness (name, cid, status) values('Carie Dentaria', 'K02', true)
-insert into Inlness (name, cid, status) values('Outras Doencas dos Tecidos Dentarios Duros', 'K03', true)
-insert into Inlness (name, cid, status) values('Doencas da Polpa e dos Tecidos Periapicais', 'K04', true)
-insert into Inlness (name, cid, status) values('Gengivite e Doencas Periodontais', 'K05', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Gengiva e do Rebordo Alveolar sem Dentes', 'K06', true)
-insert into Inlness (name, cid, status) values('Anomalias Dentofaciais (Inclusive a Maloclusão)', 'K07', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos dos Dentes e de Suas Estruturas de Sustentação', 'K08', true)
-insert into Inlness (name, cid, status) values('Cistos da Região  Bucal Não Classificados em Outra Parte', 'K09', true)
-insert into Inlness (name, cid, status) values('Outras Doencas dos Maxilares', 'K10', true)
-insert into Inlness (name, cid, status) values('Doencas das Glandulas Salivares', 'K11', true)
-insert into Inlness (name, cid, status) values('Estomatite e Lesões Correlatas', 'K12', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Labio e da Mucosa Oral', 'K13', true)
-insert into Inlness (name, cid, status) values('Doencas da Lingua', 'K14', true)
-insert into Inlness (name, cid, status) values('Esofagite', 'K20', true)
-insert into Inlness (name, cid, status) values('Doenca de Refluxo Gastroesofagico', 'K21', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Esofago', 'K22', true)
-insert into Inlness (name, cid, status) values('Transtornos do Esofago em Doencas Classificadas em Outra Parte', 'K23', true)
-insert into Inlness (name, cid, status) values('Ulcera Gastrica', 'K25', true)
-insert into Inlness (name, cid, status) values('Ulcera Duodenal', 'K26', true)
-insert into Inlness (name, cid, status) values('Ulcera Peptica de Localizacão Não Especificada', 'K27', true)
-insert into Inlness (name, cid, status) values('Ulcera Gastrojejunal', 'K28', true)
-insert into Inlness (name, cid, status) values('Gastrite e Duodenite', 'K29', true)
-insert into Inlness (name, cid, status) values('Dispepsia', 'K30', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Estomago e do Duodeno', 'K31', true)
-insert into Inlness (name, cid, status) values('Apendicite Aguda', 'K35', true)
-insert into Inlness (name, cid, status) values('Outras Formas de Apendicite', 'K36', true)
-insert into Inlness (name, cid, status) values('Apendicite, sem Outras Especificaçõess', 'K37', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Apendice', 'K38', true)
-insert into Inlness (name, cid, status) values('Hernia Inguinal', 'K40', true)
-insert into Inlness (name, cid, status) values('Hernia Femoral', 'K41', true)
-insert into Inlness (name, cid, status) values('Hernia Umbilical', 'K42', true)
-insert into Inlness (name, cid, status) values('Hernia Ventral', 'K43', true)
-insert into Inlness (name, cid, status) values('Hernia Diafragmatica', 'K44', true)
-insert into Inlness (name, cid, status) values('Outras Hernias Abdominais', 'K45', true)
-insert into Inlness (name, cid, status) values('Hernia Abdominal Não Especificada', 'K46', true)
-insert into Inlness (name, cid, status) values('Doenca de Crohn [Enterite Regional]', 'K50', true)
-insert into Inlness (name, cid, status) values('Colite Ulcerativa', 'K51', true)
-insert into Inlness (name, cid, status) values('Outras Gastroenterites e Colites Não-Infecciosas', 'K52', true)
-insert into Inlness (name, cid, status) values('Transtornos Vasculares do Intestino', 'K55', true)
-insert into Inlness (name, cid, status) values('Ileo Paralitico e Obstrução Intestinal sem Hernia', 'K56', true)
-insert into Inlness (name, cid, status) values('Doenca Diverticular do Intestino', 'K57', true)
-insert into Inlness (name, cid, status) values('Sindrome do Colon Irritavel', 'K58', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Funcionais do Intestino', 'K59', true)
-insert into Inlness (name, cid, status) values('Fissura e Fistula das Regiões Anal e Retal', 'K60', true)
-insert into Inlness (name, cid, status) values('Abscesso das Regiões Anal e Retal', 'K61', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Reto e do Anus', 'K62', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Intestino', 'K63', true)
-insert into Inlness (name, cid, status) values('Peritonite', 'K65', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Peritonio', 'K66', true)
-insert into Inlness (name, cid, status) values('Comprometimento do Peritonio, em Doencas Infecciosas Classificadas em Outra Parte', 'K67', true)
-insert into Inlness (name, cid, status) values('Doenca Alcoolica do Figado', 'K70', true)
-insert into Inlness (name, cid, status) values('Doenca Hepatica Toxica', 'K71', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Hepatica Não Classificada em Outra Parte', 'K72', true)
-insert into Inlness (name, cid, status) values('Hepatite Cronica Não Classificada em Outra Parte', 'K73', true)
-insert into Inlness (name, cid, status) values('Fibrose e Cirrose Hepaticas', 'K74', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Inflamatorias do Figado', 'K75', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Figado', 'K76', true)
-insert into Inlness (name, cid, status) values('Transtornos do Figado em Doencas Classificadas em Outra Parte', 'K77', true)
-insert into Inlness (name, cid, status) values('Colelitiase', 'K80', true)
-insert into Inlness (name, cid, status) values('Colecistite', 'K81', true)
-insert into Inlness (name, cid, status) values('Outras Doencas da Vesicula Biliar', 'K82', true)
-insert into Inlness (name, cid, status) values('Outras Doencas das Vias Biliares', 'K83', true)
-insert into Inlness (name, cid, status) values('Pancreatite Aguda', 'K85', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Pancreas', 'K86', true)
-insert into Inlness (name, cid, status) values('Transtornos da Vesicula Biliar, das Vias Biliares e do Pancreas em Doencas Classificadas em Outra Parte', 'K87', true)
-insert into Inlness (name, cid, status) values('Ma-Absorção Intestinal', 'K90', true)
-insert into Inlness (name, cid, status) values('Transtornos do Aparelho Digestivo Pos-Procedimentos, Não Classificados em Outra Parte', 'K91', true)
-insert into Inlness (name, cid, status) values('Outras Doencas do Aparelho Digestivo', 'K92', true)
-insert into Inlness (name, cid, status) values('Transtornos de Outros Orgãos Digestivos em Doencas Classificadas em Outra Parte', 'K93', true)
-insert into Inlness (name, cid, status) values('Impetigo', 'L01', true)
-insert into Inlness (name, cid, status) values('Abscesso Cutaneo, Furunculo e Antraz', 'L02', true)
-insert into Inlness (name, cid, status) values('Celulite (Flegmão)', 'L03', true)
-insert into Inlness (name, cid, status) values('Linfadenite Aguda', 'L04', true)
-insert into Inlness (name, cid, status) values('Cisto Pilonidal', 'L05', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Localizadas da Pele e do Tecido Subcutaneo', 'L08', true)
-insert into Inlness (name, cid, status) values('Penfigo', 'L10', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Acantoliticas', 'L11', true)
-insert into Inlness (name, cid, status) values('Penfigoide', 'L12', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Bolhosas', 'L13', true)
-insert into Inlness (name, cid, status) values('Afecções Bolhosas em Doencas Classificadas em Outra Parte', 'L14', true)
-insert into Inlness (name, cid, status) values('Dermatite Atopica', 'L20', true)
-insert into Inlness (name, cid, status) values('Dermatite Seborreica', 'L21', true)
-insert into Inlness (name, cid, status) values('Dermatites Alergicas de Contato', 'L23', true)
-insert into Inlness (name, cid, status) values('Dermatites de Contato por Irritantes', 'L24', true)
-insert into Inlness (name, cid, status) values('Dermatite de Contato Não Especificada', 'L25', true)
-insert into Inlness (name, cid, status) values('Dermatite Esfoliativa', 'L26', true)
-insert into Inlness (name, cid, status) values('Dermatite Devida a Substancias de Uso Interno', 'L27', true)
-insert into Inlness (name, cid, status) values('Liquen Simples Cronico e Prurigo', 'L28', true)
-insert into Inlness (name, cid, status) values('Prurido', 'L29', true)
-insert into Inlness (name, cid, status) values('Outras Dermatites', 'L30', true)
-insert into Inlness (name, cid, status) values('Psoriase', 'L40', true)
-insert into Inlness (name, cid, status) values('Parapsoriase', 'L41', true)
-insert into Inlness (name, cid, status) values('Pitiriase Rosea', 'L42', true)
-insert into Inlness (name, cid, status) values('Liquen Plano', 'L43', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Papulo-Descamativas', 'L44', true)
-insert into Inlness (name, cid, status) values('Afecções Papulo-Descamativas em Doencas Classificadas em Outra Parte', 'L45', true)
-insert into Inlness (name, cid, status) values('Urticaria', 'L50', true)
-insert into Inlness (name, cid, status) values('Eritema Polimorfo (Eritema Multiforme)', 'L51', true)
-insert into Inlness (name, cid, status) values('Eritema Nodoso', 'L52', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Eritematosas', 'L53', true)
-insert into Inlness (name, cid, status) values('Eritema em Doencas Classificadas em Outra Parte', 'L54', true)
-insert into Inlness (name, cid, status) values('Queimadura Solar', 'L55', true)
-insert into Inlness (name, cid, status) values('Outras Alterações Agudas da Pele Devidas a Radiação Ultravioleta', 'L56', true)
-insert into Inlness (name, cid, status) values('Alterações da Pele Devidas a Exposição Cronica a Radiação Não Ionizante', 'L57', true)
-insert into Inlness (name, cid, status) values('Radiodermatite', 'L58', true)
-insert into Inlness (name, cid, status) values('Outras Afecções da Pele e do Tecido Subcutaneo Relacionadas com a Radiação', 'L59', true)
-insert into Inlness (name, cid, status) values('Afecções das Unhas', 'L60', true)
-insert into Inlness (name, cid, status) values('Afecções das Unhas em Doencas Classificadas em Outra Parte', 'L62', true)
-insert into Inlness (name, cid, status) values('Alopecia Areata', 'L63', true)
-insert into Inlness (name, cid, status) values('Alopecia Androgenica', 'L64', true)
-insert into Inlness (name, cid, status) values('Outras Formas Não Cicatriciais da Perda de Cabelos ou Pelos', 'L65', true)
-insert into Inlness (name, cid, status) values('Alopecia Cicatricial [Perda de Cabelos ou Pelos, Cicatricial]', 'L66', true)
-insert into Inlness (name, cid, status) values('Hipertricose', 'L68', true)
-insert into Inlness (name, cid, status) values('Acne', 'L70', true)
-insert into Inlness (name, cid, status) values('Rosacea', 'L71', true)
-insert into Inlness (name, cid, status) values('Cistos Foliculares da Pele e do Tecido Subcutaneo', 'L72', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Foliculares', 'L73', true)
-insert into Inlness (name, cid, status) values('Afecções das Glandulas Sudoriparas Ecrinas', 'L74', true)
-insert into Inlness (name, cid, status) values('Afecções das Glandulas Sudoriparas Apocrinas', 'L75', true)
-insert into Inlness (name, cid, status) values('Vitiligo', 'L80', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Pigmentação', 'L81', true)
-insert into Inlness (name, cid, status) values('Ceratose Seborreica', 'L82', true)
-insert into Inlness (name, cid, status) values('Acantose Nigricans', 'L83', true)
-insert into Inlness (name, cid, status) values('Calos e Calosidades', 'L84', true)
-insert into Inlness (name, cid, status) values('Outras Formas de Espessamento Epidermico', 'L85', true)
-insert into Inlness (name, cid, status) values('Ceratodermia em Doencas Classificadas em Outra Parte', 'L86', true)
-insert into Inlness (name, cid, status) values('Transtornos da Eliminação Transepidermica', 'L87', true)
-insert into Inlness (name, cid, status) values('Piodermite Gangrenosa', 'L88', true)
-insert into Inlness (name, cid, status) values('Ulcera de Decubito', 'L89', true)
-insert into Inlness (name, cid, status) values('Afecções Atroficas da Pele', 'L90', true)
-insert into Inlness (name, cid, status) values('Afecções Hipertroficas da Pele', 'L91', true)
-insert into Inlness (name, cid, status) values('Afecções Granulomatosas da Pele e do Tecido Subcutaneo', 'L92', true)
-insert into Inlness (name, cid, status) values('Lupus Eritematoso', 'L93', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Localizadas do Tecido Conjuntivo', 'L94', true)
-insert into Inlness (name, cid, status) values('Vasculite Limitada a Pele Não Classificadas em Outra Parte', 'L95', true)
-insert into Inlness (name, cid, status) values('Ulcera dos Membros Inferiores Não Classificada em Outra Parte', 'L97', true)
-insert into Inlness (name, cid, status) values('Outras Afecções da Pele e do Tecido Subcutaneo Não Classificadas em Outra Parte', 'L98', true)
-insert into Inlness (name, cid, status) values('Outras Afecções da Pele e do Tecido Subcutaneo em Doencas Classificadas em Outra Parte', 'L99', true)
-insert into Inlness (name, cid, status) values('Artrite Piogenica', 'M00', true)
-insert into Inlness (name, cid, status) values('Infecções Diretas da Articulação em Doencas Infecciosas e Parasitarias Classificadas em Outra Parte', 'M01', true)
-insert into Inlness (name, cid, status) values('Artropatias Reacionais', 'M02', true)
-insert into Inlness (name, cid, status) values('Artropatias Pos-Infecciosas e Reacionais em Doencas Infecciosas Classificadas em Outra Parte', 'M03', true)
-insert into Inlness (name, cid, status) values('Artrite Reumatoide Soro-Positiva', 'M05', true)
-insert into Inlness (name, cid, status) values('Outras Artrites Reumatoides', 'M06', true)
-insert into Inlness (name, cid, status) values('Artropatias Psoriasicas e Enteropaticas', 'M07', true)
-insert into Inlness (name, cid, status) values('Artrite Juvenil', 'M08', true)
-insert into Inlness (name, cid, status) values('Artrite Juvenil em Doencas Classificadas em Outra Parte', 'M09', true)
-insert into Inlness (name, cid, status) values('Gota', 'M10', true)
-insert into Inlness (name, cid, status) values('Outras Artropatias por Deposição de Cristais', 'M11', true)
-insert into Inlness (name, cid, status) values('Outras Artropatias Especificadas', 'M12', true)
-insert into Inlness (name, cid, status) values('Outras Artrites', 'M13', true)
-insert into Inlness (name, cid, status) values('Artropatias em Outras Doencas Classificadas em Outra Parte', 'M14', true)
-insert into Inlness (name, cid, status) values('Poliartrose', 'M15', true)
-insert into Inlness (name, cid, status) values('Coxartrose [Artrose do Quadril]', 'M16', true)
-insert into Inlness (name, cid, status) values('Gonartrose [Artrose do Joelho]', 'M17', true)
-insert into Inlness (name, cid, status) values('Artrose da Primeira Articulação Carpometacarpiana', 'M18', true)
-insert into Inlness (name, cid, status) values('Outras Artroses', 'M19', true)
-insert into Inlness (name, cid, status) values('Deformidades Adquiridas dos Dedos das Mãos e dos Pes', 'M20', true)
-insert into Inlness (name, cid, status) values('Outras Deformidades Adquiridas dos Membros', 'M21', true)
-insert into Inlness (name, cid, status) values('Transtornos da Rotula [Patela]', 'M22', true)
-insert into Inlness (name, cid, status) values('Transtornos Internos dos Joelhos', 'M23', true)
-insert into Inlness (name, cid, status) values('Outras Transtornos Articulares Especificos', 'M24', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Articulares Não Classificados em Outra Parte', 'M25', true)
-insert into Inlness (name, cid, status) values('Poliarterite Nodosa e Afecções Correlatas', 'M30', true)
-insert into Inlness (name, cid, status) values('Outras Vasculopatias Necrotizantes', 'M31', true)
-insert into Inlness (name, cid, status) values('Lupus Eritematoso Disseminado [Sistemico]', 'M32', true)
-insert into Inlness (name, cid, status) values('Dermatopoliomiosite', 'M33', true)
-insert into Inlness (name, cid, status) values('Esclerose Sistemica', 'M34', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Sistemicas do Tecido Conjuntivo', 'M35', true)
-insert into Inlness (name, cid, status) values('Doencas Sistemicas do Tecido Conjuntivo em Doencas Classificadas em Outra Parte', 'M36', true)
-insert into Inlness (name, cid, status) values('Cifose e Lordose', 'M40', true)
-insert into Inlness (name, cid, status) values('Escoliose', 'M41', true)
-insert into Inlness (name, cid, status) values('Osteocondrose da Coluna Vertebral', 'M42', true)
-insert into Inlness (name, cid, status) values('Outras Dorsopatias Deformantes', 'M43', true)
-insert into Inlness (name, cid, status) values('Espondilite Ancilosante', 'M45', true)
-insert into Inlness (name, cid, status) values('Outras Espondilopatias Inflamatorias', 'M46', true)
-insert into Inlness (name, cid, status) values('Espondilose', 'M47', true)
-insert into Inlness (name, cid, status) values('Outras Espondilopatias', 'M48', true)
-insert into Inlness (name, cid, status) values('Espondilopatias em Doencas Classificadas em Outra Parte', 'M49', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Discos Cervicais', 'M50', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos de Discos Intervertebrais', 'M51', true)
-insert into Inlness (name, cid, status) values('Outras Dorsopatias Não Classificadas em Outra Parte', 'M53', true)
-insert into Inlness (name, cid, status) values('Dorsalgia', 'M54', true)
-insert into Inlness (name, cid, status) values('Miosite', 'M60', true)
-insert into Inlness (name, cid, status) values('Calcificação e Ossificação do Musculo', 'M61', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Musculares', 'M62', true)
-insert into Inlness (name, cid, status) values('Transtornos de Musculo em Doencas Classificadas em Outra Parte', 'M63', true)
-insert into Inlness (name, cid, status) values('Sinovite e Tenossinovite', 'M65', true)
-insert into Inlness (name, cid, status) values('Ruptura Espontanea de Sinovia e de Tendão', 'M66', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos das Sinovias e dos Tendões', 'M67', true)
-insert into Inlness (name, cid, status) values('Transtorno de Sinovias e de Tendões em Doencas Classificadas em Outra Parte', 'M68', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Tecidos Moles Relacionados com O Uso, Uso Excessivo e Pressão', 'M70', true)
-insert into Inlness (name, cid, status) values('Outras Bursopatias', 'M71', true)
-insert into Inlness (name, cid, status) values('Transtornos Fibroblasticos', 'M72', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Tecidos Moles em Doencas Classificadas em Outra Parte', 'M73', true)
-insert into Inlness (name, cid, status) values('Lesões do Ombro', 'M75', true)
-insert into Inlness (name, cid, status) values('Entesopatias dos Membros Inferiores, Excluindo Pe', 'M76', true)
-insert into Inlness (name, cid, status) values('Outras Entesopatias', 'M77', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos dos Tecidos Moles, Não Classificados em Outra Parte', 'M79', true)
-insert into Inlness (name, cid, status) values('Osteoporose com Fratura Patologica', 'M80', true)
-insert into Inlness (name, cid, status) values('Osteoporose sem Fratura Patologica', 'M81', true)
-insert into Inlness (name, cid, status) values('Osteoporose em Doencas Classificadas em Outra Parte', 'M82', true)
-insert into Inlness (name, cid, status) values('Osteomalacia do Adulto', 'M83', true)
-insert into Inlness (name, cid, status) values('Transtornos da Continuidade do Osso', 'M84', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Densidade e da Estrutura Osseas', 'M85', true)
-insert into Inlness (name, cid, status) values('Osteomielite', 'M86', true)
-insert into Inlness (name, cid, status) values('Osteonecrose', 'M87', true)
-insert into Inlness (name, cid, status) values('Doenca de Paget do Osso (Osteite Deformante)', 'M88', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Osseos', 'M89', true)
-insert into Inlness (name, cid, status) values('Osteopatias em Doencas Classificadas em Outra Parte', 'M90', true)
-insert into Inlness (name, cid, status) values('Osteocondrose Juvenil do Quadril e da Pelve', 'M91', true)
-insert into Inlness (name, cid, status) values('Outras Osteocondroses Juvenis', 'M92', true)
-insert into Inlness (name, cid, status) values('Outras Osteocondropatias', 'M93', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos das Cartilagens', 'M94', true)
-insert into Inlness (name, cid, status) values('Outras Deformidades Adquiridas do Sistema Osteomuscular e do Tecido Conjuntivo', 'M95', true)
-insert into Inlness (name, cid, status) values('Transtornos Osteomusculares Pos-Procedimentos Não Classificados em Outra Parte', 'M96', true)
-insert into Inlness (name, cid, status) values('Lesões Biomecanicas Não Classificadas em Outra Parte', 'M99', true)
-insert into Inlness (name, cid, status) values('Sindrome Nefritica Aguda', 'N00', true)
-insert into Inlness (name, cid, status) values('Sindrome Nefritica Rapidamente Progressiva', 'N01', true)
-insert into Inlness (name, cid, status) values('Hematuria Recidivante e Persistente', 'N02', true)
-insert into Inlness (name, cid, status) values('Sindrome Nefritica Cronica', 'N03', true)
-insert into Inlness (name, cid, status) values('Sindrome Nefrotica', 'N04', true)
-insert into Inlness (name, cid, status) values('Sindrome Nefritica Não Especificada', 'N05', true)
-insert into Inlness (name, cid, status) values('Proteinuria Isolada com Lesão Morfologica Especificada', 'N06', true)
-insert into Inlness (name, cid, status) values('Nefropatia Hereditaria Não Classificada em Outra Parte', 'N07', true)
-insert into Inlness (name, cid, status) values('Transtornos Glomerulares em Doencas Classificadas em Outra Parte', 'N08', true)
-insert into Inlness (name, cid, status) values('Nefrite Tubulo-Intersticial Aguda', 'N10', true)
-insert into Inlness (name, cid, status) values('Nefrite Tubulo-Intersticial Cronica', 'N11', true)
-insert into Inlness (name, cid, status) values('Nefrite Tubulo-Intersticial Não Especificada Se Aguda ou Cronica', 'N12', true)
-insert into Inlness (name, cid, status) values('Uropatia Obstrutiva e por Refluxo', 'N13', true)
-insert into Inlness (name, cid, status) values('Afecções Tubulares e Tubulo-Intersticiais Induzidas por Drogas ou Metais Pesados', 'N14', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Renais Tubulo-Intersticiais', 'N15', true)
-insert into Inlness (name, cid, status) values('Transtornos Renais Tubulo-Intersticiais em Doencas Classificadas em Outra Parte', 'N16', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Renal Aguda', 'N17', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Renal Cronica', 'N18', true)
-insert into Inlness (name, cid, status) values('Insuficiencia Renal Não Especificada', 'N19', true)
-insert into Inlness (name, cid, status) values('Calculose do Rim e do Ureter', 'N20', true)
-insert into Inlness (name, cid, status) values('Calculose do Trato Urinario Inferior', 'N21', true)
-insert into Inlness (name, cid, status) values('Calculose do Trato Urinario Inferior em Doencas Classificadas em Outra Parte', 'N22', true)
-insert into Inlness (name, cid, status) values('Colica Nefretica Não Especificada', 'N23', true)
-insert into Inlness (name, cid, status) values('Transtornos Resultantes de Função Renal Tubular Alterada', 'N25', true)
-insert into Inlness (name, cid, status) values('Rim Contraido, Não Especificado', 'N26', true)
-insert into Inlness (name, cid, status) values('Hipoplasia Renal de Causa Desconhecida', 'N27', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Rim e do Ureter Não Classificado em Outra Parte', 'N28', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Rim e do Ureter em Doencas Classificadas em Outra Parte', 'N29', true)
-insert into Inlness (name, cid, status) values('Cistite', 'N30', true)
-insert into Inlness (name, cid, status) values('Disfunções Neuromusculares da Bexiga Não Classificados em Outra Parte', 'N31', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Bexiga', 'N32', true)
-insert into Inlness (name, cid, status) values('Transtornos da Bexiga em Doencas Classificadas em Outra Parte', 'N33', true)
-insert into Inlness (name, cid, status) values('Uretrite e Sindrome Uretral', 'N34', true)
-insert into Inlness (name, cid, status) values('Estenose da Uretra', 'N35', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos da Uretra', 'N36', true)
-insert into Inlness (name, cid, status) values('Transtornos da Uretra em Doencas Classificadas em Outra Parte', 'N37', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Trato Urinario', 'N39', true)
-insert into Inlness (name, cid, status) values('Hiperplasia da Prostata', 'N40', true)
-insert into Inlness (name, cid, status) values('Doencas Inflamatorias da Prostata', 'N41', true)
-insert into Inlness (name, cid, status) values('Outras Afecções da Prostata', 'N42', true)
-insert into Inlness (name, cid, status) values('Hidrocele e Espermatocele', 'N43', true)
-insert into Inlness (name, cid, status) values('Torção do Testiculo', 'N44', true)
-insert into Inlness (name, cid, status) values('Orquite e Epididimite', 'N45', true)
-insert into Inlness (name, cid, status) values('Infertilidade Masculina', 'N46', true)
-insert into Inlness (name, cid, status) values('Hipertrofia do Prepucio, Fimose e Parafimose', 'N47', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Penis', 'N48', true)
-insert into Inlness (name, cid, status) values('Transtornos Inflamatorios de Orgãos Genitais Masculinos, Não Classificados em Outra Parte', 'N49', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos dos Orgãos Genitais Masculinos', 'N50', true)
-insert into Inlness (name, cid, status) values('Transtornos dos Orgãos Genitais Masculinos em Doencas Classificadas em Outra Parte', 'N51', true)
-insert into Inlness (name, cid, status) values('Displasias Mamarias Benignas', 'N60', true)
-insert into Inlness (name, cid, status) values('Transtornos Inflamatorios da Mama', 'N61', true)
-insert into Inlness (name, cid, status) values('Hipertrofia da Mama', 'N62', true)
-insert into Inlness (name, cid, status) values('Nodulo Mamario Não Especificado', 'N63', true)
-insert into Inlness (name, cid, status) values('Outras Doencas da Mama', 'N64', true)
-insert into Inlness (name, cid, status) values('Salpingite e Ooforite', 'N70', true)
-insert into Inlness (name, cid, status) values('Doenca Inflamatoria do Utero, Exceto O Colo', 'N71', true)
-insert into Inlness (name, cid, status) values('Doenca Inflamatoria do Colo do Utero', 'N72', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Inflamatorias Pelvicas Femininas', 'N73', true)
-insert into Inlness (name, cid, status) values('Transtornos Inflamatorios da Pelve Feminina em Doencas Classificadas em Outra Parte', 'N74', true)
-insert into Inlness (name, cid, status) values('Doencas da Glandula de Bartholin', 'N75', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Inflamatorias da Vagina e da Vulva', 'N76', true)
-insert into Inlness (name, cid, status) values('Ulceração e Inflamação Vulvovaginais em Doencas Classificadas em Outra Parte', 'N77', true)
-insert into Inlness (name, cid, status) values('Endometriose', 'N80', true)
-insert into Inlness (name, cid, status) values('Prolapso Genital Feminino', 'N81', true)
-insert into Inlness (name, cid, status) values('Fistulas do Trato Genital Feminino', 'N82', true)
-insert into Inlness (name, cid, status) values('Transtornos Não-Inflamatorios do Ovario, da Trompa de Falopio e do Ligamento Largo', 'N83', true)
-insert into Inlness (name, cid, status) values('Polipo do Trato Genital Feminino', 'N84', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Não-Inflamatorios do Utero, Exceto do Colo do Utero', 'N85', true)
-insert into Inlness (name, cid, status) values('Erosão e Ectropio do Colo do Utero', 'N86', true)
-insert into Inlness (name, cid, status) values('Displasia do Colo do Utero', 'N87', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Não-Inflamatorios do Colo do Utero', 'N88', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Não-Inflamatorios da Vagina', 'N89', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos Não-Inflamatorios da Vulva e do Perineo', 'N90', true)
-insert into Inlness (name, cid, status) values('Menstruação Ausente, Escassa e Pouco Frequente', 'N91', true)
-insert into Inlness (name, cid, status) values('Menstruação Excessiva, Frequente e Irregular', 'N92', true)
-insert into Inlness (name, cid, status) values('Outros Sangramentos Anormais do Utero e da Vagina', 'N93', true)
-insert into Inlness (name, cid, status) values('Dor e Outras Afecções Associadas com Os Orgãos Genitais Femininos e com O Ciclo Menstrual', 'N94', true)
-insert into Inlness (name, cid, status) values('Transtornos da Menopausa e da Perimenopausa', 'N95', true)
-insert into Inlness (name, cid, status) values('Abortamento Habitual', 'N96', true)
-insert into Inlness (name, cid, status) values('Infertilidade Feminina', 'N97', true)
-insert into Inlness (name, cid, status) values('Complicações Associadas a Fecundação Artificial', 'N98', true)
-insert into Inlness (name, cid, status) values('Transtornos do Trato Geniturinario Pos-Procedimentos Não Classificados em Outra Parte', 'N99', true)
-insert into Inlness (name, cid, status) values('Gravidez Ectopica', 'O00', true)
-insert into Inlness (name, cid, status) values('Mola Hidatiforme', 'O01', true)
-insert into Inlness (name, cid, status) values('Outros Produtos Anormais da Concepção', 'O02', true)
-insert into Inlness (name, cid, status) values('Aborto Espontaneo', 'O03', true)
-insert into Inlness (name, cid, status) values('Aborto por Razões Medicas e Legais', 'O04', true)
-insert into Inlness (name, cid, status) values('Outros Tipos de Aborto', 'O05', true)
-insert into Inlness (name, cid, status) values('Aborto Não Especificado', 'O06', true)
-insert into Inlness (name, cid, status) values('Falha de Tentativa de Aborto', 'O07', true)
-insert into Inlness (name, cid, status) values('Complicações Consequentes a Aborto e Gravidez Ectopica ou Molar', 'O08', true)
-insert into Inlness (name, cid, status) values('Hipertensão Pre-Existente Complicando a Gravidez, O Parto e O Puerperio', 'O10', true)
-insert into Inlness (name, cid, status) values('Disturbio Hipertensivo Pre-Existente com Proteinuria Superposta', 'O11', true)
-insert into Inlness (name, cid, status) values('Edema e Proteinuria Gestacionais [Induzidos Pela Gravidez], sem Hipertensão', 'O12', true)
-insert into Inlness (name, cid, status) values('Hipertensão Gestacional [Induzida Pela Gravidez] sem Proteinuria Significativa', 'O13', true)
-insert into Inlness (name, cid, status) values('Hipertensão Gestacional [Induzida Pela Gravidez] com Proteinuria Significativa', 'O14', true)
-insert into Inlness (name, cid, status) values('Eclampsia', 'O15', true)
-insert into Inlness (name, cid, status) values('Hipertensão Materna Não Especificada', 'O16', true)
-insert into Inlness (name, cid, status) values('Hemorragia do Inicio da Gravidez', 'O20', true)
-insert into Inlness (name, cid, status) values('Vomitos Excessivos na Gravidez', 'O21', true)
-insert into Inlness (name, cid, status) values('Complicações Venosas na Gravidez', 'O22', true)
-insert into Inlness (name, cid, status) values('Infecções do Trato Geniturinario na Gravidez', 'O23', true)
-insert into Inlness (name, cid, status) values('Diabetes Mellitus na Gravidez', 'O24', true)
-insert into Inlness (name, cid, status) values('Desnutrição na Gravidez', 'O25', true)
-insert into Inlness (name, cid, status) values('Assistencia Materna por Outras Complicações Ligadas Predominantemente a Gravidez', 'O26', true)
-insert into Inlness (name, cid, status) values('Achados Anormais do Rastreamento [ Screening ] Antenatal da Mãe', 'O28', true)
-insert into Inlness (name, cid, status) values('Complicações de Anestesia Administrada Durante a Gravidez', 'O29', true)
-insert into Inlness (name, cid, status) values('Gestação Multipla', 'O30', true)
-insert into Inlness (name, cid, status) values('Complicações Especificas de Gestação Multipla', 'O31', true)
-insert into Inlness (name, cid, status) values('Assistencia Prestada a Mãe por Motivo de Apresentação Anormal, Conhecida ou Suspeitada, do Feto', 'O32', true)
-insert into Inlness (name, cid, status) values('Assistencia Prestada a Mãe por Uma Desproporção Conhecida ou Suspeita', 'O33', true)
-insert into Inlness (name, cid, status) values('Assistencia Prestada a Mãe por Anormalidade, Conhecida ou Suspeita, dos Orgãos Pelvicos Maternos', 'O34', true)
-insert into Inlness (name, cid, status) values('Assistencia Prestada a Mãe por Anormalidade e Lesão Fetais, Conhecidas ou Suspeitadas', 'O35', true)
-insert into Inlness (name, cid, status) values('Assistencia Prestada a Mãe por Outros Problemas Fetais Conhecidos ou Suspeitados', 'O36', true)
-insert into Inlness (name, cid, status) values('Polihidramnio', 'O40', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos das Membranas e do Liquido Amniotico', 'O41', true)
-insert into Inlness (name, cid, status) values('Ruptura Prematura de Membranas', 'O42', true)
-insert into Inlness (name, cid, status) values('Transtornos da Placenta', 'O43', true)
-insert into Inlness (name, cid, status) values('Placenta Previa', 'O44', true)
-insert into Inlness (name, cid, status) values('Descolamento Prematuro da Placenta [Abruptio Placentae]', 'O45', true)
-insert into Inlness (name, cid, status) values('Hemorragia Anteparto Não Classificada em Outra Parte', 'O46', true)
-insert into Inlness (name, cid, status) values('Falso Trabalho de Parto', 'O47', true)
-insert into Inlness (name, cid, status) values('Gravidez Prolongada', 'O48', true)
-insert into Inlness (name, cid, status) values('Parto Pre-Termo', 'O60', true)
-insert into Inlness (name, cid, status) values('Falha na Indução do Trabalho de Parto', 'O61', true)
-insert into Inlness (name, cid, status) values('Anormalidades da Contração Uterina', 'O62', true)
-insert into Inlness (name, cid, status) values('Trabalho de Parto Prolongado', 'O63', true)
-insert into Inlness (name, cid, status) values('Obstrução do Trabalho de Parto Devida a Ma-Posição ou Ma-Apresentação do Feto', 'O64', true)
-insert into Inlness (name, cid, status) values('Obstrução do Trabalho de Parto Devida a Anormalidade Pelvica da Mãe', 'O65', true)
-insert into Inlness (name, cid, status) values('Outras Formas de Obstrução do Trabalho de Parto', 'O66', true)
-insert into Inlness (name, cid, status) values('Trabalho de Parto e Parto Complicados por Hemorragia Intraparto Não Classificados em Outra Parte', 'O67', true)
-insert into Inlness (name, cid, status) values('Trabalho de Parto e Parto Complicados por Sofrimento Fetal', 'O68', true)
-insert into Inlness (name, cid, status) values('Trabalho de Parto e Parto Complicados por Anormalidade do Cordão Umbilical', 'O69', true)
-insert into Inlness (name, cid, status) values('Laceração do Perineo Durante O Parto', 'O70', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos Obstetricos', 'O71', true)
-insert into Inlness (name, cid, status) values('Hemorragia Pos-Parto', 'O72', true)
-insert into Inlness (name, cid, status) values('Retenção da Placenta e das Membranas, sem Hemorragias', 'O73', true)
-insert into Inlness (name, cid, status) values('Outras Complicações do Trabalho de Parto e do Parto Não Classificadas em Outra Parte', 'O75', true)
-insert into Inlness (name, cid, status) values('Parto Unico Espontaneo', 'O80', true)
-insert into Inlness (name, cid, status) values('Parto Unico por Cesariana', 'O82', true)
-insert into Inlness (name, cid, status) values('Outros Tipos de Parto Unico Assistido', 'O83', true)
-insert into Inlness (name, cid, status) values('Parto Multiplo', 'O84', true)
-insert into Inlness (name, cid, status) values('Infecção Puerperal', 'O85', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Puerperais', 'O86', true)
-insert into Inlness (name, cid, status) values('Complicações Venosas no Puerperio', 'O87', true)
-insert into Inlness (name, cid, status) values('Embolia de Origem Obstetrica', 'O88', true)
-insert into Inlness (name, cid, status) values('Complicações do Puerperio Não Classificadas em Outra Parte', 'O90', true)
-insert into Inlness (name, cid, status) values('Infecções Mamarias Associadas ao Parto', 'O91', true)
-insert into Inlness (name, cid, status) values('Outras Afecções da Mama e da Lactação Associadas ao Parto', 'O92', true)
-insert into Inlness (name, cid, status) values('Doencas Infecciosas e Parasitarias Maternas Classificaveis em Outra Parte Mas Que Compliquem a Gravidez, O Parto e O Puerperio', 'O98', true)
-insert into Inlness (name, cid, status) values('Outras Doencas da Mãe, Classificadas em Outra Parte, Mas Que Complicam a Gravidez O Parto e O Puerperio', 'O99', true)
-insert into Inlness (name, cid, status) values('Feto e Recem-Nascido Afetados por Afecções Maternas, Não Obrigatoriamente Relacionadas com a Gravidez Atual', 'P00', true)
-insert into Inlness (name, cid, status) values('Feto e Recem-Nascido Afetados por Complicações Maternas da Gravidez', 'P01', true)
-insert into Inlness (name, cid, status) values('Feto e Recem-Nascido Afetados por Complicações da Placenta, do Cordão Umbilical e das Membranas', 'P02', true)
-insert into Inlness (name, cid, status) values('Feto e Recem-Nascido Afetados por Outras Complicações do Trabalho de Parto e do Parto', 'P03', true)
-insert into Inlness (name, cid, status) values('Crescimento Fetal Retardado e Desnutrição Fetal', 'P05', true)
-insert into Inlness (name, cid, status) values('Transtornos Relacionados com a Gestação de Curta Duração e Peso Baixo ao Nascer Não Classificados em Outra Parte', 'P07', true)
-insert into Inlness (name, cid, status) values('Laceração Intracraniana e Hemorragia Devidas a Traumatismo de Parto', 'P10', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos de Parto do Sistema Nervoso Central', 'P11', true)
-insert into Inlness (name, cid, status) values('Lesões do Esqueleto Devidas a Traumatismo de Parto', 'P13', true)
-insert into Inlness (name, cid, status) values('Lesões ao Nascer do Sistema Nervoso Periferico', 'P14', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos de Parto', 'P15', true)
-insert into Inlness (name, cid, status) values('Hipoxia Intra-Uterina', 'P20', true)
-insert into Inlness (name, cid, status) values('Asfixia ao Nascer', 'P21', true)
-insert into Inlness (name, cid, status) values('Desconforto (Angustia) Respiratorio(A) do Recem-Nascido', 'P22', true)
-insert into Inlness (name, cid, status) values('Pneumonia Congenita', 'P23', true)
-insert into Inlness (name, cid, status) values('Transtornos Cardiovasculares Originados no Periodo Perinatal', 'P29', true)
-insert into Inlness (name, cid, status) values('Outras Doencas Infecciosas e Parasitarias Congenitas', 'P37', true)
-insert into Inlness (name, cid, status) values('Outras Infecções Especificas do Periodo Perinatal', 'P39', true)
-insert into Inlness (name, cid, status) values('Perda Sanguinea Fetal', 'P50', true)
-insert into Inlness (name, cid, status) values('Hemorragia Intracraniana Não-Traumatica do Feto e do Recem-Nascido', 'P52', true)
-insert into Inlness (name, cid, status) values('Outras Hemorragias Neonatais', 'P54', true)
-insert into Inlness (name, cid, status) values('Doenca Hemolitica do Feto e do Recem-Nascido', 'P55', true)
-insert into Inlness (name, cid, status) values('Hidropsia Fetal Devida a Doenca Hemolitica', 'P56', true)
-insert into Inlness (name, cid, status) values('Outras Obstruções Intestinais do Recem-Nascido', 'P76', true)
-insert into Inlness (name, cid, status) values('Outros Transtornos do Aparelho Digestivo do Periodo Perinatal', 'P78', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Comprometendo O Tegumento Especificas do Feto e do Recem-Nascido', 'P83', true)
-insert into Inlness (name, cid, status) values('Problemas de Alimentação do Recem-Nascido', 'P92', true)
-insert into Inlness (name, cid, status) values('Morte Fetal de Causa Não Especificada', 'P95', true)
-insert into Inlness (name, cid, status) values('Outras Afecções Originadas no Periodo Perinatal', 'P96', true)
-insert into Inlness (name, cid, status) values('Anencefalia e Malformações Similares', 'Q00', true)
-insert into Inlness (name, cid, status) values('Encefalocele', 'Q01', true)
-insert into Inlness (name, cid, status) values('Microcefalia', 'Q02', true)
-insert into Inlness (name, cid, status) values('Hidrocefalia Congenita', 'Q03', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Cerebro', 'Q04', true)
-insert into Inlness (name, cid, status) values('Espinha Bifida', 'Q05', true)
-insert into Inlness (name, cid, status) values('Outras Malformaçõess Congenitas da Medula Espinhal', 'Q06', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Sistema Nervoso', 'Q07', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Palpebras, do Aparelho Lacrimal e da Orbita', 'Q10', true)
-insert into Inlness (name, cid, status) values('Anoftalmia, Microftalmia e Macroftalmia', 'Q11', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Cristalino', 'Q12', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Camara Anterior do Olho', 'Q13', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Olho', 'Q15', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas da Orelha', 'Q17', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas da Face e do Pescoço', 'Q18', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Camaras e das Comunicações Cardiacas', 'Q20', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas dos Septos Cardiacos', 'Q21', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Valvas Pulmonar e Tricuspide', 'Q22', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Valvas Aortica e Mitral', 'Q23', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Coração', 'Q24', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Grandes Arterias', 'Q25', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas das Grandes Veias', 'Q26', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Sistema Vascular Periferico', 'Q27', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Aparelho Circulatorio', 'Q28', true)
-insert into Inlness (name, cid, status) values('Malformação Congenita do Nariz', 'Q30', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Laringe', 'Q31', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Traqueia e dos Bronquios', 'Q32', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Pulmão', 'Q33', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Aparelho Respiratorio', 'Q34', true)
-insert into Inlness (name, cid, status) values('Fenda Palatina', 'Q35', true)
-insert into Inlness (name, cid, status) values('Fenda Labial', 'Q36', true)
-insert into Inlness (name, cid, status) values('Fenda Labial com Fenda Palatina', 'Q37', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas da Lingua, da Boca e da Faringe', 'Q38', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Esofago', 'Q39', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Trato Digestivo Superior', 'Q40', true)
-insert into Inlness (name, cid, status) values('Ausencia, Atresia e Estenose Congenita do Intestino Delgado', 'Q41', true)
-insert into Inlness (name, cid, status) values('Ausencia, Atresia e Estenose Congenita do Colon', 'Q42', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Intestino', 'Q43', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Vesicula Biliar, das Vias Biliares e do Figado', 'Q44', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Aparelho Digestivo', 'Q45', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas dos Ovarios, das Trompas de Falopio e dos Ligamentos Largos', 'Q50', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Utero e do Colo do Utero', 'Q51', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas dos Orgãos Genitais Femininos', 'Q52', true)
-insert into Inlness (name, cid, status) values('Testiculo Não-Descido', 'Q53', true)
-insert into Inlness (name, cid, status) values('Hipospadias', 'Q54', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas dos Orgãos Genitais Masculinos', 'Q55', true)
-insert into Inlness (name, cid, status) values('Sexo Indeterminado e Pseudo-Hermafroditismo', 'Q56', true)
-insert into Inlness (name, cid, status) values('Agenesia Renal e Outros Defeitos de Redução do Rim', 'Q60', true)
-insert into Inlness (name, cid, status) values('Doencas Cisticas do Rim', 'Q61', true)
-insert into Inlness (name, cid, status) values('Anomalias Congenitas Obstrutivas da Pelve Renal e Malformações Congenitas do Ureter', 'Q62', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Rim', 'Q63', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Aparelho Urinario', 'Q64', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Quadril', 'Q65', true)
-insert into Inlness (name, cid, status) values('Deformidades Congenitas do Pe', 'Q66', true)
-insert into Inlness (name, cid, status) values('Deformidades Osteomusculares Congenitas da Cabeca, da Face, da Coluna e do Torax', 'Q67', true)
-insert into Inlness (name, cid, status) values('Outras Deformidades Osteomusculares Congenitas', 'Q68', true)
-insert into Inlness (name, cid, status) values('Polidactilia', 'Q69', true)
-insert into Inlness (name, cid, status) values('Sindactilia', 'Q70', true)
-insert into Inlness (name, cid, status) values('Defeitos, por Redução, do Membro Superior', 'Q71', true)
-insert into Inlness (name, cid, status) values('Defeitos, por Redução, do Membro Inferior', 'Q72', true)
-insert into Inlness (name, cid, status) values('Defeitos por Redução de Membro Não Especificado', 'Q73', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas dos Membros', 'Q74', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas dos Ossos do Cranio e da Face', 'Q75', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Coluna Vertebral e dos Ossos do Torax', 'Q76', true)
-insert into Inlness (name, cid, status) values('Osteocondrodisplasia com Anomalias de Crescimento dos Ossos Longos e da Coluna Vertebral', 'Q77', true)
-insert into Inlness (name, cid, status) values('Outras Osteocondrodisplasias', 'Q78', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas do Sistema Osteomuscular Não Classificadas em Outra Parte', 'Q79', true)
-insert into Inlness (name, cid, status) values('Ictiose Congenita', 'Q80', true)
-insert into Inlness (name, cid, status) values('Epidermolise Bolhosa', 'Q81', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas da Pele', 'Q82', true)
-insert into Inlness (name, cid, status) values('Malformações Congenitas da Mama', 'Q83', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas do Tegumento', 'Q84', true)
-insert into Inlness (name, cid, status) values('Facomatoses Não Classificadas em Outra Parte', 'Q85', true)
-insert into Inlness (name, cid, status) values('Sindromes com Malformações Congenitas Devidas a Causas Exogenas Conhecidas, Não Classificadas em Outra Parte', 'Q86', true)
-insert into Inlness (name, cid, status) values('Outras Sindromes com Malformações Congenitas Que Acometem Multiplos Sistemas', 'Q87', true)
-insert into Inlness (name, cid, status) values('Outras Malformações Congenitas Não Classificadas em Outra Parte', 'Q89', true)
-insert into Inlness (name, cid, status) values('Sindrome de Down', 'Q90', true)
-insert into Inlness (name, cid, status) values('Sindrome de Edwards e Sindrome de Patau', 'Q91', true)
-insert into Inlness (name, cid, status) values('Monossomias e Deleções dos Autossomos, Não Classificadas em Outra Parte', 'Q93', true)
-insert into Inlness (name, cid, status) values('Sindrome de Turner', 'Q96', true)
-insert into Inlness (name, cid, status) values('Outras Anomalias dos Cromossomos, Não Classificadas em Outra Parte', 'Q99', true)
-insert into Inlness (name, cid, status) values('Anormalidades do Batimento Cardiaco', 'R00', true)
-insert into Inlness (name, cid, status) values('Gangrena Não Classificada em Outra Parte', 'R02', true)
-insert into Inlness (name, cid, status) values('Valor Anormal da Pressão Arterial sem Diagnostico', 'R03', true)
-insert into Inlness (name, cid, status) values('Hemorragia das Vias Respiratorias', 'R04', true)
-insert into Inlness (name, cid, status) values('Tosse', 'R05', true)
-insert into Inlness (name, cid, status) values('Anormalidades da Respiração', 'R06', true)
-insert into Inlness (name, cid, status) values('Dor de Garganta e no Peito', 'R07', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos Aos Aparelhos Circulatorio e Respiratorio', 'R09', true)
-insert into Inlness (name, cid, status) values('Dor Abdominal e Pelvica', 'R10', true)
-insert into Inlness (name, cid, status) values('Nausea e Vomitos', 'R11', true)
-insert into Inlness (name, cid, status) values('Disfagia', 'R13', true)
-insert into Inlness (name, cid, status) values('Incontinencia Fecal', 'R15', true)
-insert into Inlness (name, cid, status) values('Hepatomegalia e Esplenomegalia Não Classificadas em Outra Parte', 'R16', true)
-insert into Inlness (name, cid, status) values('Ictericia Não Especificada', 'R17', true)
-insert into Inlness (name, cid, status) values('Ascite', 'R18', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos ao Aparelho Digestivo e ao Abdome', 'R19', true)
-insert into Inlness (name, cid, status) values('Disturbios da Sensibilidade Cutanea', 'R20', true)
-insert into Inlness (name, cid, status) values('Eritema e Outras Erupções Cutaneas Não Especificadas', 'R21', true)
-insert into Inlness (name, cid, status) values('Tumefação, Massa ou Tumoração Localizadas da Pele e do Tecido Subcutaneo', 'R22', true)
-insert into Inlness (name, cid, status) values('Outras Alterações Cutaneas', 'R23', true)
-insert into Inlness (name, cid, status) values('Movimentos Involuntarios Anormais', 'R25', true)
-insert into Inlness (name, cid, status) values('Anormalidades da Marcha e da Mobilidade', 'R26', true)
-insert into Inlness (name, cid, status) values('Outros Disturbios da Coordenação', 'R27', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos Aos Sistemas Nervoso e Osteomuscular', 'R29', true)
-insert into Inlness (name, cid, status) values('Dor Associada a Micção', 'R30', true)
-insert into Inlness (name, cid, status) values('Hematuria Não Especificada', 'R31', true)
-insert into Inlness (name, cid, status) values('Incontinencia Urinaria Não Especificada', 'R32', true)
-insert into Inlness (name, cid, status) values('Retenção Urinaria', 'R33', true)
-insert into Inlness (name, cid, status) values('Anuria e Oliguria', 'R34', true)
-insert into Inlness (name, cid, status) values('Poliuria', 'R35', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos ao Aparelho Urinario', 'R39', true)
-insert into Inlness (name, cid, status) values('Sonolencia, Estupor e Coma', 'R40', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos a Função Cognitiva e a Consciencia', 'R41', true)
-insert into Inlness (name, cid, status) values('Tontura e Instabilidade', 'R42', true)
-insert into Inlness (name, cid, status) values('Disturbios do Olfato e do Paladar', 'R43', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Relativos as Sensaçõs e as Percepções Gerais', 'R44', true)
-insert into Inlness (name, cid, status) values('Sintomas e Sinais Relativos ao Estado Emocional', 'R45', true)
-insert into Inlness (name, cid, status) values('Sintomas e Sinais Relativos a Aparencia e ao Comportamento', 'R46', true)
-insert into Inlness (name, cid, status) values('Disturbios da Fala Não Classificados em Outra Parte', 'R47', true)
-insert into Inlness (name, cid, status) values('Dislexia e Outras Disfunções Simbolicas, Não Classificadas em Outra Parte', 'R48', true)
-insert into Inlness (name, cid, status) values('Disturbios da Voz', 'R49', true)
-insert into Inlness (name, cid, status) values('Febre de Origem Desconhecida', 'R50', true)
-insert into Inlness (name, cid, status) values('Cefaleia', 'R51', true)
-insert into Inlness (name, cid, status) values('Dor Não Classificada em Outra Parte', 'R52', true)
-insert into Inlness (name, cid, status) values('Mal Estar, Fadiga', 'R53', true)
-insert into Inlness (name, cid, status) values('Senilidade', 'R54', true)
-insert into Inlness (name, cid, status) values('Sincope e Colapso', 'R55', true)
-insert into Inlness (name, cid, status) values('Convulsões, Não Classificadas em Outra Parte', 'R56', true)
-insert into Inlness (name, cid, status) values('Choque Não Classificado em Outra Parte', 'R57', true)
-insert into Inlness (name, cid, status) values('Hemorragia Não Classificada em Outra Parte', 'R58', true)
-insert into Inlness (name, cid, status) values('Aumento de Volume dos Ganglios Linfaticos', 'R59', true)
-insert into Inlness (name, cid, status) values('Edema Não Classificado em Outra Parte', 'R60', true)
-insert into Inlness (name, cid, status) values('Hiperidrose', 'R61', true)
-insert into Inlness (name, cid, status) values('Retardo do Desenvolvimento Fisiologico Normal', 'R62', true)
-insert into Inlness (name, cid, status) values('Sintomas e Sinais Relativos a Ingestão de Alimentos e Liquidos', 'R63', true)
-insert into Inlness (name, cid, status) values('Caquexia', 'R64', true)
-insert into Inlness (name, cid, status) values('Outros Sintomas e Sinais Gerais', 'R68', true)
-insert into Inlness (name, cid, status) values('Causas Desconhecidas e Não Especificadas de Morbidade', 'R69', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial da Cabeca', 'S00', true)
-insert into Inlness (name, cid, status) values('Ferimento da Cabeca', 'S01', true)
-insert into Inlness (name, cid, status) values('Fratura do Cranio e dos Ossos da Face', 'S02', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos da Cabeca', 'S03', true)
-insert into Inlness (name, cid, status) values('Traumatismo dos Nervos Cranianos', 'S04', true)
-insert into Inlness (name, cid, status) values('Traumatismo do Olho e da Orbita Ocular', 'S05', true)
-insert into Inlness (name, cid, status) values('Traumatismo Intracraniano', 'S06', true)
-insert into Inlness (name, cid, status) values('Lesõe por Esmagamento da Cabeca', 'S07', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica de Parte da Cabeca', 'S08', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos da Cabeca e Os Não Especificados', 'S09', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Pescoço', 'S10', true)
-insert into Inlness (name, cid, status) values('Ferimento do Pescoço', 'S11', true)
-insert into Inlness (name, cid, status) values('Fratura do Pescoço', 'S12', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos do Pescoço', 'S13', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos e da Medula Espinhal ao Nivel Cervical', 'S14', true)
-insert into Inlness (name, cid, status) values('Traumatismo dos Vasos Sanguineos ao Nivel do Pescoço', 'S15', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Tendões e de Musculos do Pescoço', 'S16', true)
-insert into Inlness (name, cid, status) values('Lesões por Esmagamento do Pescoço', 'S17', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica ao Nivel do Pescoço', 'S18', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos do Pescoço e Os Não Especificados', 'S19', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Torax', 'S20', true)
-insert into Inlness (name, cid, status) values('Ferimento do Torax', 'S21', true)
-insert into Inlness (name, cid, status) values('Fratura de Costela(s), Esterno e Coluna Toracica', 'S22', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão de Articulações e dos Ligamentos do Torax', 'S23', true)
-insert into Inlness (name, cid, status) values('Traumatismos de Nervos e da Medula Espinhal ao Nivel do Torax', 'S24', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos do Torax', 'S25', true)
-insert into Inlness (name, cid, status) values('Traumatismo do Coração', 'S26', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Outros Orgãos Intratoracicos e dos Não Especificados', 'S27', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Torax e Amputação Traumatica de Parte do Torax', 'S28', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos do Torax e Os Não Especificados', 'S29', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Abdome, do Dorso e da Pelve', 'S30', true)
-insert into Inlness (name, cid, status) values('Ferimento do Abdome, do Dorso e da Pelve', 'S31', true)
-insert into Inlness (name, cid, status) values('Fratura da Coluna Lombar e da Pelve', 'S32', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos da Coluna Lombar e da Pelve', 'S33', true)
-insert into Inlness (name, cid, status) values('Traumatismo dos Nervos e da Medula Lombar ao Nivel do Abdome, do Dorso e da Pelve', 'S34', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos ao Nivel do Abdome, do Dorso e da Pelve', 'S35', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Orgãos Intra-Abdominais', 'S36', true)
-insert into Inlness (name, cid, status) values('Traumatismo do Aparelho Urinario e de Orgãos Pelvicos', 'S37', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento e Amputação Traumatica de Parte do Abdome, do Dorso e da Pelve', 'S38', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados do Abdome, do Dorso e da Pelve', 'S39', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Ombro e do Braco', 'S40', true)
-insert into Inlness (name, cid, status) values('Ferimento do Ombro e do Braco', 'S41', true)
-insert into Inlness (name, cid, status) values('Fratura do Ombro e do Braco', 'S42', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos da Cintura Escapular', 'S43', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos ao Nivel do Ombro e do Braco', 'S44', true)
-insert into Inlness (name, cid, status) values('Traumatismo dos Vasos Sanguineos ao Nivel do Ombro e do Braco', 'S45', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Tendão e Musculo ao Nivel do Ombro e do Braco', 'S46', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Ombro e do Braco', 'S47', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica do Ombro e do Braco', 'S48', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados do Ombro e do Braco', 'S49', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Cotovelo e do Antebraco', 'S50', true)
-insert into Inlness (name, cid, status) values('Ferimento do Antebraco', 'S51', true)
-insert into Inlness (name, cid, status) values('Fratura do Antebraco', 'S52', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos do Cotovelo', 'S53', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos ao Nivel do Antebraco', 'S54', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos ao Nivel do Antebraco', 'S55', true)
-insert into Inlness (name, cid, status) values('Traumatismo do Musculo e Tendão ao Nivel do Antebraco', 'S56', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Antebraco', 'S57', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica do Cotovelo e do Antebraco', 'S58', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos do Antebraco e Os Não Especificados', 'S59', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Punho e da Mão', 'S60', true)
-insert into Inlness (name, cid, status) values('Ferimento do Punho e da Mão', 'S61', true)
-insert into Inlness (name, cid, status) values('Fratura ao Nivel do Punho e da Mão', 'S62', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos ao Nivel do Punho e da Mão', 'S63', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos ao Nivel do Punho e da Mão', 'S64', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos ao Nivel do Punho e da Mão', 'S65', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Musculo e Tendão ao Nivel do Punho e da Mão', 'S66', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Punho e da Mão', 'S67', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica ao Nivel do Punho e da Mão', 'S68', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados do Punho e da Mão', 'S69', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Quadril e da Coxa', 'S70', true)
-insert into Inlness (name, cid, status) values('Ferimento do Quadril e da Coxa', 'S71', true)
-insert into Inlness (name, cid, status) values('Fratura do Femur', 'S72', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão da Articulação e dos Ligamentos do Quadril', 'S73', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos ao Nivel do Quadril e da Coxa', 'S74', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos ao Nivel do Quadril e da Coxa', 'S75', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Musculo e de Tendão ao Nivel do Quadril e da Coxa', 'S76', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Quadril e da Coxa', 'S77', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica do Quadril e da Coxa', 'S78', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados do Quadril e da Coxa', 'S79', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial da Perna', 'S80', true)
-insert into Inlness (name, cid, status) values('Ferimento da Perna', 'S81', true)
-insert into Inlness (name, cid, status) values('Fratura da Perna, Incluindo Tornozelo', 'S82', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos do Joelho', 'S83', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Nervos Perifericos da Perna', 'S84', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos da Perna', 'S85', true)
-insert into Inlness (name, cid, status) values('Traumatismos de Musculo e de Tendão ao Nivel da Perna', 'S86', true)
-insert into Inlness (name, cid, status) values('Traumatismo por Esmagamento da Perna', 'S87', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica da Perna', 'S88', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados da Perna', 'S89', true)
-insert into Inlness (name, cid, status) values('Traumatismo Superficial do Tornozelo e do Pe', 'S90', true)
-insert into Inlness (name, cid, status) values('Ferimentos do Tornozelo e do Pe', 'S91', true)
-insert into Inlness (name, cid, status) values('Fratura do Pe (Exceto do Tornozelo)', 'S92', true)
-insert into Inlness (name, cid, status) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos ao Nivel do Tornozelo e do Pe', 'S93', true)
-insert into Inlness (name, cid, status) values('Traumatismo dos Nervos ao Nivel do Tornozelo e do Pe', 'S94', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Vasos Sanguineos ao Nivel do Tornozelo e do Pe', 'S95', true)
-insert into Inlness (name, cid, status) values('Traumatismos do Musculo e Tendão ao Nivel do Tornozelo e do Pe', 'S96', true)
-insert into Inlness (name, cid, status) values('Lesão por Esmagamento do Tornozelo e do Pe', 'S97', true)
-insert into Inlness (name, cid, status) values('Amputação Traumatica do Tornozelo e do Pe', 'S98', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos e Os Não Especificados do Tornozelo e do Pe', 'S99', true)
-insert into Inlness (name, cid, status) values('Traumatismos Superficiais Envolvendo Multiplas Regiões do Corpo', 'T00', true)
-insert into Inlness (name, cid, status) values('Ferimentos Envolvendo Multiplas Regiões do Corpo', 'T01', true)
-insert into Inlness (name, cid, status) values('Fraturas Envolvendo Multiplas Regiões do Corpo', 'T02', true)
-insert into Inlness (name, cid, status) values('Luxações, Entorses e Distensões Envolvendo Regiões Multiplas do Corpo', 'T03', true)
-insert into Inlness (name, cid, status) values('Traumatismos por Esmagamento Envolvendo Multiplas Regiões do Corpo', 'T04', true)
-insert into Inlness (name, cid, status) values('Amputações Traumaticas Envolvendo Multiplas Regiões do Corpo', 'T05', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos Envolvendo Regiões Multiplas do Corpo, Não Classificados em Outra Parte', 'T06', true)
-insert into Inlness (name, cid, status) values('Traumatismos Multiplos Não Especificados', 'T07', true)
-insert into Inlness (name, cid, status) values('Fratura da Coluna, Nivel Não Especificado', 'T08', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos de Coluna e Tronco, Nivel Não Especificado', 'T09', true)
-insert into Inlness (name, cid, status) values('Fratura do Membro Superior, Nivel Não Especificado', 'T10', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos de Membro Superior, Nivel Não Especificado', 'T11', true)
-insert into Inlness (name, cid, status) values('Fratura do Membro Inferior, Nivel Não Especificado', 'T12', true)
-insert into Inlness (name, cid, status) values('Outros Traumatismos de Membro Inferior, Nivel Não Especificado', 'T13', true)
-insert into Inlness (name, cid, status) values('Traumatismo de Região Não Especificada do Corpo', 'T14', true)
-insert into Inlness (name, cid, status) values('Corpo Estranho na Parte Externa do Olho', 'T15', true)
-insert into Inlness (name, cid, status) values('Corpo Estranho no Trato Respiratorio', 'T17', true)
-insert into Inlness (name, cid, status) values('Corpo Estranho no Aparelho Digestivo', 'T18', true)
-insert into Inlness (name, cid, status) values('Corpo Estranho no Trato Geniturinario', 'T19', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão da Cabeca e Pescoço', 'T20', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Tronco', 'T21', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Ombro e Membro Superior, Exceto Punho e Mão', 'T22', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Punho e da Mão', 'T23', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Quadril e Membro Inferior, Exceto Tornozelo e do Pe', 'T24', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Tornozelo e do Pe', 'T25', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão Limitadas ao Olho e Seus Anexos', 'T26', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão do Trato Respiratorio', 'T27', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão de Outros Orgãos Internos', 'T28', true)
-insert into Inlness (name, cid, status) values('Queimaduras e Corrosões de Multiplas Regiões do Corpo', 'T29', true)
-insert into Inlness (name, cid, status) values('Queimadura e Corrosão, Parte Não Especificada do Corpo', 'T30', true)
-insert into Inlness (name, cid, status) values('Queimaduras Classificadas Segundo a Extensão da Superficie Corporal Atingida', 'T31', true)
-insert into Inlness (name, cid, status) values('Corrosões Classificadas Segundo a Extensão da Superficie Corporal Atingida', 'T32', true)
-insert into Inlness (name, cid, status) values('Geladura com Necrose de Tecidos', 'T34', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Antibioticos Sistemicos', 'T36', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Hormonios, Seus Substitutos Sinteticos e Seus Antagonistas Não Classificados em Outra Parte', 'T38', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Narcoticos e Psicodislepticos [Alucinogenos]', 'T40', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Antiepilepticos, Sedativos-Hipnoticos e Antiparkinsonianos', 'T42', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Drogas Psicotropicas Não Classificadas em Outra Parte', 'T43', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Drogas Que Afetam Principalmente O Sistema Nervoso Autonomo', 'T44', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Substancias de Ação Essencialmente Sistemica e Substancias Hematologicas, Não Classificadas em Outra Parte', 'T45', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Substancias Que Atuam Primariamente Sobre O Aparelho Circulatorio', 'T46', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Substancias Que Atuam Primariamente Sobre O Aparelho Gastrointestinal', 'T47', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Substancias Que Atuam Primariamente Sobre Os Musculos Lisos e Esqueleticos e Sobre O Aparelho Respiratorio', 'T48', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Substancias de Uso Topico Que Atuam Primariamente Sobre a Pele e as Mucosas e por Medicamentos Utilizados em Oftalmologia, Otorrinolar', 'T49', true)
-insert into Inlness (name, cid, status) values('Intoxicação por Diureticos e Outras Drogas, Medicamentos e Substancias Biologicas e as Não Especificadas', 'T50', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico do Alcool', 'T51', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Corrosivos', 'T54', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Metais', 'T56', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Monoxido de Carbono', 'T58', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Pesticidas', 'T60', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Contato com Animais Venenosos', 'T63', true)
-insert into Inlness (name, cid, status) values('Efeito Toxico de Outras Substancias e as Não Especificadas', 'T65', true)
-insert into Inlness (name, cid, status) values('Efeitos do Calor e da Luz', 'T67', true)
-insert into Inlness (name, cid, status) values('Efeitos da Pressão Atmosferica e da Pressão da Agua', 'T70', true)
-insert into Inlness (name, cid, status) values('Asfixia', 'T71', true)
-insert into Inlness (name, cid, status) values('Sindromes de Maus Tratos', 'T74', true)
-insert into Inlness (name, cid, status) values('Efeitos de Outras Causas Externas', 'T75', true)
-insert into Inlness (name, cid, status) values('Efeitos Adversos Não Classificados em Outra Parte', 'T78', true)
-insert into Inlness (name, cid, status) values('Algumas Complicações Precoces dos Traumatismos Não Classificadas em Outra Parte', 'T79', true)
-insert into Inlness (name, cid, status) values('Complicações Consequentes a Infusão, Transfusão ou Injeção Terapeutica', 'T80', true)
-insert into Inlness (name, cid, status) values('Complicações de Procedimentos Não Classificadas em Outra Parte', 'T81', true)
-insert into Inlness (name, cid, status) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Cardiacos e Vasculares', 'T82', true)
-insert into Inlness (name, cid, status) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Geniturinarios Internos', 'T83', true)
-insert into Inlness (name, cid, status) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Ortopedicos Internos', 'T84', true)
-insert into Inlness (name, cid, status) values('Complicações de Outros Dispositivos Proteticos, Implantes e Enxertos Internos', 'T85', true)
-insert into Inlness (name, cid, status) values('Falha e Rejeição de Orgãos e Tecidos Transplantados', 'T86', true)
-insert into Inlness (name, cid, status) values('Complicações Proprias de Reimplante e Amputação', 'T87', true)
-insert into Inlness (name, cid, status) values('Outras Complicações de Cuidados Medicos e Cirurgicos Não Classificadas em Outra Parte', 'T88', true)
-insert into Inlness (name, cid, status) values('Sequelas de Traumatismo da Cabeca', 'T90', true)
-insert into Inlness (name, cid, status) values('Sequelas de Traumatismos do Pescoço e do Tronco', 'T91', true)
-insert into Inlness (name, cid, status) values('Sequelas de Traumatismos do Membro Superior', 'T92', true)
-insert into Inlness (name, cid, status) values('Sequelas de Traumatismos do Membro Inferior', 'T93', true)
-insert into Inlness (name, cid, status) values('Sequelas de Traumatismos Envolvendo Multiplas Regiões do Corpo e as Não Especificadas', 'T94', true)
-insert into Inlness (name, cid, status) values('Sequelas de Queimaduras, Corrosões e Geladuras', 'T95', true)
-insert into Inlness (name, cid, status) values('Sequelas de Intoxicação por Drogas, Medicamentos e Substancias Biologicas', 'T96', true)
-insert into Inlness (name, cid, status) values('Sequelas de Efeitos Toxicos de Substancias de Origem Predominantemente Não-Medicinal', 'T97', true)
-insert into Inlness (name, cid, status) values('Sequelas de Outros Efeitos de Causas Externas e dos Não Especificados', 'T98', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Colisão com Um Veiculo a Pedal', 'V01', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V02', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V03', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou com Um Onibus', 'V04', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Colisão com Outro Veiculo Não-Motorizado', 'V06', true)
-insert into Inlness (name, cid, status) values('Pedestre Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V09', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V10', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Colisão com Outro Veiculo a Pedal', 'V11', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Colisão com Um Automovel,  Pick Up  ou Caminhonete', 'V13', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V14', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Um Acidente de Transporte sem Colisão', 'V18', true)
-insert into Inlness (name, cid, status) values('Ciclista Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V19', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V20', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Veiculo a Pedal', 'V21', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V22', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V23', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V24', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Trem ou Um Veiculo Ferroviario', 'V25', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Outro Veiculo Não-Motorizado', 'V26', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Colisão com Um Objeto Fixo ou Parado', 'V27', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Um Acidente de Transporte sem Colisão', 'V28', true)
-insert into Inlness (name, cid, status) values('Motociclista Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V29', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Triciclo Motorizado Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V34', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Triciclo Motorizado Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V39', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V40', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V43', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V44', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Objeto Fixo ou Parado', 'V47', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Um Acidente de Transporte sem Colisão', 'V48', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Automovel [Carro] Traumatizado em Outro Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V49', true)
-insert into Inlness (name, cid, status) values('Ocupante de Uma Caminhonete Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V59', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V62', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Automovel [Carro] ou Uma Caminhonete', 'V63', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Outro Veiculo de Transporte Pesado ou Um Onibus', 'V64', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Outros Acidentes de Transporte Não Especificados', 'V69', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Onibus Traumatizado em Um Acidente de Transporte sem Colisão', 'V78', true)
-insert into Inlness (name, cid, status) values('Pessoa Montada em Animal ou Ocupante de Um Veiculo a Tração Animal Traumatizado em Um Acidente de Transporte', 'V80', true)
-insert into Inlness (name, cid, status) values('Ocupante de Um Bonde [Carro Eletrico] Traumatizado em Um Acidente de Transporte', 'V82', true)
-insert into Inlness (name, cid, status) values('Acidente de Transito de Tipo Especificado, Mas Sendo Desconhecido O Modo de Transporte da Vitima', 'V87', true)
-insert into Inlness (name, cid, status) values('Acidente Não-De-Transito de Tipo Especificado, Mas Sendo Desconhecido O Modo de Transporte da Vitima', 'V88', true)
-insert into Inlness (name, cid, status) values('Acidente com Um Veiculo a Motor ou Não-Motorizado, Tipo(s) de Veiculo(s) Não Especificado(s)', 'V89', true)
-insert into Inlness (name, cid, status) values('Acidente com Embarcação Causando Outro Tipo de Traumatismo', 'V91', true)
-insert into Inlness (name, cid, status) values('Acidente de Aeronave a Motor Causando Traumatismo ao Ocupante', 'V95', true)
-insert into Inlness (name, cid, status) values('Outros Acidentes de Transporte Especificados', 'V98', true)
-insert into Inlness (name, cid, status) values('Acidente de Transporte Não Especificado', 'V99', true)
-insert into Inlness (name, cid, status) values('Queda no Mesmo Nivel por Escorregão, Tropeção ou Passos em Falsos [Traspes]', 'W01', true)
-insert into Inlness (name, cid, status) values('Queda Envolvendo Patins de Rodas ou para Gelo, Esqui ou Pranchas de Rodas', 'W02', true)
-insert into Inlness (name, cid, status) values('Outras Quedas no Mesmo Nivel por Colisão com ou Empurrão por Outra Pessoa', 'W03', true)
-insert into Inlness (name, cid, status) values('Queda de Uma Cadeira', 'W07', true)
-insert into Inlness (name, cid, status) values('Queda Envolvendo Equipamento de  Playground ', 'W09', true)
-insert into Inlness (name, cid, status) values('Queda em ou de Escadas ou Degraus', 'W10', true)
-insert into Inlness (name, cid, status) values('Queda em ou de Escadas de Mão', 'W11', true)
-insert into Inlness (name, cid, status) values('Queda em ou de Um Andaime', 'W12', true)
-insert into Inlness (name, cid, status) values('Queda de ou para Fora de Edificios ou Outras Estruturas', 'W13', true)
-insert into Inlness (name, cid, status) values('Outras Quedas de Um Nivel a Outro', 'W17', true)
-insert into Inlness (name, cid, status) values('Outras Quedas no Mesmo Nivel', 'W18', true)
-insert into Inlness (name, cid, status) values('Queda sem Especificação', 'W19', true)
-insert into Inlness (name, cid, status) values('Impacto Causado por Objeto Lancado, Projetado ou em Queda', 'W20', true)
-insert into Inlness (name, cid, status) values('Impacto Acidental Ativo ou Passivo Causado por Outros Objetos', 'W22', true)
-insert into Inlness (name, cid, status) values('Contato com Vidro Cortante', 'W25', true)
-insert into Inlness (name, cid, status) values('Contato com Faca, Espada e Punhal', 'W26', true)
-insert into Inlness (name, cid, status) values('Contato com Maquinaria Agricola', 'W30', true)
-insert into Inlness (name, cid, status) values('Contato com Outras Maquinas e com as Não Especificadas', 'W31', true)
-insert into Inlness (name, cid, status) values('Projetil de Revolver', 'W32', true)
-insert into Inlness (name, cid, status) values('Rifle, Espingarda e Armas de Fogo de Maior Tamanho', 'W33', true)
-insert into Inlness (name, cid, status) values('Projeteis de Outras Armas de Fogo e das Não Especificadas', 'W34', true)
-insert into Inlness (name, cid, status) values('Explosão ou Ruptura de Pneumatico, Tubulação ou Mangueira, Pressurizados', 'W37', true)
-insert into Inlness (name, cid, status) values('Queima de Fogos de Artificio', 'W39', true)
-insert into Inlness (name, cid, status) values('Explosão de Outros Materiais', 'W40', true)
-insert into Inlness (name, cid, status) values('Penetração de Corpo Estranho no ou Atraves de Olho ou Orificio Natural', 'W44', true)
-insert into Inlness (name, cid, status) values('Penetração de Corpo ou Objeto Estranho Atraves da Pele', 'W45', true)
-insert into Inlness (name, cid, status) values('Exposição a Outras Forcas Mecanicas Inanimadas e as Não Especificadas', 'W49', true)
-insert into Inlness (name, cid, status) values('Golpe, Pancada, Pontape, Mordedura ou Escoriação Infligidos por Outra Pessoa', 'W50', true)
-insert into Inlness (name, cid, status) values('Mordedura ou Golpe Provocado por Cão', 'W54', true)
-insert into Inlness (name, cid, status) values('Mordedura ou Golpe Provocado por Outros Animais Mamiferos', 'W55', true)
-insert into Inlness (name, cid, status) values('Mordeduras e Picadas de Inseto e de Outros Artropodes, Não-Venenosos', 'W57', true)
-insert into Inlness (name, cid, status) values('Mordedura ou Esmagamento Provocado por Outros Repteis', 'W59', true)
-insert into Inlness (name, cid, status) values('Exposição a Outras Forcas Mecanicas Animadas e as Não Especificadas', 'W64', true)
-insert into Inlness (name, cid, status) values('Afogamento e Submersão Consequente a Queda Dentro de Uma Piscina', 'W68', true)
-insert into Inlness (name, cid, status) values('Afogamento e Submersão Consequentes a Queda Dentro de Aguas Naturais', 'W70', true)
-insert into Inlness (name, cid, status) values('Afogamento e Submersão Não Especificados', 'W74', true)
-insert into Inlness (name, cid, status) values('Risco a Respiração Devido a Desmoronamento, Queda de Terra e de Outras Substancias', 'W77', true)
-insert into Inlness (name, cid, status) values('Riscos Não Especificados a Respiração', 'W84', true)
-insert into Inlness (name, cid, status) values('Exposição a Linhas de Transmissão de Corrente Eletrica', 'W85', true)
-insert into Inlness (name, cid, status) values('Exposição a Outra Corrente Eletrica Especificada', 'W86', true)
-insert into Inlness (name, cid, status) values('Exposição a Corrente Eletrica Não Especificada', 'W87', true)
-insert into Inlness (name, cid, status) values('Exposição a Outros Tipos de Radiação Não-Ionizante', 'W90', true)
-insert into Inlness (name, cid, status) values('Exposição a Tipo Não Especificado de Fumacas, Fogo ou Chamas', 'X09', true)
-insert into Inlness (name, cid, status) values('Contato com Outros Liquidos Quentes', 'X12', true)
-insert into Inlness (name, cid, status) values('Contato com Serpentes e Lagartos Venenosos', 'X20', true)
-insert into Inlness (name, cid, status) values('Contato com Aranhas Venenosas', 'X21', true)
-insert into Inlness (name, cid, status) values('Contato com Escorpiões', 'X22', true)
-insert into Inlness (name, cid, status) values('Contato com Abelhas, Vespas e Vespões', 'X23', true)
-insert into Inlness (name, cid, status) values('Contato com Outros Animais Venenosos Especificados', 'X27', true)
-insert into Inlness (name, cid, status) values('Contato com Animais ou Plantas Venenosos, sem Especificação', 'X29', true)
-insert into Inlness (name, cid, status) values('Vitima de Raio', 'X33', true)
-insert into Inlness (name, cid, status) values('Exposição a Outras Forcas da Natureza e as Não Especificadas', 'X39', true)
-insert into Inlness (name, cid, status) values('Envenenamento [Intoxicação] Acidental por e Exposição a Outras Drogas, Medicamentos e Substancias Biologicas Não Especificadas', 'X44', true)
-insert into Inlness (name, cid, status) values('Envenenamento [Intoxicação] Acidental por e Exposição a Pesticidas', 'X48', true)
-insert into Inlness (name, cid, status) values('Excesso de Exercicios e Movimentos Vigorosos ou Repetitivos', 'X50', true)
-insert into Inlness (name, cid, status) values('Estadia Prolongada em Ambiente Agravitacional', 'X52', true)
-insert into Inlness (name, cid, status) values('Exposição a Outros Fatores Especificados', 'X58', true)
-insert into Inlness (name, cid, status) values('Exposição a Fatores Não Especificados', 'X59', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Analgesicos, Antipireticos e Anti-Reumaticos, Não-Opiaceos', 'X60', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Drogas Anticonvulsivantes [Antiepilepticos] Sedativos, Hipnoticos, Antiparkinsonianos e Psicotropicos', 'X61', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Narcoticos e Psicodislepticos [Alucinogenos] Não Classificados em Outra Parte', 'X62', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Outras Substancias Farmacologicas de Ação Sobre O Sistema Nervoso Autonomo', 'X63', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Outras Drogas, Medicamentos e Substancias Biologicas e as Não Especificadas', 'X64', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação Voluntaria por Alcool', 'X65', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação Intencional por Solventes Organicos, Hidrocarbonetos Halogenados e Seus Vapores', 'X66', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação Intencional por Outros Gases e Vapores', 'X67', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Pesticidas', 'X68', true)
-insert into Inlness (name, cid, status) values('Auto-Intoxicação por e Exposição, Intencional, a Outros Produtos Quimicos e Substancias Nocivas Não Especificadas', 'X69', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Enforcamento, Estrangulamento e Sufocação', 'X70', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Disparo de Arma de Fogo de Mão', 'X72', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Disparo de Outra Arma de Fogo e de Arma de Fogo Não Especificada', 'X74', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Objeto Cortante ou Penetrante', 'X78', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Precipitação de Um Lugar Elevado', 'X80', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Impacto de Um Veiculo a Motor', 'X82', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Outros Meios Especificados', 'X83', true)
-insert into Inlness (name, cid, status) values('Lesão Autoprovocada Intencionalmente por Meios Não Especificados', 'X84', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Substancias Corrosivas', 'X86', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Produtos Quimicos e Substancias Nocivas Não Especificados', 'X90', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Enforcamento, Estrangulamento e Sufocação', 'X91', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Afogamento e Submersão', 'X92', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Disparo de Arma de Fogo de Mão', 'X93', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Disparo de Espingarda, Carabina ou Arma de Fogo de Maior Calibre', 'X94', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Disparo de Outra Arma de Fogo ou de Arma Não Especificada', 'X95', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Fumaca, Fogo e Chamas', 'X97', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Objeto Cortante ou Penetrante', 'X99', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Um Objeto Contundente', 'Y00', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Impacto de Um Veiculo a Motor', 'Y03', true)
-insert into Inlness (name, cid, status) values('Agressão por Meio de Forca Corporal', 'Y04', true)
-insert into Inlness (name, cid, status) values('Agressão Sexual por Meio de Forca Fisica', 'Y05', true)
-insert into Inlness (name, cid, status) values('Agressão por Outros Meios Especificados', 'Y08', true)
-insert into Inlness (name, cid, status) values('Agressão por Meios Não Especificados', 'Y09', true)
-insert into Inlness (name, cid, status) values('Envenenamento [Intoxicação] por e Exposição a Outros Produtos Quimicos e Substancias Nocivas e Aos Não Especificados, Intenção Não Determinada', 'Y19', true)
-insert into Inlness (name, cid, status) values('Enforcamento, Estrangulamento e Sufocação, Intenção Não Determinada', 'Y20', true)
-insert into Inlness (name, cid, status) values('Disparo de Pistola, Intenção Não Determinada', 'Y22', true)
-insert into Inlness (name, cid, status) values('Disparo de Fuzil, Carabina e Arma de Fogo de Maior Calibre, Intenção Não Determinada', 'Y23', true)
-insert into Inlness (name, cid, status) values('Disparo de Outra Arma de Fogo e de Arma de Fogo Não Especificada, Intenção Não Determinada', 'Y24', true)
-insert into Inlness (name, cid, status) values('Exposição a Fumaca, Fogo e Chamas, Intenção Não Determinada', 'Y26', true)
-insert into Inlness (name, cid, status) values('Contato com Objeto Cortante ou Penetrante, Intenção Não Determinada', 'Y28', true)
-insert into Inlness (name, cid, status) values('Contato com Objeto Contundente, Intenção Não Determinada', 'Y29', true)
-insert into Inlness (name, cid, status) values('Outros Fatos ou Eventos Especificados, Intenção Não Determinada', 'Y33', true)
-insert into Inlness (name, cid, status) values('Fatos ou Eventos Não Especificados e Intenção Não Determinada', 'Y34', true)
-insert into Inlness (name, cid, status) values('Hormonios e Seus Substitutos Sinteticos e Antagonistas, Não Classificados em Outra Parte', 'Y42', true)
-insert into Inlness (name, cid, status) values('Substancias de Ação Primariamente Sistemica', 'Y43', true)
-insert into Inlness (name, cid, status) values('Substancias Farmacologicas Que Atuam Primariamente Sobre Os Constituintes do Sangue', 'Y44', true)
-insert into Inlness (name, cid, status) values('Substancias Analgesicas, Antipireticas e Antiinflamatorias', 'Y45', true)
-insert into Inlness (name, cid, status) values('Estimulantes do Sistema Nervoso Central, Não Classificados em Outra Parte', 'Y50', true)
-insert into Inlness (name, cid, status) values('Substancias Que Atuam Primariamente Sobre O Aparelho Gastrointestinal', 'Y53', true)
-insert into Inlness (name, cid, status) values('Substancias Que Atuam Primariamente Sobre O Metabolismo da Agua, dos Sais Minerais e do Acido Urico', 'Y54', true)
-insert into Inlness (name, cid, status) values('Outras Drogas e Medicamentos e as Não Especificadas', 'Y57', true)
-insert into Inlness (name, cid, status) values('Outras Vacinas e Substancias Biologicas e as Não Especificadas', 'Y59', true)
-insert into Inlness (name, cid, status) values('Corte, Punção, Perfuração ou Hemorragia Acidentais Durante a Prestação de Cuidados Medicos ou Cirurgicos', 'Y60', true)
-insert into Inlness (name, cid, status) values('Objeto Estranho Deixado Acidentalmente no Corpo Durante a Prestação de Cuidados Cirurgicos e Medicos', 'Y61', true)
-insert into Inlness (name, cid, status) values('Assepsia Insuficiente Durante a Prestação de Cuidados Cirurgicos e Medicos', 'Y62', true)
-insert into Inlness (name, cid, status) values('Outros Acidentes Durante a Prestação de Cuidados Medicos e Cirurgicos', 'Y65', true)
-insert into Inlness (name, cid, status) values('Acidente Não Especificado Durante a Prestação de Cuidado Medico e Cirurgico', 'Y69', true)
-insert into Inlness (name, cid, status) values('Dispositivos (Aparelhos) Usados em Gastroenterologia e em Urologia, Associados a Incidentes Adversos', 'Y73', true)
-insert into Inlness (name, cid, status) values('Dispositivos (Aparelhos) Utilizados em Obstetricia e em Ginecologia, Associados a Incidentes Adversos', 'Y76', true)
-insert into Inlness (name, cid, status) values('Dispositivos (Aparelhos) Ortopedicos, Associado a Incidentes Adversos', 'Y79', true)
-insert into Inlness (name, cid, status) values('Dispositivos (Aparelhos) Utilizados em Medicina Fisica (Fisiatria), Associado a Incidentes Adversos', 'Y80', true)
-insert into Inlness (name, cid, status) values('Dispositivos (Aparelhos) Utilizados em Cirurgia Geral ou Cirurgia Plastica, Associados a Incidente Adversos', 'Y81', true)
-insert into Inlness (name, cid, status) values('Outros Dispositivos (Aparelhos) Associados a Incidentes Adversos e Os Não Especificados', 'Y82', true)
-insert into Inlness (name, cid, status) values('Reação Anormal em Paciente ou Complicação Tardia, Causadas por Intervenção Cirurgica e por Outros Atos Cirurgicos, sem Menção de Acidente Durante a In', 'Y83', true)
-insert into Inlness (name, cid, status) values('Reação Anormal em Paciente ou Complicação Tardia, Causadas por Outros Procedimentos Medicos, sem Menção de Acidente Durante O Procedimento', 'Y84', true)
-insert into Inlness (name, cid, status) values('Sequelas de Acidentes de Transporte', 'Y85', true)
-insert into Inlness (name, cid, status) values('Sequelas de Outros Acidentes', 'Y86', true)
-insert into Inlness (name, cid, status) values('Sequelas de Cuidado Medico ou Cirurgico Considerados Como Uma Causa Externa', 'Y88', true)
-insert into Inlness (name, cid, status) values('Sequelas de Outras Causas Externas', 'Y89', true)
-insert into Inlness (name, cid, status) values('Evidencia de Alcoolismo Determinada Pelo Nivel da Intoxicação', 'Y91', true)
-insert into Inlness (name, cid, status) values('Circunstancia Relativa as Condições de Trabalho', 'Y96', true)
-insert into Inlness (name, cid, status) values('Exame Geral e Investigação de Pessoas sem Queixas ou Diagnostico Relatado', 'Z00', true)
-insert into Inlness (name, cid, status) values('Exame Medico e Consulta com Finalidades Administrativas', 'Z02', true)
-insert into Inlness (name, cid, status) values('Observação e Avaliação Medica por Doencas e Afecções Suspeitas', 'Z03', true)
-insert into Inlness (name, cid, status) values('Exame e Observação por Outras Razões', 'Z04', true)
-insert into Inlness (name, cid, status) values('Exame de Seguimento Apos Tratamento por Neoplasia Maligna', 'Z08', true)
-insert into Inlness (name, cid, status) values('Exame de Seguimento Apos Tratamento de Outras Afecções Que Não Neoplasias Malignas', 'Z09', true)
-insert into Inlness (name, cid, status) values('Exame Geral de Rotina ( Check Up ) de Uma Subpopulação Definida', 'Z10', true)
-insert into Inlness (name, cid, status) values('Contato com e Exposição a Doencas Transmissiveis', 'Z20', true)
-insert into Inlness (name, cid, status) values('Estado de Infecção Assintomatica Pelo Virus da Imunodeficiencia Humana [Hiv]', 'Z21', true)
-insert into Inlness (name, cid, status) values('Portador de Doenca Infecciosa', 'Z22', true)
-insert into Inlness (name, cid, status) values('Necessidade de Outras Medidas Profilaticas', 'Z29', true)
-insert into Inlness (name, cid, status) values('Anticoncepcão', 'Z30', true)
-insert into Inlness (name, cid, status) values('Medidas de Procriaão', 'Z31', true)
-insert into Inlness (name, cid, status) values('Exame ou Teste de Gravidez', 'Z32', true)
-insert into Inlness (name, cid, status) values('Gravidez Como Achado Casual', 'Z33', true)
-insert into Inlness (name, cid, status) values('Supervisão de Gravidez de Alto Risco', 'Z35', true)
-insert into Inlness (name, cid, status) values('Rastreamento ( Screening ) Pre-Natal', 'Z36', true)
-insert into Inlness (name, cid, status) values('Assistencia e Exame Pos-Natal', 'Z39', true)
-insert into Inlness (name, cid, status) values('Cirurgia Profilatica', 'Z40', true)
-insert into Inlness (name, cid, status) values('Procedimentos para Outros Propositos Exceto Cuidados de Saude', 'Z41', true)
-insert into Inlness (name, cid, status) values('Atencão a Orificios Artificiais', 'Z43', true)
-insert into Inlness (name, cid, status) values('Colocação e Ajustamento de Aparelhos de Protese Externa', 'Z44', true)
-insert into Inlness (name, cid, status) values('Ajustamento e Manuseio de Dispositivo Implantado', 'Z45', true)
-insert into Inlness (name, cid, status) values('Colocação e Ajustamento de Outros Aparelhos', 'Z46', true)
-insert into Inlness (name, cid, status) values('Outros Cuidados de Seguimento Ortopedico', 'Z47', true)
-insert into Inlness (name, cid, status) values('Outro Seguimento Cirurgico', 'Z48', true)
-insert into Inlness (name, cid, status) values('Cuidados Envolvendo Dialise', 'Z49', true)
-insert into Inlness (name, cid, status) values('Cuidados Envolvendo O Uso de Procedimentos de Reabilitação', 'Z50', true)
-insert into Inlness (name, cid, status) values('Outros Cuidados Medicos', 'Z51', true)
-insert into Inlness (name, cid, status) values('Doadores de Orgãos e Tecidos', 'Z52', true)
-insert into Inlness (name, cid, status) values('Pessoas em Contato com Servicos de Saude para Procedimentos Especificos Não Realizados', 'Z53', true)
-insert into Inlness (name, cid, status) values('Convalescenca', 'Z54', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com O Emprego e com O Desemprego', 'Z56', true)
-insert into Inlness (name, cid, status) values('Exposição Ocupacional a Fatores de Risco', 'Z57', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com a Habitação e com as Condições Economicas', 'Z59', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com O Meio Social', 'Z60', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com Eventos Negativos de Vida na Infancia', 'Z61', true)
-insert into Inlness (name, cid, status) values('Outros Problemas Relacionados com a Educação da Crianca', 'Z62', true)
-insert into Inlness (name, cid, status) values('Outros Problemas Relacionados com O Grupo Primario de Apoio, Inclusive com a Situação Familiar', 'Z63', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com Algumas Outras Circuntancias Psicossociais', 'Z64', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com Outras Circunstancias Psicossociais', 'Z65', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com O Estilo de Vida', 'Z72', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com a Organização de Seu Modo de Vida', 'Z73', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com a Dependencia de Uma Pessoa Que Oferece Cuidados de Saude', 'Z74', true)
-insert into Inlness (name, cid, status) values('Problemas Relacionados com as Facilidades Medicas e Outros Cuidados de Saude', 'Z75', true)
-insert into Inlness (name, cid, status) values('Pessoas em Contato com Os Servicos de Saude em Outras Circunstancias', 'Z76', true)
-insert into Inlness (name, cid, status) values('Historia Familiar de Neoplasia Maligna', 'Z80', true)
-insert into Inlness (name, cid, status) values('Historia Familiar de Algumas Incapacidades e Doencas Cronicas Que Conduzem a Incapacitação', 'Z82', true)
-insert into Inlness (name, cid, status) values('Historia Pessoal de Neoplasia Maligna', 'Z85', true)
-insert into Inlness (name, cid, status) values('Historia Pessoal de Algumas Outras Doencas', 'Z86', true)
-insert into Inlness (name, cid, status) values('Historia Pessoal de Outras Doencas e Afecções', 'Z87', true)
-insert into Inlness (name, cid, status) values('Ausencia Adquirida de Membros', 'Z89', true)
-insert into Inlness (name, cid, status) values('Ausencia Adquirida de Orgãos Não Classificados em Outra Parte', 'Z90', true)
-insert into Inlness (name, cid, status) values('Historia Pessoal de Fatores de Risco, Não Classificados em Outra Parte', 'Z91', true)
-insert into Inlness (name, cid, status) values('Orificios Artificiais', 'Z93', true)
-insert into Inlness (name, cid, status) values('Orgãos e Tecidos Transplantados', 'Z94', true)
-insert into Inlness (name, cid, status) values('Presenca de Implantes e Enxertos Cardiacos e Vasculares', 'Z95', true)
-insert into Inlness (name, cid, status) values('Presenca de Outros Implantes Funcionais', 'Z96', true)
-insert into Inlness (name, cid, status) values('Presenca de Outros Dispositivos Proteticos', 'Z97', true)
-insert into Inlness (name, cid, status) values('Outros Estados Pos-Cirurgicos', 'Z98', true)
-insert into Inlness (name, cid, status) values('Dependencia de Maquinas e Dispositivos Capacitantes, Não Classificados em Outra Parte', 'Z99', true)
+insert into Inlness (name, cid) values('Colera', 'A00');
+insert into Inlness (name, cid) values('Febres Tifoide e Paratifoide', 'A01');
+insert into Inlness (name, cid) values('Outras Infecções por Salmonella', 'A02');
+insert into Inlness (name, cid) values('Outras Infeccõess Intestinais Bacterianas', 'A04');
+insert into Inlness (name, cid) values('Outras Intoxicacões Alimentares Bacterianas', 'A05');
+insert into Inlness (name, cid) values('Amebiase', 'A06');
+insert into Inlness (name, cid) values('Outras Doencas Intestinais por Protozoarios', 'A07');
+insert into Inlness (name, cid) values('Infecções Intestinais Virais, Outras e as Não Especificadas', 'A08');
+insert into Inlness (name, cid) values('Diarreia e Gastroenterite de Origem Infecciosa Presumivel', 'A09');
+insert into Inlness (name, cid) values('Tuberculose Respiratoria, com Confirmação Bacteriologica e Histologica', 'A15');
+insert into Inlness (name, cid) values('Tuberculose das Vias Respiratorias, sem Confirmação Bacteriologica ou Histologica', 'A16');
+insert into Inlness (name, cid) values('Tuberculose do Sistema Nervoso', 'A17');
+insert into Inlness (name, cid) values('Tuberculose de Outros Orgãos', 'A18');
+insert into Inlness (name, cid) values('Tuberculose Miliar', 'A19');
+insert into Inlness (name, cid) values('Carbunculo', 'A22');
+insert into Inlness (name, cid) values('Brucelose', 'A23');
+insert into Inlness (name, cid) values('Febres Transmitidas por Mordedura de Rato', 'A25');
+insert into Inlness (name, cid) values('Erisipeloide', 'A26');
+insert into Inlness (name, cid) values('Leptospirose', 'A27');
+insert into Inlness (name, cid) values('Outras Doencas Bacterianas Zoonoticas Não Classificadas em Outra Parte', 'A28');
+insert into Inlness (name, cid) values('Hanseniase [Doenca de Hansen] [Lepra]', 'A30');
+insert into Inlness (name, cid) values('Infeccões Devidas a Outras Micobacterias', 'A31');
+insert into Inlness (name, cid) values('Listeriose [Listeriase]', 'A32');
+insert into Inlness (name, cid) values('Outros Tipos de Tetano', 'A35');
+insert into Inlness (name, cid) values('Escarlatina', 'A38');
+insert into Inlness (name, cid) values('Infecção Meningogocica', 'A39');
+insert into Inlness (name, cid) values('Septicemia Estreptococica', 'A40');
+insert into Inlness (name, cid) values('Outras Septicemias', 'A41');
+insert into Inlness (name, cid) values('Actinomicose', 'A42');
+insert into Inlness (name, cid) values('Nocardiose', 'A43');
+insert into Inlness (name, cid) values('Bartonelose', 'A44');
+insert into Inlness (name, cid) values('Erisipela', 'A46');
+insert into Inlness (name, cid) values('Outras Doencas Bacterianas Não Classificadas em Outra Parte', 'A48');
+insert into Inlness (name, cid) values('Infecção Bacteriana de Local Não Especificado', 'A49');
+insert into Inlness (name, cid) values('Sifilis Congenita', 'A50');
+insert into Inlness (name, cid) values('Sifilis Precoce', 'A51');
+insert into Inlness (name, cid) values('Sifilis Tardia', 'A52');
+insert into Inlness (name, cid) values('Outras Formas e as Não Especificadas da Sifilis', 'A53');
+insert into Inlness (name, cid) values('Infecção Gonococica', 'A54');
+insert into Inlness (name, cid) values('Linfogranuloma (Venereo) por Clamidia', 'A55');
+insert into Inlness (name, cid) values('Outras Infecções Causadas por Clamidias Transmitidas por Via Sexual', 'A56');
+insert into Inlness (name, cid) values('Granuloma Inguinal', 'A58');
+insert into Inlness (name, cid) values('Tricomoniase', 'A59');
+insert into Inlness (name, cid) values('Infecções Anogenitais Pelo Virus do Herpes [Herpes Simples]', 'A60');
+insert into Inlness (name, cid) values('Outras Doencas de Transmissão Predominantemente Sexual, Não Classificadas em Outra Parte', 'A63');
+insert into Inlness (name, cid) values('Doencas Sexualmente Transmitidas, Não Especificadas', 'A64');
+insert into Inlness (name, cid) values('Bouba', 'A66');
+insert into Inlness (name, cid) values('Pinta [Carate]', 'A67');
+insert into Inlness (name, cid) values('Febres Recorrentes [Borrelioses]', 'A68');
+insert into Inlness (name, cid) values('Outras Infecções por Espiroquetas', 'A69');
+insert into Inlness (name, cid) values('Infecções Causadas por Clamidia Psittaci', 'A70');
+insert into Inlness (name, cid) values('Tifo Exantematico', 'A75');
+insert into Inlness (name, cid) values('Febre Maculosa [Rickettsioses Transmitidas por Carrapatos]', 'A77');
+insert into Inlness (name, cid) values('Outras Rickettsioses', 'A79');
+insert into Inlness (name, cid) values('Poliomielite Aguda', 'A80');
+insert into Inlness (name, cid) values('Infecções por Virus Atipico do Sistema Nervoso Central', 'A81');
+insert into Inlness (name, cid) values('Outras Encefalites Virais, Não Classificadas em Outra Parte', 'A85');
+insert into Inlness (name, cid) values('Encefalite Viral, Não Especificada', 'A86');
+insert into Inlness (name, cid) values('Meningite Viral', 'A87');
+insert into Inlness (name, cid) values('Outras Infecções Virais do Sistema Nervoso Central Não Classificadas em Outra Parte', 'A88');
+insert into Inlness (name, cid) values('Infecções Virais Não Especificadas do Sistema Nervoso Central', 'A89');
+insert into Inlness (name, cid) values('Dengue [Dengue Classico]', 'A90');
+insert into Inlness (name, cid) values('Febre Hemorragica Devida ao Virus do Dengue', 'A91');
+insert into Inlness (name, cid) values('Outras Febres Virais Transmitidas por Mosquitos', 'A92');
+insert into Inlness (name, cid) values('Outras Febres por Virus Transmitidas por Artropodes Não Classificadas em Outra Parte', 'A93');
+insert into Inlness (name, cid) values('Febre Viral Transmitida por Artropodes, Não Especificada', 'A94');
+insert into Inlness (name, cid) values('Febre Amarela', 'A95');
+insert into Inlness (name, cid) values('Febre Hemorragica por Arenavirus', 'A96');
+insert into Inlness (name, cid) values('Outras Febres Hemorragicas por Virus, Não Classificadas em Outra Parte', 'A98');
+insert into Inlness (name, cid) values('Febres Hemorragicas Virais Não Especificadas', 'A99');
+insert into Inlness (name, cid) values('Infecções Pelo Virus do Herpes [Herpes Simples]', 'B00');
+insert into Inlness (name, cid) values('Varicela', 'B01');
+insert into Inlness (name, cid) values('Herpes Zoster [Zona]', 'B02');
+insert into Inlness (name, cid) values('Sarampo', 'B05');
+insert into Inlness (name, cid) values('Rubeola', 'B06');
+insert into Inlness (name, cid) values('Verrugas de Origem Viral', 'B07');
+insert into Inlness (name, cid) values('Outras Infeccões Virais Caracterizadas por Lesões da Pele e das Membranas Mucosas, Não Classificadas em Outra Parte', 'B08');
+insert into Inlness (name, cid) values('Infecção Viral Não Especificada Caracterizada por Lesões da Pele e Membranas Mucosas', 'B09');
+insert into Inlness (name, cid) values('Hepatite Aguda A', 'B15');
+insert into Inlness (name, cid) values('Hepatite Aguda B', 'B16');
+insert into Inlness (name, cid) values('Outras Hepatites Virais Agudas', 'B17');
+insert into Inlness (name, cid) values('Hepatite Viral Cronica', 'B18');
+insert into Inlness (name, cid) values('Hepatite Viral Não Especificada', 'B19');
+insert into Inlness (name, cid) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv], Resultando em Doencas Infecciosas e Parasitarias', 'B20');
+insert into Inlness (name, cid) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv], Resultando em Neoplasias Malignas', 'B21');
+insert into Inlness (name, cid) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Resultando em Outras Doencas Especificadas', 'B22');
+insert into Inlness (name, cid) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Resultando em Outras Doencas', 'B23');
+insert into Inlness (name, cid) values('Doenca Pelo Virus da Imunodeficiencia Humana [Hiv] Não Especificada', 'B24');
+insert into Inlness (name, cid) values('Doenca por Citomegalovirus', 'B25');
+insert into Inlness (name, cid) values('Caxumba [Parotidite Epidemica]', 'B26');
+insert into Inlness (name, cid) values('Mononucleose Infecciosa', 'B27');
+insert into Inlness (name, cid) values('Conjuntivite Viral', 'B30');
+insert into Inlness (name, cid) values('Outras Doencas por Virus Não Classificada em Outra Parte', 'B33');
+insert into Inlness (name, cid) values('Doencas por Virus, de Localização Não Especificada', 'B34');
+insert into Inlness (name, cid) values('Dermatofitose', 'B35');
+insert into Inlness (name, cid) values('Outras Micoses Superficiais', 'B36');
+insert into Inlness (name, cid) values('Candidiase', 'B37');
+insert into Inlness (name, cid) values('Coccidioidomicose', 'B38');
+insert into Inlness (name, cid) values('Histoplasmose', 'B39');
+insert into Inlness (name, cid) values('Blastomicose', 'B40');
+insert into Inlness (name, cid) values('Paracoccidioidomicose', 'B41');
+insert into Inlness (name, cid) values('Esporotricose', 'B42');
+insert into Inlness (name, cid) values('Cromomicose e Abscesso Feomicotico', 'B43');
+insert into Inlness (name, cid) values('Aspergilose', 'B44');
+insert into Inlness (name, cid) values('Criptococose', 'B45');
+insert into Inlness (name, cid) values('Zigomicose', 'B46');
+insert into Inlness (name, cid) values('Micetoma', 'B47');
+insert into Inlness (name, cid) values('Outras Micoses, Não Classificadas em Outra Parte', 'B48');
+insert into Inlness (name, cid) values('Micose Não Especificada', 'B49');
+insert into Inlness (name, cid) values('Malaria por Plasmodium Falciparum', 'B50');
+insert into Inlness (name, cid) values('Malaria por Plasmodium Vivax', 'B51');
+insert into Inlness (name, cid) values('Outras Formas de Malaria Confirmadas por Exames Parasitologicos', 'B53');
+insert into Inlness (name, cid) values('Malaria Não Especificada', 'B54');
+insert into Inlness (name, cid) values('Leishmaniose', 'B55');
+insert into Inlness (name, cid) values('Tripanossomiase Africana', 'B56');
+insert into Inlness (name, cid) values('Doenca de Chagas', 'B57');
+insert into Inlness (name, cid) values('Toxoplasmose', 'B58');
+insert into Inlness (name, cid) values('Pneumocistose', 'B59');
+insert into Inlness (name, cid) values('Outras Doencas Devidas a Protozoarios, Não Classificadas em Outra Parte', 'B60');
+insert into Inlness (name, cid) values('Doenca Não Especificada Devida a Protozoarios', 'B64');
+insert into Inlness (name, cid) values('Esquistossomose [Bilharziose] [Schistosomiase]', 'B65');
+insert into Inlness (name, cid) values('Outras Infestações por Trematodeos', 'B66');
+insert into Inlness (name, cid) values('Equinococose', 'B67');
+insert into Inlness (name, cid) values('Cisticercose', 'B69');
+insert into Inlness (name, cid) values('Filariose', 'B74');
+insert into Inlness (name, cid) values('Triquinose', 'B75');
+insert into Inlness (name, cid) values('Ancilostomiase', 'B76');
+insert into Inlness (name, cid) values('Ascaridiase', 'B77');
+insert into Inlness (name, cid) values('Estrongiloidiase', 'B78');
+insert into Inlness (name, cid) values('Outras Helmintiases Intestinais, Não Classificadas em Outra Parte', 'B81');
+insert into Inlness (name, cid) values('Outras Helmintiases', 'B83');
+insert into Inlness (name, cid) values('Escabiose [Sarna]', 'B86');
+insert into Inlness (name, cid) values('Miiase', 'B87');
+insert into Inlness (name, cid) values('Outras Infestacões', 'B88');
+insert into Inlness (name, cid) values('Doenca Parasitaria Não Especificada', 'B89');
+insert into Inlness (name, cid) values('Sequelas de Tuberculose', 'B90');
+insert into Inlness (name, cid) values('Sequelas de Poliomielite', 'B91');
+insert into Inlness (name, cid) values('Sequelas de Hanseniase [Lepra]', 'B92');
+insert into Inlness (name, cid) values('Sequelas de Outras Doencas Infecciosas e Parasitarias e das Não Especificadas', 'B94');
+insert into Inlness (name, cid) values('Estreptococos e Estafilococos Como Causa de Doencas Classificadas em Outros Capitulos', 'B95');
+insert into Inlness (name, cid) values('Outros Agentes Bacterianos, Como Causa de Doencas Classificadas em Outros Capitulos', 'B96');
+insert into Inlness (name, cid) values('Virus Como Causa de Doencas Classificadas em Outros Capitulos', 'B97');
+insert into Inlness (name, cid) values('Doencas Infecciosas, Outras e as Não Especificadas', 'B99');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Labio', 'C00');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Base da Lingua', 'C01');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Partes e de Partes Não Especificadas da Lingua', 'C02');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Gengiva', 'C03');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Assoalho da Boca', 'C04');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Palato', 'C05');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Partes e de Partes Não Especificadas da Boca', 'C06');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Glandula Parotida', 'C07');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Glandulas Salivares Maiores e as Não Especificadas', 'C08');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Amigdala', 'C09');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Orofaringe', 'C10');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Nasofaringe', 'C11');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Seio Piriforme', 'C12');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Hipofaringe', 'C13');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Localizacões e de Localizacões Mal Definida, do Labio, Cavidade Oral e Faringe', 'C14');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Esofago', 'C15');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Estomago', 'C16');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Intestino Delgado', 'C17');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Colon', 'C18');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Junção Retossigmoide', 'C19');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Reto', 'C20');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Anus e do Canal Anal', 'C21');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Figado e das Vias Biliares Intra-Hepaticas', 'C22');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Vesicula Biliar', 'C23');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Partes, e de Partes Não Especificadas das Vias Biliares', 'C24');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Pancreas', 'C25');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outros Orgãos Digestivos e de Localizacções Mal Definidas no Aparelho Digestivo', 'C26');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Cavidade Nasal e do Ouvido Medio', 'C30');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Seios da Face', 'C31');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Laringe', 'C32');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Traqueia', 'C33');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Bronquios e dos Pulmões', 'C34');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Timo', 'C37');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Coracção, Mediastino e Pleura', 'C38');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Localizações e de Localizações Mal Definidas do Aparelho Respiratorio e dos Orgãos Intratoracicos', 'C39');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Ossos e Cartilagens Articulares dos Membros', 'C40');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Ossos e das Cartilagens Articulares de Outras Localizações e de Localizações Não Especificadas', 'C41');
+insert into Inlness (name, cid) values('Melanoma Maligno da Pele', 'C43');
+insert into Inlness (name, cid) values('Outras Neoplasias Malignas da Pele', 'C44');
+insert into Inlness (name, cid) values('Mesotelioma', 'C45');
+insert into Inlness (name, cid) values('Sarcoma de Kaposi', 'C46');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Nervos Perifericos e do Sistema Nervoso Autonomo', 'C47');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Tecidos Moles do Retroperitonio e do Peritonio', 'C48');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Tecido Conjuntivo e de Outros Tecidos Moles', 'C49');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Mama', 'C50');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Vulva', 'C51');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Vagina', 'C52');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Colo do Utero', 'C53');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Corpo do Utero', 'C54');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Utero, Porção Não Especificada', 'C55');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Ovario', 'C56');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outros Orgãos Genitais Femininos e dos Não Especificados', 'C57');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Placenta', 'C58');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Penis', 'C60');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Prostata', 'C61');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Testiculos', 'C62');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outros Orgãos Genitais Masculinos e dos Não Especificados', 'C63');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Rim, Exceto Pelve Renal', 'C64');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Pelve Renal', 'C65');
+insert into Inlness (name, cid) values('Neoplasia Maligna dos Ureteres', 'C66');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Bexiga', 'C67');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outros Orgãos Urinarios e dos Não Especificados', 'C68');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Olho e Anexos', 'C69');
+insert into Inlness (name, cid) values('Neoplasia Maligna das Meninges', 'C70');
+insert into Inlness (name, cid) values('Neoplasia Maligna do Encefalo', 'C71');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Medula Espinhal, dos Nervos Cranianos e de Outras Partes do Sistema Nervoso Central', 'C72');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Glandula Tireoide', 'C73');
+insert into Inlness (name, cid) values('Neoplasia Maligna da Glandula Supra-Renal', 'C74');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Glandulas Endocrinas e de Estruturas Relacionadas', 'C75');
+insert into Inlness (name, cid) values('Neoplasia Maligna de Outras Localizações e de Localizações Mal Definidas', 'C76');
+insert into Inlness (name, cid) values('Neoplasia Maligna Secundaria e Não Especificada dos Ganglios Linfaticos', 'C77');
+insert into Inlness (name, cid) values('Neoplasia Maligna Secundaria dos Orgãos Respiratorios e Digestivos', 'C78');
+insert into Inlness (name, cid) values('Neoplasia Maligna Secundaria de Outras Localizacões', 'C79');
+insert into Inlness (name, cid) values('Neoplasia Maligna, sem Especificação de Localização', 'C80');
+insert into Inlness (name, cid) values('Doenca de Hodgkin', 'C81');
+insert into Inlness (name, cid) values('Linfoma Não-Hodgkin, Folicular (Nodular)', 'C82');
+insert into Inlness (name, cid) values('Linfoma Não-Hodgkin Difuso', 'C83');
+insert into Inlness (name, cid) values('Linfomas de Celulas T Cutaneas e Perifericas', 'C84');
+insert into Inlness (name, cid) values('Linfoma Não-Hodgkin de Outros Tipos e de Tipo Não Especificado', 'C85');
+insert into Inlness (name, cid) values('Doencas Imunoproliferativas Malignas', 'C88');
+insert into Inlness (name, cid) values('Mieloma Multiplo e Neoplasias Malignas de Plasmocitos', 'C90');
+insert into Inlness (name, cid) values('Leucemia Linfoide', 'C91');
+insert into Inlness (name, cid) values('Leucemia Mieloide', 'C92');
+insert into Inlness (name, cid) values('Leucemia Monocitica', 'C93');
+insert into Inlness (name, cid) values('Outras Leucemias de Celulas de Tipo Especificado', 'C94');
+insert into Inlness (name, cid) values('Leucemia de Tipo Celular Não Especificado', 'C95');
+insert into Inlness (name, cid) values('Outras Neoplasias Malignas e as Não Especificadas dos Tecidos Linfatico, Hematopoetico e Tecidos Correlatos', 'C96');
+insert into Inlness (name, cid) values('Neoplasias Malignas de Localizações Multiplas Independentes (Primarias)', 'C97');
+insert into Inlness (name, cid) values('Carcinoma In Situ da Cavidade Oral, do Esofago e do Estomago', 'D00');
+insert into Inlness (name, cid) values('Carcinoma In Situ de Outros Orgãos Digestivos', 'D01');
+insert into Inlness (name, cid) values('Carcinoma In Situ do Ouvido Medio e do Aparelho Respiratorio', 'D02');
+insert into Inlness (name, cid) values('Melanoma In Situ', 'D03');
+insert into Inlness (name, cid) values('Carcinoma In Situ da Pele', 'D04');
+insert into Inlness (name, cid) values('Carcinoma In Situ da Mama', 'D05');
+insert into Inlness (name, cid) values('Carcinoma In Situ do Colo do Utero (Cervix)', 'D06');
+insert into Inlness (name, cid) values('Carcinoma In Situ de Outros Orgãos Genitais e dos Não Especificados', 'D07');
+insert into Inlness (name, cid) values('Carcinoma In Situ de Outras Localizações e das Não Especificadas', 'D09');
+insert into Inlness (name, cid) values('Neoplasia Benigna da Boca e da Faringe', 'D10');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Glandulas Salivares Maiores', 'D11');
+insert into Inlness (name, cid) values('Neoplasia Benigna do Colon, Reto, Canal Anal e Anus', 'D12');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Outras Partes e de Partes Mal Definidas do Aparelho Digestivo', 'D13');
+insert into Inlness (name, cid) values('Neoplasia Benigna do Ouvido Medio e do Aparelho Respiratorio', 'D14');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Outros Orgãos Intratoracicos e dos Não Especificados', 'D15');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Osso e de Cartilagem Articular', 'D16');
+insert into Inlness (name, cid) values('Neoplasia Lipomatosa Benigna', 'D17');
+insert into Inlness (name, cid) values('Hemangioma e Linfangioma de Qualquer Localização', 'D18');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Tecido Mesotelial', 'D19');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Tecido Mole do Retroperitonio e do Peritonio', 'D20');
+insert into Inlness (name, cid) values('Outras Neoplasias Benignas do Tecido Conjuntivo e de Outros Tecidos Moles', 'D21');
+insert into Inlness (name, cid) values('Nevos Melanociticos', 'D22');
+insert into Inlness (name, cid) values('Outras Neoplasias Benignas da Pele', 'D23');
+insert into Inlness (name, cid) values('Neoplasia Benigna da Mama', 'D24');
+insert into Inlness (name, cid) values('Leiomioma do Utero', 'D25');
+insert into Inlness (name, cid) values('Outras Neoplasias Benignas do Utero', 'D26');
+insert into Inlness (name, cid) values('Neoplasia Benigna do Ovario', 'D27');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Outros Orgãos Genitais Femininos e de Orgãos Não Especificados', 'D28');
+insert into Inlness (name, cid) values('Neoplasia Benigna dos Orgãos Genitais Masculinos', 'D29');
+insert into Inlness (name, cid) values('Neoplasia Benigna dos Orgãos Urinarios', 'D30');
+insert into Inlness (name, cid) values('Neoplasia Benigna do Olho e Anexos', 'D31');
+insert into Inlness (name, cid) values('Neoplasia Benigna das Meninges', 'D32');
+insert into Inlness (name, cid) values('Neoplasia Benigna do Encefalo e de Outras Partes do Sistema Nervoso Central', 'D33');
+insert into Inlness (name, cid) values('Neoplasia Benigna da Glandula Tireoide', 'D34');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Outras Glandulas Endocrinas e das Não Especificadas', 'D35');
+insert into Inlness (name, cid) values('Neoplasia Benigna de Outras Localizacões e de Localizacões Não Especificadas', 'D36');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido da Cavidade Oral e dos Orgãos Digestivos', 'D37');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido do Ouvido Medio e dos Orgãos Respiratorios e Intratoracicos', 'D38');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Genitais Femininos', 'D39');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Genitais Masculinos', 'D40');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido dos Orgãos Urinarios', 'D41');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido das Meninges', 'D42');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido do Encefalo e do Sistema Nervoso Central', 'D43');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido das Glandulas Endocrinas', 'D44');
+insert into Inlness (name, cid) values('Policitemia Vera', 'D45');
+insert into Inlness (name, cid) values('Sindromes Mielodisplasicas', 'D46');
+insert into Inlness (name, cid) values('Outras Neoplasias de Comportamento Incerto ou Desconhecido dos Tecidos Linfatico, Hematopoetico e Tecidos Correlatos', 'D47');
+insert into Inlness (name, cid) values('Neoplasia de Comportamento Incerto ou Desconhecido de Outras Localizações e de Localizações Não Especificadas', 'D48');
+insert into Inlness (name, cid) values('Anemia por Deficiencia de Ferro', 'D50');
+insert into Inlness (name, cid) values('Anemia por Deficiencia de Vitamina B12', 'D51');
+insert into Inlness (name, cid) values('Anemia por Deficiencia de Folato', 'D52');
+insert into Inlness (name, cid) values('Outras Anemias Nutricionais', 'D53');
+insert into Inlness (name, cid) values('Anemia Devida a Transtornos Enzimaticos', 'D55');
+insert into Inlness (name, cid) values('Talassemia', 'D56');
+insert into Inlness (name, cid) values('Transtornos Falciformes', 'D57');
+insert into Inlness (name, cid) values('Outras Anemias Hemoliticas Hereditarias', 'D58');
+insert into Inlness (name, cid) values('Anemia Hemolitica Adquirida', 'D59');
+insert into Inlness (name, cid) values('Aplasia Pura da Serie Vermelha, Adquirida [Eritroblastopenia]', 'D60');
+insert into Inlness (name, cid) values('Outras Anemias Aplasticas', 'D61');
+insert into Inlness (name, cid) values('Anemia Aguda Pos-Hemorragica', 'D62');
+insert into Inlness (name, cid) values('Anemia em Doencas Cronicas Classificadas em Outra Parte', 'D63');
+insert into Inlness (name, cid) values('Outras Anemias', 'D64');
+insert into Inlness (name, cid) values('Coagulação Intravascular Disseminada [Sindrome de Desfibrinação]', 'D65');
+insert into Inlness (name, cid) values('Deficiencia Hereditaria do Fator Viii', 'D66');
+insert into Inlness (name, cid) values('Deficiencia Hereditaria do Fator Ix', 'D67');
+insert into Inlness (name, cid) values('Outros Defeitos da Coagulação', 'D68');
+insert into Inlness (name, cid) values('Purpura e Outras Afecções Hemorragicas', 'D69');
+insert into Inlness (name, cid) values('Agranulocitose', 'D70');
+insert into Inlness (name, cid) values('Transtornos Funcionais dos Neutrofilos Polimorfonucleares', 'D71');
+insert into Inlness (name, cid) values('Outros Transtornos dos Globulos Brancos', 'D72');
+insert into Inlness (name, cid) values('Doencas do Baco', 'D73');
+insert into Inlness (name, cid) values('Metemoglobinemia', 'D74');
+insert into Inlness (name, cid) values('Outras Doencas do Sangue e dos Orgãos Hematopoeticos', 'D75');
+insert into Inlness (name, cid) values('Algumas Doencas Que Envolvem O Tecido Linforreticular e O Sistema Reticulohistiocitico', 'D76');
+insert into Inlness (name, cid) values('Outros Transtornos do Sangue e dos Orgãos Hematopoeticos em Doencas Classificadas em Outra Parte', 'D77');
+insert into Inlness (name, cid) values('Imunodeficiencia com Predominancia de Defeitos de Anticorpos', 'D80');
+insert into Inlness (name, cid) values('Deficiencias Imunitarias Combinadas', 'D81');
+insert into Inlness (name, cid) values('Imunodeficiencia Associada com Outros Defeitos  Major ', 'D82');
+insert into Inlness (name, cid) values('Imunodeficiencia Comum Variavel', 'D83');
+insert into Inlness (name, cid) values('Outras Imunodeficiencias', 'D84');
+insert into Inlness (name, cid) values('Sarcoidose', 'D86');
+insert into Inlness (name, cid) values('Outros Transtornos Que Comprometem O Mecanismo Imunitario Não Classificados em Outra Parte', 'D89');
+insert into Inlness (name, cid) values('Transtornos Tireoidianos e Afecções Associadas, Relacionados a Deficiencia de Iodo', 'E01');
+insert into Inlness (name, cid) values('Hipotireoidismo Subclinico por Deficiencia de Iodo', 'E02');
+insert into Inlness (name, cid) values('Outros Hipotireoidismos', 'E03');
+insert into Inlness (name, cid) values('Outros Bocios Não-Toxicos', 'E04');
+insert into Inlness (name, cid) values('Tireotoxicose [Hipertireoidismo]', 'E05');
+insert into Inlness (name, cid) values('Tireoidite', 'E06');
+insert into Inlness (name, cid) values('Outros Transtornos da Tireoide', 'E07');
+insert into Inlness (name, cid) values('Diabetes Mellitus Insulino-Dependente', 'E10');
+insert into Inlness (name, cid) values('Diabetes Mellitus Não-Insulino-Dependente', 'E11');
+insert into Inlness (name, cid) values('Diabetes Mellitus Relacionado com a Desnutrição', 'E12');
+insert into Inlness (name, cid) values('Outros Tipos Especificados de Diabetes Mellitus', 'E13');
+insert into Inlness (name, cid) values('Diabetes Mellitus Não Especificado', 'E14');
+insert into Inlness (name, cid) values('Coma Hipoglicemico Não-Diabetico', 'E15');
+insert into Inlness (name, cid) values('Outros Transtornos da Secreção Pancreatica Interna', 'E16');
+insert into Inlness (name, cid) values('Hipoparatireoidismo', 'E20');
+insert into Inlness (name, cid) values('Hiperparatireoidismo e Outros Transtornos da Glandula Paratireoide', 'E21');
+insert into Inlness (name, cid) values('Hiperfuncção da Hipofise', 'E22');
+insert into Inlness (name, cid) values('Hipofunção e Outros Transtornos da Hipofise', 'E23');
+insert into Inlness (name, cid) values('Sindrome de Cushing', 'E24');
+insert into Inlness (name, cid) values('Transtornos Adrenogenitais', 'E25');
+insert into Inlness (name, cid) values('Hiperaldosteronismo', 'E26');
+insert into Inlness (name, cid) values('Outros Transtornos da Glandula Supra-Renal', 'E27');
+insert into Inlness (name, cid) values('Disfunção Ovariana', 'E28');
+insert into Inlness (name, cid) values('Disfunção Testicular', 'E29');
+insert into Inlness (name, cid) values('Transtornos da Puberdade Não Classificados em Outra Parte', 'E30');
+insert into Inlness (name, cid) values('Disfuncção Poliglandular', 'E31');
+insert into Inlness (name, cid) values('Doencas do Timo', 'E32');
+insert into Inlness (name, cid) values('Outros Transtornos Endocrinos', 'E34');
+insert into Inlness (name, cid) values('Transtornos das Glandulas Endocrinas em Doencas Classificadas em Outra Parte', 'E35');
+insert into Inlness (name, cid) values('Kwashiorkor', 'E40');
+insert into Inlness (name, cid) values('Marasmo Nutricional', 'E41');
+insert into Inlness (name, cid) values('Kwashiorkor Marasmatico', 'E42');
+insert into Inlness (name, cid) values('Desnutrição Proteico-Calorica Grave Não Especificada', 'E43');
+insert into Inlness (name, cid) values('Desnutrição Proteico-Calorica de Graus Moderado e Leve', 'E44');
+insert into Inlness (name, cid) values('Desnutrição Proteico-Calorica Não Especificada', 'E46');
+insert into Inlness (name, cid) values('Deficiencia de Vitamina A', 'E50');
+insert into Inlness (name, cid) values('Deficiencia de Tiamina', 'E51');
+insert into Inlness (name, cid) values('Deficiencia de Niacina [Pelagra]', 'E52');
+insert into Inlness (name, cid) values('Deficiencia de Outras Vitaminas do Grupo B', 'E53');
+insert into Inlness (name, cid) values('Deficiencia de Vitamina D', 'E55');
+insert into Inlness (name, cid) values('Outras Deficiencias Vitaminicas', 'E56');
+insert into Inlness (name, cid) values('Deficiencia de Zinco da Dieta', 'E60');
+insert into Inlness (name, cid) values('Deficiencia de Outros Elementos Nutrientes', 'E61');
+insert into Inlness (name, cid) values('Outras Deficiencias Nutricionais', 'E63');
+insert into Inlness (name, cid) values('Sequelas de Desnutrição e de Outras Deficiencias Nutricionais', 'E64');
+insert into Inlness (name, cid) values('Adiposidade Localizada', 'E65');
+insert into Inlness (name, cid) values('Obesidade', 'E66');
+insert into Inlness (name, cid) values('Sequelas de Hiperalimentação', 'E68');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Aminoacidos Aromaticos', 'E70');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Aminoacidos de Cadeia Ramificada e do Metabolismo dos Acidos Graxos', 'E71');
+insert into Inlness (name, cid) values('Intolerancia a Lactose', 'E73');
+insert into Inlness (name, cid) values('Outros Disturbios do Metabolismo de Carboidratos', 'E74');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Esfingolipides e Outros Disturbios de Deposito de Lipides', 'E75');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo do Glicosaminoglicano', 'E76');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Lipoproteinas e Outras Lipidemias', 'E78');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Purina e Pirimidina', 'E79');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo da Porfirina e da Bilirrubina', 'E80');
+insert into Inlness (name, cid) values('Disturbios do Metabolismo de Minerais', 'E83');
+insert into Inlness (name, cid) values('Fibrose Cistica', 'E84');
+insert into Inlness (name, cid) values('Amiloidose', 'E85');
+insert into Inlness (name, cid) values('Depleção de Volume', 'E86');
+insert into Inlness (name, cid) values('Outros Transtornos do Equilibrio Hidroeletrolitico e Acido-Basico', 'E87');
+insert into Inlness (name, cid) values('Outros Disturbios Metabolicos', 'E88');
+insert into Inlness (name, cid) values('Transtornos Endocrinos e Metabolicos Pos-Procedimentos, Não Classificados em Outra Parte', 'E89');
+insert into Inlness (name, cid) values('Transtornos Nutricionais e Metabolicos em Doencas Classificadas em Outra Parte', 'E90');
+insert into Inlness (name, cid) values('Demencia na Doenca de Alzheimer (G30.-+)', 'F00');
+insert into Inlness (name, cid) values('Demencia Vascular', 'F01');
+insert into Inlness (name, cid) values('Demencia em Outras Doencas Classificadas em Outra Parte', 'F02');
+insert into Inlness (name, cid) values('Demencia NãoEspecificada', 'F03');
+insert into Inlness (name, cid) values('Sindrome Amnesica Organica Não Induzida Pelo Alcool ou por Outras Substancias Psicoativas', 'F04');
+insert into Inlness (name, cid) values('Delirium Não Induzido Pelo Alcool ou por Outras Substancias Psicoativas', 'F05');
+insert into Inlness (name, cid) values('Outros Transtornos Mentais Devidos a Lesão e Disfunção Cerebral e a Doenca Fisica', 'F06');
+insert into Inlness (name, cid) values('Transtornos de Personalidade e do Comportamento Devidos a Doenca, a Lesão e a Disfunção Cerebral', 'F07');
+insert into Inlness (name, cid) values('Transtorno Mental Organico ou Sintomatico Não Especificado', 'F09');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Alcool', 'F10');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Opiaceos', 'F11');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Canabinoides', 'F12');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Sedativos e Hipnoticos', 'F13');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso da Cocaina', 'F14');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Outros Estimulantes, Inclusive a Cafeina', 'F15');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Alucinogenos', 'F16');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Fumo', 'F17');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Solventes Volateis', 'F18');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Devidos ao Uso de Multiplas Drogas e ao Uso de Outras Substancias Psicoativas', 'F19');
+insert into Inlness (name, cid) values('Esquizofrenia', 'F20');
+insert into Inlness (name, cid) values('Transtorno Esquizotipico', 'F21');
+insert into Inlness (name, cid) values('Transtornos Delirantes Persistentes', 'F22');
+insert into Inlness (name, cid) values('Transtornos Psicoticos Agudos e Transitorios', 'F23');
+insert into Inlness (name, cid) values('Transtorno Delirante Induzido', 'F24');
+insert into Inlness (name, cid) values('Transtornos Esquizoafetivos', 'F25');
+insert into Inlness (name, cid) values('Outros Transtornos Psicoticos Não-Organicos', 'F28');
+insert into Inlness (name, cid) values('Psicose Não-Organica Não Especificada', 'F29');
+insert into Inlness (name, cid) values('Episodio Maniaco', 'F30');
+insert into Inlness (name, cid) values('Transtorno Afetivo Bipolar', 'F31');
+insert into Inlness (name, cid) values('Episodios Depressivos', 'F32');
+insert into Inlness (name, cid) values('Transtorno Depressivo Recorrente', 'F33');
+insert into Inlness (name, cid) values('Transtornos de Humor [Afetivos] Persistentes', 'F34');
+insert into Inlness (name, cid) values('Outros Transtornos do Humor [Afetivos]', 'F38');
+insert into Inlness (name, cid) values('Transtorno do Humor [Afetivo] Não Especificado', 'F39');
+insert into Inlness (name, cid) values('Transtornos Fobico-Ansiosos', 'F40');
+insert into Inlness (name, cid) values('Outros Transtornos Ansiosos', 'F41');
+insert into Inlness (name, cid) values('Transtorno Obsessivo-Compulsivo', 'F42');
+insert into Inlness (name, cid) values('Reações ao  Stress  Grave e Transtornos de Adaptação', 'F43');
+insert into Inlness (name, cid) values('Transtornos Dissociativos [De Conversão]', 'F44');
+insert into Inlness (name, cid) values('Transtornos Somatoformes', 'F45');
+insert into Inlness (name, cid) values('Outros Transtornos Neuroticos', 'F48');
+insert into Inlness (name, cid) values('Transtornos da Alimentação', 'F50');
+insert into Inlness (name, cid) values('Transtornos Não-Organicos do Sono Devidos a Fatores Emocionais', 'F51');
+insert into Inlness (name, cid) values('Disfunção Sexual, Não Causada por Transtorno ou Doenca Organica', 'F52');
+insert into Inlness (name, cid) values('Transtornos Mentais e Comportamentais Associados ao Puerperio, Não Classificados em Outra Parte', 'F53');
+insert into Inlness (name, cid) values('Fatores Psicologicos ou Comportamentais Associados a Doenca ou a Transtornos Classificados em Outra Parte', 'F54');
+insert into Inlness (name, cid) values('Abuso de Substancias Que Não Produzem Dependencia', 'F55');
+insert into Inlness (name, cid) values('Sindromes Comportamentais Associados a Transtornos das Funções Fisiologicas e a Fatores Fisicos, Não Especificadas', 'F59');
+insert into Inlness (name, cid) values('Transtornos Especificos da Personalidade', 'F60');
+insert into Inlness (name, cid) values('Transtornos Mistos da Personalidade e Outros Transtornos da Personalidade', 'F61');
+insert into Inlness (name, cid) values('Modificações Duradouras da Personalidade Não Atribuiveis a Lesão ou Doenca Cerebral', 'F62');
+insert into Inlness (name, cid) values('Transtornos dos Habitos e dos Impulsos', 'F63');
+insert into Inlness (name, cid) values('Transtornos da Identidade Sexual', 'F64');
+insert into Inlness (name, cid) values('Transtornos Psicologicos e Comportamentais Associados ao Desenvolvimento Sexual e a Sua Orientação', 'F66');
+insert into Inlness (name, cid) values('Outros Transtornos da Personalidade e do Comportamento do Adulto', 'F68');
+insert into Inlness (name, cid) values('Transtorno da Personalidade e do Comportamento do Adulto, Não Especificado', 'F69');
+insert into Inlness (name, cid) values('Retardo Mental Leve', 'F70');
+insert into Inlness (name, cid) values('Retardo Mental Moderado', 'F71');
+insert into Inlness (name, cid) values('Retardo Mental Grave', 'F72');
+insert into Inlness (name, cid) values('Retardo Mental Profundo', 'F73');
+insert into Inlness (name, cid) values('Outro Retardo Mental', 'F78');
+insert into Inlness (name, cid) values('Retardo Mental Não Especificado', 'F79');
+insert into Inlness (name, cid) values('Transtornos Especificos do Desenvolvimento da Fala e da Linguagem', 'F80');
+insert into Inlness (name, cid) values('Transtornos Especificos do Desenvolvimento das Habilidades Escolares', 'F81');
+insert into Inlness (name, cid) values('Transtorno Especifico do Desenvolvimento Motor', 'F82');
+insert into Inlness (name, cid) values('Transtornos Especificos Misto do Desenvolvimento', 'F83');
+insert into Inlness (name, cid) values('Transtornos Globais do Desenvolvimento', 'F84');
+insert into Inlness (name, cid) values('Outros Transtornos do Desenvolvimento Psicologico', 'F88');
+insert into Inlness (name, cid) values('Transtornos Hipercineticos', 'F90');
+insert into Inlness (name, cid) values('Disturbios de Conduta', 'F91');
+insert into Inlness (name, cid) values('Transtornos Mistos de Conduta e das Emoções', 'F92');
+insert into Inlness (name, cid) values('Transtornos Emocionais com Inicio Especificamente na Infancia', 'F93');
+insert into Inlness (name, cid) values('Transtornos do Funcionamento Social com Inicio Especificamente Durante a Infancia ou a Adolescencia', 'F94');
+insert into Inlness (name, cid) values('Tiques', 'F95');
+insert into Inlness (name, cid) values('Outros Transtornos Comportamentais e Emocionais com Inicio Habitualmente Durante a Infancia ou a Adolescencia', 'F98');
+insert into Inlness (name, cid) values('Transtorno Mental Não Especificado em Outra Parte', 'F99');
+insert into Inlness (name, cid) values('Meningite Bacteriana Não Classificada em Outra Parte', 'G00');
+insert into Inlness (name, cid) values('Meningite em Outras Doencas Infecciosas e Parasitarias Classificadas em Outra Parte', 'G02');
+insert into Inlness (name, cid) values('Meningite Devida a Outras Causas e a Causas Não Especificadas', 'G03');
+insert into Inlness (name, cid) values('Encefalite, Mielite e Encefalomielite', 'G04');
+insert into Inlness (name, cid) values('Encefalite, Mielite e Encefalomielite em Doencas Classificadas em Outra Parte', 'G05');
+insert into Inlness (name, cid) values('Abscesso e Granuloma Intracranianos e Intra-Raquidianos', 'G06');
+insert into Inlness (name, cid) values('Abscesso e Granuloma Intracranianos e Intraspinais em Doencas Classificadas em Outra Parte', 'G07');
+insert into Inlness (name, cid) values('Flebite e Tromboflebite Intracranianas e Intra-Raquidianas', 'G08');
+insert into Inlness (name, cid) values('Sequelas de Doencas Inflamatorias do Sistema Nervoso Central', 'G09');
+insert into Inlness (name, cid) values('Doenca de Huntington', 'G10');
+insert into Inlness (name, cid) values('Ataxia Hereditaria', 'G11');
+insert into Inlness (name, cid) values('Atrofia Muscular Espinal e Sindromes Correlatas', 'G12');
+insert into Inlness (name, cid) values('Atrofias Sistemicas Que Afetam Principalmente O Sistema Nervoso Central em Doencas Classificadas em Outra Parte', 'G13');
+insert into Inlness (name, cid) values('Doenca de Parkinson', 'G20');
+insert into Inlness (name, cid) values('Parkinsonismo Secundario', 'G21');
+insert into Inlness (name, cid) values('Parkinsonismo em Doencas Classificadas em Outra Parte', 'G22');
+insert into Inlness (name, cid) values('Outras Doencas Degenerativas dos Ganglios da Base', 'G23');
+insert into Inlness (name, cid) values('Distonia', 'G24');
+insert into Inlness (name, cid) values('Outras Doencas Extrapiramidais e Transtornos dos Movimentos', 'G25');
+insert into Inlness (name, cid) values('Doencas Extrapiramidais e Transtornos dos Movimentos em Doencas Classificadas em Outra Parte', 'G26');
+insert into Inlness (name, cid) values('Doenca de Alzheimer', 'G30');
+insert into Inlness (name, cid) values('Outras Doencas Degenerativas do Sistema Nervoso Não Classificadas em Outra Parte', 'G31');
+insert into Inlness (name, cid) values('Outros Transtornos Degenerativos do Sistema Nervoso em Doencas Classificadas em Outra Parte', 'G32');
+insert into Inlness (name, cid) values('Esclerose Multipla', 'G35');
+insert into Inlness (name, cid) values('Outras Desmielinizações Disseminadas Agudas', 'G36');
+insert into Inlness (name, cid) values('Outras Doencas Desmielinizantes do Sistema Nervoso Central', 'G37');
+insert into Inlness (name, cid) values('Epilepsia', 'G40');
+insert into Inlness (name, cid) values('Estado de Mal Epileptico', 'G41');
+insert into Inlness (name, cid) values('Enxaqueca', 'G43');
+insert into Inlness (name, cid) values('Outras Sindromes de Algias Cefalicas', 'G44');
+insert into Inlness (name, cid) values('Acidentes Vasculares Cerebrais Isquemicos Transitorios e Sindromes Correlatas', 'G45');
+insert into Inlness (name, cid) values('Sindromes Vasculares Cerebrais Que Ocorrem em Doencas Cerebrovasculares (I60-I67+)', 'G46');
+insert into Inlness (name, cid) values('Disturbios do Sono', 'G47');
+insert into Inlness (name, cid) values('Transtornos do Nervo Trigemeo', 'G50');
+insert into Inlness (name, cid) values('Transtornos do Nervo Facial', 'G51');
+insert into Inlness (name, cid) values('Transtornos de Outros Nervos Cranianos', 'G52');
+insert into Inlness (name, cid) values('Transtornos dos Nervos Cranianos em Doencas Classificadas em Outra Parte', 'G53');
+insert into Inlness (name, cid) values('Transtornos das Raizes e dos Plexos Nervosos', 'G54');
+insert into Inlness (name, cid) values('Compressões das Raizes e dos Plexos Nervosos em Doencas Classificadas em Outra Parte', 'G55');
+insert into Inlness (name, cid) values('Mononeuropatias dos Membros Superiores', 'G56');
+insert into Inlness (name, cid) values('Mononeuropatias dos Membros Inferiores', 'G57');
+insert into Inlness (name, cid) values('Outras Mononeuropatias', 'G58');
+insert into Inlness (name, cid) values('Mononeuropatias em Doencas Classificadas em Outra Parte', 'G59');
+insert into Inlness (name, cid) values('Neuropatia Hereditaria e Idiopatica', 'G60');
+insert into Inlness (name, cid) values('Polineuropatia Inflamatoria', 'G61');
+insert into Inlness (name, cid) values('Outras Polineuropatias', 'G62');
+insert into Inlness (name, cid) values('Polineuropatia em Doencas Classificadas em Outra Parte', 'G63');
+insert into Inlness (name, cid) values('Outros Transtornos do Sistema Nervoso Periferico', 'G64');
+insert into Inlness (name, cid) values('Miastenia Gravis e Outros Transtornos Neuromusculares', 'G70');
+insert into Inlness (name, cid) values('Transtornos Primarios dos Musculos', 'G71');
+insert into Inlness (name, cid) values('Outras Miopatias', 'G72');
+insert into Inlness (name, cid) values('Transtornos da Junção Mioneural e dos Musculos em Doencas Classificadas em Outra Parte', 'G73');
+insert into Inlness (name, cid) values('Paralisia Cerebral Infantil', 'G80');
+insert into Inlness (name, cid) values('Hemiplegia', 'G81');
+insert into Inlness (name, cid) values('Paraplegia e Tetraplegia', 'G82');
+insert into Inlness (name, cid) values('Outras Sindromes Paraliticas', 'G83');
+insert into Inlness (name, cid) values('Transtornos do Sistema Nervoso Autonomo', 'G90');
+insert into Inlness (name, cid) values('Hidrocefalia', 'G91');
+insert into Inlness (name, cid) values('Encefalopatia Toxica', 'G92');
+insert into Inlness (name, cid) values('Outros Transtornos do Encefalo', 'G93');
+insert into Inlness (name, cid) values('Outros Transtornos do Encefalo em Doencas Classificadas em Outra Parte', 'G94');
+insert into Inlness (name, cid) values('Outras Doencas da Medula Espinal', 'G95');
+insert into Inlness (name, cid) values('Outros Transtornos do Sistema Nervoso Central', 'G96');
+insert into Inlness (name, cid) values('Transtornos Pos-Procedimento do Sistema Nervoso Não  Classificados em Outra Parte', 'G97');
+insert into Inlness (name, cid) values('Outras Transtornos do Sistema Nervoso Não Classificados em Outra Parte', 'G98');
+insert into Inlness (name, cid) values('Outros Transtornos do Sistema Nervoso em Doencas Classificadas em Outra Parte', 'G99');
+insert into Inlness (name, cid) values('Hordeolo e Calazio', 'H00');
+insert into Inlness (name, cid) values('Outras Inflamações da Palpebra', 'H01');
+insert into Inlness (name, cid) values('Outros Transtornos da Palpebra', 'H02');
+insert into Inlness (name, cid) values('Transtornos da Palpebra em Doencas Classificadas em Outras Partes', 'H03');
+insert into Inlness (name, cid) values('Transtornos do Aparelho Lacrimal', 'H04');
+insert into Inlness (name, cid) values('Transtornos da Orbita', 'H05');
+insert into Inlness (name, cid) values('Transtornos do Aparelho Lacrimal e da Orbita em Doencas Classificadas em Outra Parte', 'H06');
+insert into Inlness (name, cid) values('Conjuntivite', 'H10');
+insert into Inlness (name, cid) values('Outros Transtornos da Conjuntiva', 'H11');
+insert into Inlness (name, cid) values('Transtornos da Conjuntiva em Doencas Classificadas em Outra Parte', 'H13');
+insert into Inlness (name, cid) values('Transtornos da Esclerotica', 'H15');
+insert into Inlness (name, cid) values('Ceratite', 'H16');
+insert into Inlness (name, cid) values('Cicatrizes e Opacidades da Cornea', 'H17');
+insert into Inlness (name, cid) values('Outros Transtornos da Cornea', 'H18');
+insert into Inlness (name, cid) values('Transtorno da Esclerotica e da Cornea em Doencas Classificadas em Outra Parte', 'H19');
+insert into Inlness (name, cid) values('Iridociclite', 'H20');
+insert into Inlness (name, cid) values('Outros Transtornos da Iris e do Corpo Ciliar', 'H21');
+insert into Inlness (name, cid) values('Transtornos da Iris e do Corpo Ciliar em Doencas Classificadas em Outra Parte', 'H22');
+insert into Inlness (name, cid) values('Catarata Senil', 'H25');
+insert into Inlness (name, cid) values('Outras Cataratas', 'H26');
+insert into Inlness (name, cid) values('Outros Transtornos do Cristalino', 'H27');
+insert into Inlness (name, cid) values('Catarata e Outros Transtornos do Cristalino em Doencas Classificadas em Outra Parte', 'H28');
+insert into Inlness (name, cid) values('Inflamação Coriorretiniana', 'H30');
+insert into Inlness (name, cid) values('Outros Transtornos da Coroide', 'H31');
+insert into Inlness (name, cid) values('Transtornos Coriorretinianos em Doencas Classificadas em Outra Parte', 'H32');
+insert into Inlness (name, cid) values('Descolamentos e Defeitos da Retina', 'H33');
+insert into Inlness (name, cid) values('Oclusões Vasculares da Retina', 'H34');
+insert into Inlness (name, cid) values('Outros Transtornos da Retina', 'H35');
+insert into Inlness (name, cid) values('Transtornos da Retina em Doencas Classificadas em Outra Parte', 'H36');
+insert into Inlness (name, cid) values('Glaucoma', 'H40');
+insert into Inlness (name, cid) values('Glaucoma em Doencas Classificadas em Outra Parte', 'H42');
+insert into Inlness (name, cid) values('Transtornos do Humor Vitreo', 'H43');
+insert into Inlness (name, cid) values('Transtornos do Globo Ocular', 'H44');
+insert into Inlness (name, cid) values('Transtornos do Humor Vitreo e do Globo Ocular em Doencas Classificadas em Outra Parte', 'H45');
+insert into Inlness (name, cid) values('Neurite Optica', 'H46');
+insert into Inlness (name, cid) values('Outros Transtornos do Nervo Optico e das Vias Opticas', 'H47');
+insert into Inlness (name, cid) values('Transtornos do Nervo Optico [Segundo Par] e das Vias Opticas em Doencas Classificadas em Outra Parte', 'H48');
+insert into Inlness (name, cid) values('Estrabismo Paralitico', 'H49');
+insert into Inlness (name, cid) values('Outros Estrabismos', 'H50');
+insert into Inlness (name, cid) values('Outros Transtornos do Movimento Binocular', 'H51');
+insert into Inlness (name, cid) values('Transtornos da Refração e da Acomodação', 'H52');
+insert into Inlness (name, cid) values('Disturbios Visuais', 'H53');
+insert into Inlness (name, cid) values('Cegueira e Visão Subnormal', 'H54');
+insert into Inlness (name, cid) values('Nistagmo e Outros Movimentos Irregulares do Olho', 'H55');
+insert into Inlness (name, cid) values('Outros Transtornos do Olho e Anexos', 'H57');
+insert into Inlness (name, cid) values('Outros Transtornos do Olho e Anexos em Doencas Classificadas em Outra Parte', 'H58');
+insert into Inlness (name, cid) values('Transtornos do Olho e Anexos Pos-Procedimento Não Classificados em Outra Parte', 'H59');
+insert into Inlness (name, cid) values('Otite Externa', 'H60');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido Externo', 'H61');
+insert into Inlness (name, cid) values('Transtornos do Ouvido Externo em Doencas Classificadas em Outra Parte', 'H62');
+insert into Inlness (name, cid) values('Otite Media Não-Supurativa', 'H65');
+insert into Inlness (name, cid) values('Otite Media Supurativa e as Não Especificadas', 'H66');
+insert into Inlness (name, cid) values('Otite Media em Doencas Classificadas em Outra Parte', 'H67');
+insert into Inlness (name, cid) values('Salpingite e Obstrução da Trompa de Eustaquio', 'H68');
+insert into Inlness (name, cid) values('Outros Transtornos da Trompa de Eustaquio', 'H69');
+insert into Inlness (name, cid) values('Mastoidite e Afecções Correlatas', 'H70');
+insert into Inlness (name, cid) values('Colesteatoma do Ouvido Medio', 'H71');
+insert into Inlness (name, cid) values('Perfuração da Membrana do Timpano', 'H72');
+insert into Inlness (name, cid) values('Outros Transtornos da Membrana do Timpano', 'H73');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido Medio e da Mastoide', 'H74');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido Medio e da Mastoide em Doencas Classificadas em Outra Parte', 'H75');
+insert into Inlness (name, cid) values('Otosclerose', 'H80');
+insert into Inlness (name, cid) values('Transtornos da Função Vestibular', 'H81');
+insert into Inlness (name, cid) values('Sindromes Vertiginosas em Doencas Classificadas em Outra Parte', 'H82');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido Interno', 'H83');
+insert into Inlness (name, cid) values('Perda de Audição por Transtorno de Condução e/ou Neuro-Sensorial', 'H90');
+insert into Inlness (name, cid) values('Outras Perdas de Audição', 'H91');
+insert into Inlness (name, cid) values('Otalgia e Secreção Auditiva', 'H92');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido Não Classificados em Outra Parte', 'H93');
+insert into Inlness (name, cid) values('Outros Transtornos do Ouvido em Doencas Classificadas em Outra Parte', 'H94');
+insert into Inlness (name, cid) values('Transtornos do Ouvido e da Apofise Mastoide Pos-Procedimentos, Não Classificados em Outra Parte', 'H95');
+insert into Inlness (name, cid) values('Febre Reumatica sem Menção de Comprometimento do Coração', 'I00');
+insert into Inlness (name, cid) values('Febre Reumatica com Comprometimento do Coração', 'I01');
+insert into Inlness (name, cid) values('Coreia Reumatica', 'I02');
+insert into Inlness (name, cid) values('Doencas Reumaticas da Valva Mitral', 'I05');
+insert into Inlness (name, cid) values('Doencas Reumaticas da Valva Aortica', 'I06');
+insert into Inlness (name, cid) values('Doencas Reumaticas da Valva Tricuspide', 'I07');
+insert into Inlness (name, cid) values('Doencas de Multiplas Valvas', 'I08');
+insert into Inlness (name, cid) values('Outras Doencas Reumaticas do Coração', 'I09');
+insert into Inlness (name, cid) values('HipertensãoEssencial (Primaria)', 'I10');
+insert into Inlness (name, cid) values('Doenca Cardiaca Hipertensiva', 'I11');
+insert into Inlness (name, cid) values('Doenca Renal Hipertensiva', 'I12');
+insert into Inlness (name, cid) values('Doenca Cardiaca e Renal Hipertensiva', 'I13');
+insert into Inlness (name, cid) values('Hipertensão Secundaria', 'I15');
+insert into Inlness (name, cid) values('Angina Pectoris', 'I20');
+insert into Inlness (name, cid) values('Infarto Agudo do Miocardio', 'I21');
+insert into Inlness (name, cid) values('Infarto do Miocardio Recorrente', 'I22');
+insert into Inlness (name, cid) values('Algumas Complicacções Atuais Subsequentes ao Infarto Agudo do Miocardio', 'I23');
+insert into Inlness (name, cid) values('Outras Doencas Isquemicas Agudas do Coração', 'I24');
+insert into Inlness (name, cid) values('Doenca Isquemica Cronica do Coração', 'I25');
+insert into Inlness (name, cid) values('Embolia Pulmonar', 'I26');
+insert into Inlness (name, cid) values('Outras Formas de Doenca Cardiaca Pulmonar', 'I27');
+insert into Inlness (name, cid) values('Outras Doencas dos Vasos Pulmonares', 'I28');
+insert into Inlness (name, cid) values('Pericardite Aguda', 'I30');
+insert into Inlness (name, cid) values('Outras Doencas do Pericardio', 'I31');
+insert into Inlness (name, cid) values('Pericardite em Doencas Classificadas em Outra Parte', 'I32');
+insert into Inlness (name, cid) values('Endocardite Aguda e Subaguda', 'I33');
+insert into Inlness (name, cid) values('Transtornos Não-Reumaticos da Valva Mitral', 'I34');
+insert into Inlness (name, cid) values('Transtornos Não-Reumaticos da Valva Aortica', 'I35');
+insert into Inlness (name, cid) values('Transtornos Não-Reumaticos da Valva Tricuspide', 'I36');
+insert into Inlness (name, cid) values('Transtornos da Valva Pulmonar', 'I37');
+insert into Inlness (name, cid) values('Endocardite de Valva Não Especificada', 'I38');
+insert into Inlness (name, cid) values('Endocardite e Transtornos Valvulares Cardiacos em Doencas Classificadas em Outra Parte', 'I39');
+insert into Inlness (name, cid) values('Miocardite Aguda', 'I40');
+insert into Inlness (name, cid) values('Miocardite em Doencas Classificadas em Outra Parte', 'I41');
+insert into Inlness (name, cid) values('Cardiomiopatias', 'I42');
+insert into Inlness (name, cid) values('Cardiomiopatia em Doencas Classificadas em Outra Parte', 'I43');
+insert into Inlness (name, cid) values('Bloqueio Atrioventricular e do Ramo Esquerdo', 'I44');
+insert into Inlness (name, cid) values('Outros Transtornos de Condução', 'I45');
+insert into Inlness (name, cid) values('Parada Cardiaca', 'I46');
+insert into Inlness (name, cid) values('Taquicardia Paroxistica', 'I47');
+insert into Inlness (name, cid) values(' Flutter  e Fibrilação Atrial', 'I48');
+insert into Inlness (name, cid) values('Outras Arritmias Cardiacas', 'I49');
+insert into Inlness (name, cid) values('Insuficiencia Cardiaca', 'I50');
+insert into Inlness (name, cid) values('Complicações de Cardiopatias e Doencas Cardiacas Mal Definidas', 'I51');
+insert into Inlness (name, cid) values('Outras Afecções Cardiacas em Doencas Classificadas em Outra Parte', 'I52');
+insert into Inlness (name, cid) values('Hemorragia Subaracnoide', 'I60');
+insert into Inlness (name, cid) values('Hemorragia Intracerebral', 'I61');
+insert into Inlness (name, cid) values('Outras Hemorragias Intracranianas Não-Traumaticas', 'I62');
+insert into Inlness (name, cid) values('Infarto Cerebral', 'I63');
+insert into Inlness (name, cid) values('Acidente Vascular Cerebral, Não Especificado Como Hemorragico ou Isquemico', 'I64');
+insert into Inlness (name, cid) values('Oclusão e Estenose de Arterias Pre-Cerebrais Que Não Resultam em Infarto Cerebral', 'I65');
+insert into Inlness (name, cid) values('Oclusão e Estenose de Arterias Cerebrais Que Não Resultam em Infarto Cerebral', 'I66');
+insert into Inlness (name, cid) values('Outras Doencas Cerebrovasculares', 'I67');
+insert into Inlness (name, cid) values('Transtornos Cerebrovasculares em Doencas Classificadas em Outra Parte', 'I68');
+insert into Inlness (name, cid) values('Sequelas de Doencas Cerebrovasculares', 'I69');
+insert into Inlness (name, cid) values('Aterosclerose', 'I70');
+insert into Inlness (name, cid) values('Aneurisma e Dissecção da Aorta', 'I71');
+insert into Inlness (name, cid) values('Outros Aneurismas', 'I72');
+insert into Inlness (name, cid) values('Outras Doencas Vasculares Perifericas', 'I73');
+insert into Inlness (name, cid) values('Embolia e Trombose Arteriais', 'I74');
+insert into Inlness (name, cid) values('Outras Afecções das Arterias e Arteriolas', 'I77');
+insert into Inlness (name, cid) values('Doencas dos Capilares', 'I78');
+insert into Inlness (name, cid) values('Transtornos das Arterias, das Arteriolas e dos Capilares em Doencas Classificadas em Outra Parte', 'I79');
+insert into Inlness (name, cid) values('Flebite e Tromboflebite', 'I80');
+insert into Inlness (name, cid) values('Trombose da Veia Porta', 'I81');
+insert into Inlness (name, cid) values('Outra Embolia e Trombose Venosas', 'I82');
+insert into Inlness (name, cid) values('Varizes dos Membros Inferiores', 'I83');
+insert into Inlness (name, cid) values('Hemorroidas', 'I84');
+insert into Inlness (name, cid) values('Varizes Esofagianas', 'I85');
+insert into Inlness (name, cid) values('Varizes de Outras Localizações', 'I86');
+insert into Inlness (name, cid) values('Outras Transtornos das Veias', 'I87');
+insert into Inlness (name, cid) values('Linfadenite Inespecifica', 'I88');
+insert into Inlness (name, cid) values('Outros Transtornos Não-Infecciosos dos Vasos Linfaticos e dos Ganglios Linfaticos', 'I89');
+insert into Inlness (name, cid) values('Hipotensão', 'I95');
+insert into Inlness (name, cid) values('Transtornos do Aparelho Circulatorio, Subsequentes a Procedimentos Não Classificados em Outra Parte', 'I97');
+insert into Inlness (name, cid) values('Outros Transtornos do Aparelho Circulatorio em Doencas Classificadas em Outra Parte', 'I98');
+insert into Inlness (name, cid) values('Outros Transtornos do Aparelho Circulatorio e Os Não Especificados', 'I99');
+insert into Inlness (name, cid) values('Nasofaringite Aguda [Resfriado Comum]', 'J00');
+insert into Inlness (name, cid) values('Sinusite Aguda', 'J01');
+insert into Inlness (name, cid) values('Faringite Aguda', 'J02');
+insert into Inlness (name, cid) values('Amigdalite Aguda', 'J03');
+insert into Inlness (name, cid) values('Laringite e Traqueite Agudas', 'J04');
+insert into Inlness (name, cid) values('Laringite Obstrutiva Aguda [Crupe] e Epiglotite', 'J05');
+insert into Inlness (name, cid) values('Infecções Agudas das Vias Aereas Superiores de Localizações Multiplas e Não Especificadas', 'J06');
+insert into Inlness (name, cid) values('Influenza [Gripe] Devida a Virus Identificado da Gripe Aviaria', 'J09');
+insert into Inlness (name, cid) values('Influenza Devida a Virus da Influenza [Gripe] Identificado', 'J10');
+insert into Inlness (name, cid) values('Influenza [Gripe] Devida a Virus Não Identificado', 'J11');
+insert into Inlness (name, cid) values('Pneumonia Viral Não Classificada em Outra Parte', 'J12');
+insert into Inlness (name, cid) values('Pneumonia Devida a Streptococcus Pneumoniae', 'J13');
+insert into Inlness (name, cid) values('Pneumonia Devida a Haemophilus Infuenzae', 'J14');
+insert into Inlness (name, cid) values('Pneumonia Bacteriana Não Classificada em Outra Parte', 'J15');
+insert into Inlness (name, cid) values('Pneumonia Devida a Outros Microorganismos Infecciosos Especificados Não Classificados em Outra Parte', 'J16');
+insert into Inlness (name, cid) values('Pneumonia em Doencas Classificadas em Outra Parte', 'J17');
+insert into Inlness (name, cid) values('Pneumonia por Microorganismo Não Especificada', 'J18');
+insert into Inlness (name, cid) values('Bronquite Aguda', 'J20');
+insert into Inlness (name, cid) values('Bronquiolite Aguda', 'J21');
+insert into Inlness (name, cid) values('Infecções Agudas Não Especificada das Vias Aereas Inferiores', 'J22');
+insert into Inlness (name, cid) values('Rinite Alergica e Vasomotora', 'J30');
+insert into Inlness (name, cid) values('Rinite, Nasofaringite e Faringite Cronicas', 'J31');
+insert into Inlness (name, cid) values('Sinusite Cronica', 'J32');
+insert into Inlness (name, cid) values('Polipo Nasal', 'J33');
+insert into Inlness (name, cid) values('Outros Transtornos do Nariz e dos Seios Paranasais', 'J34');
+insert into Inlness (name, cid) values('Doencas Cronicas das Amigdalas e das Adenoides', 'J35');
+insert into Inlness (name, cid) values('Abscesso Periamigdaliano', 'J36');
+insert into Inlness (name, cid) values('Laringite e Laringotraqueite Cronicas', 'J37');
+insert into Inlness (name, cid) values('Doencas das Cordas Vocais e da Laringe Não Classificadas em Outra Parte', 'J38');
+insert into Inlness (name, cid) values('Outras Doencas das Vias Aereas Superiores', 'J39');
+insert into Inlness (name, cid) values('Bronquite Não Especificada Como Aguda ou Cronica', 'J40');
+insert into Inlness (name, cid) values('Bronquite Cronica Simples e a Mucopurulenta', 'J41');
+insert into Inlness (name, cid) values('Bronquite Cronica Não Especificada', 'J42');
+insert into Inlness (name, cid) values('Enfisema', 'J43');
+insert into Inlness (name, cid) values('Outras Doencas Pulmonares Obstrutivas Cronicas', 'J44');
+insert into Inlness (name, cid) values('Asma', 'J45');
+insert into Inlness (name, cid) values('Estado de Mal Asmatico', 'J46');
+insert into Inlness (name, cid) values('Bronquectasia', 'J47');
+insert into Inlness (name, cid) values('Pneumoconiose Devida a Poeira Que Contenham Silica', 'J62');
+insert into Inlness (name, cid) values('Pneumoconiose Devida a Outras Poeiras Inorganicas', 'J63');
+insert into Inlness (name, cid) values('Pneumoconiose Não Especificada', 'J64');
+insert into Inlness (name, cid) values('Pneumoconiose Associada com Tuberculose', 'J65');
+insert into Inlness (name, cid) values('Doencas das Vias Aereas Devida a Poeiras Organicas Especificas', 'J66');
+insert into Inlness (name, cid) values('Pneumonite de Hipersensibilidade Devida a Poeiras Organicas', 'J67');
+insert into Inlness (name, cid) values('Afecções Respiratorias Devidas a Inalação de Produtos Quimicos, Gases, Fumaças e Vapores', 'J68');
+insert into Inlness (name, cid) values('Pneumonite Devida a Solidos e Liquidos', 'J69');
+insert into Inlness (name, cid) values('Afecções Respiratorias Devida a Outros Agentes Externos', 'J70');
+insert into Inlness (name, cid) values('Sindrome do Desconforto Respiratorio do Adulto', 'J80');
+insert into Inlness (name, cid) values('Edema Pulmonar, Não Especificado de Outra Forma', 'J81');
+insert into Inlness (name, cid) values('Eosinofilia Pulmonar, Não Classificada em Outra Parte', 'J82');
+insert into Inlness (name, cid) values('Outras Doencas Pulmonares Intersticiais', 'J84');
+insert into Inlness (name, cid) values('Abscesso do Pulmão e do Mediastino', 'J85');
+insert into Inlness (name, cid) values('Piotorax', 'J86');
+insert into Inlness (name, cid) values('Derrame Pleural Não Classificado em Outra Parte', 'J90');
+insert into Inlness (name, cid) values('Derrame Pleural em Afecções Classificadas em Outra Parte', 'J91');
+insert into Inlness (name, cid) values('Placas Pleurais', 'J92');
+insert into Inlness (name, cid) values('Pneumotorax', 'J93');
+insert into Inlness (name, cid) values('Outras Afecções Pleurais', 'J94');
+insert into Inlness (name, cid) values('Afecções Respiratorias Pos-Procedimentos Não Classificadas em Outra Parte', 'J95');
+insert into Inlness (name, cid) values('Insuficiencia Respiratoria Não Classificada de Outra Parte', 'J96');
+insert into Inlness (name, cid) values('Outros Transtornos Respiratorios', 'J98');
+insert into Inlness (name, cid) values('Transtornos Respiratorios em Doencas Classificadas em Outra Parte', 'J99');
+insert into Inlness (name, cid) values('Disturbios do Desenvolvimento e da Erupção dos Dentes', 'K00');
+insert into Inlness (name, cid) values('Dentes Inclusos e Impactados', 'K01');
+insert into Inlness (name, cid) values('Carie Dentaria', 'K02');
+insert into Inlness (name, cid) values('Outras Doencas dos Tecidos Dentarios Duros', 'K03');
+insert into Inlness (name, cid) values('Doencas da Polpa e dos Tecidos Periapicais', 'K04');
+insert into Inlness (name, cid) values('Gengivite e Doencas Periodontais', 'K05');
+insert into Inlness (name, cid) values('Outros Transtornos da Gengiva e do Rebordo Alveolar sem Dentes', 'K06');
+insert into Inlness (name, cid) values('Anomalias Dentofaciais (Inclusive a Maloclusão)', 'K07');
+insert into Inlness (name, cid) values('Outros Transtornos dos Dentes e de Suas Estruturas de Sustentação', 'K08');
+insert into Inlness (name, cid) values('Cistos da Região  Bucal Não Classificados em Outra Parte', 'K09');
+insert into Inlness (name, cid) values('Outras Doencas dos Maxilares', 'K10');
+insert into Inlness (name, cid) values('Doencas das Glandulas Salivares', 'K11');
+insert into Inlness (name, cid) values('Estomatite e Lesões Correlatas', 'K12');
+insert into Inlness (name, cid) values('Outras Doencas do Labio e da Mucosa Oral', 'K13');
+insert into Inlness (name, cid) values('Doencas da Lingua', 'K14');
+insert into Inlness (name, cid) values('Esofagite', 'K20');
+insert into Inlness (name, cid) values('Doenca de Refluxo Gastroesofagico', 'K21');
+insert into Inlness (name, cid) values('Outras Doencas do Esofago', 'K22');
+insert into Inlness (name, cid) values('Transtornos do Esofago em Doencas Classificadas em Outra Parte', 'K23');
+insert into Inlness (name, cid) values('Ulcera Gastrica', 'K25');
+insert into Inlness (name, cid) values('Ulcera Duodenal', 'K26');
+insert into Inlness (name, cid) values('Ulcera Peptica de Localizacão Não Especificada', 'K27');
+insert into Inlness (name, cid) values('Ulcera Gastrojejunal', 'K28');
+insert into Inlness (name, cid) values('Gastrite e Duodenite', 'K29');
+insert into Inlness (name, cid) values('Dispepsia', 'K30');
+insert into Inlness (name, cid) values('Outras Doencas do Estomago e do Duodeno', 'K31');
+insert into Inlness (name, cid) values('Apendicite Aguda', 'K35');
+insert into Inlness (name, cid) values('Outras Formas de Apendicite', 'K36');
+insert into Inlness (name, cid) values('Apendicite, sem Outras Especificaçõess', 'K37');
+insert into Inlness (name, cid) values('Outras Doencas do Apendice', 'K38');
+insert into Inlness (name, cid) values('Hernia Inguinal', 'K40');
+insert into Inlness (name, cid) values('Hernia Femoral', 'K41');
+insert into Inlness (name, cid) values('Hernia Umbilical', 'K42');
+insert into Inlness (name, cid) values('Hernia Ventral', 'K43');
+insert into Inlness (name, cid) values('Hernia Diafragmatica', 'K44');
+insert into Inlness (name, cid) values('Outras Hernias Abdominais', 'K45');
+insert into Inlness (name, cid) values('Hernia Abdominal Não Especificada', 'K46');
+insert into Inlness (name, cid) values('Doenca de Crohn [Enterite Regional]', 'K50');
+insert into Inlness (name, cid) values('Colite Ulcerativa', 'K51');
+insert into Inlness (name, cid) values('Outras Gastroenterites e Colites Não-Infecciosas', 'K52');
+insert into Inlness (name, cid) values('Transtornos Vasculares do Intestino', 'K55');
+insert into Inlness (name, cid) values('Ileo Paralitico e Obstrução Intestinal sem Hernia', 'K56');
+insert into Inlness (name, cid) values('Doenca Diverticular do Intestino', 'K57');
+insert into Inlness (name, cid) values('Sindrome do Colon Irritavel', 'K58');
+insert into Inlness (name, cid) values('Outros Transtornos Funcionais do Intestino', 'K59');
+insert into Inlness (name, cid) values('Fissura e Fistula das Regiões Anal e Retal', 'K60');
+insert into Inlness (name, cid) values('Abscesso das Regiões Anal e Retal', 'K61');
+insert into Inlness (name, cid) values('Outras Doencas do Reto e do Anus', 'K62');
+insert into Inlness (name, cid) values('Outras Doencas do Intestino', 'K63');
+insert into Inlness (name, cid) values('Peritonite', 'K65');
+insert into Inlness (name, cid) values('Outros Transtornos do Peritonio', 'K66');
+insert into Inlness (name, cid) values('Comprometimento do Peritonio, em Doencas Infecciosas Classificadas em Outra Parte', 'K67');
+insert into Inlness (name, cid) values('Doenca Alcoolica do Figado', 'K70');
+insert into Inlness (name, cid) values('Doenca Hepatica Toxica', 'K71');
+insert into Inlness (name, cid) values('Insuficiencia Hepatica Não Classificada em Outra Parte', 'K72');
+insert into Inlness (name, cid) values('Hepatite Cronica Não Classificada em Outra Parte', 'K73');
+insert into Inlness (name, cid) values('Fibrose e Cirrose Hepaticas', 'K74');
+insert into Inlness (name, cid) values('Outras Doencas Inflamatorias do Figado', 'K75');
+insert into Inlness (name, cid) values('Outras Doencas do Figado', 'K76');
+insert into Inlness (name, cid) values('Transtornos do Figado em Doencas Classificadas em Outra Parte', 'K77');
+insert into Inlness (name, cid) values('Colelitiase', 'K80');
+insert into Inlness (name, cid) values('Colecistite', 'K81');
+insert into Inlness (name, cid) values('Outras Doencas da Vesicula Biliar', 'K82');
+insert into Inlness (name, cid) values('Outras Doencas das Vias Biliares', 'K83');
+insert into Inlness (name, cid) values('Pancreatite Aguda', 'K85');
+insert into Inlness (name, cid) values('Outras Doencas do Pancreas', 'K86');
+insert into Inlness (name, cid) values('Transtornos da Vesicula Biliar, das Vias Biliares e do Pancreas em Doencas Classificadas em Outra Parte', 'K87');
+insert into Inlness (name, cid) values('Ma-Absorção Intestinal', 'K90');
+insert into Inlness (name, cid) values('Transtornos do Aparelho Digestivo Pos-Procedimentos, Não Classificados em Outra Parte', 'K91');
+insert into Inlness (name, cid) values('Outras Doencas do Aparelho Digestivo', 'K92');
+insert into Inlness (name, cid) values('Transtornos de Outros Orgãos Digestivos em Doencas Classificadas em Outra Parte', 'K93');
+insert into Inlness (name, cid) values('Impetigo', 'L01');
+insert into Inlness (name, cid) values('Abscesso Cutaneo, Furunculo e Antraz', 'L02');
+insert into Inlness (name, cid) values('Celulite (Flegmão)', 'L03');
+insert into Inlness (name, cid) values('Linfadenite Aguda', 'L04');
+insert into Inlness (name, cid) values('Cisto Pilonidal', 'L05');
+insert into Inlness (name, cid) values('Outras Infecções Localizadas da Pele e do Tecido Subcutaneo', 'L08');
+insert into Inlness (name, cid) values('Penfigo', 'L10');
+insert into Inlness (name, cid) values('Outras Afecções Acantoliticas', 'L11');
+insert into Inlness (name, cid) values('Penfigoide', 'L12');
+insert into Inlness (name, cid) values('Outras Afecções Bolhosas', 'L13');
+insert into Inlness (name, cid) values('Afecções Bolhosas em Doencas Classificadas em Outra Parte', 'L14');
+insert into Inlness (name, cid) values('Dermatite Atopica', 'L20');
+insert into Inlness (name, cid) values('Dermatite Seborreica', 'L21');
+insert into Inlness (name, cid) values('Dermatites Alergicas de Contato', 'L23');
+insert into Inlness (name, cid) values('Dermatites de Contato por Irritantes', 'L24');
+insert into Inlness (name, cid) values('Dermatite de Contato Não Especificada', 'L25');
+insert into Inlness (name, cid) values('Dermatite Esfoliativa', 'L26');
+insert into Inlness (name, cid) values('Dermatite Devida a Substancias de Uso Interno', 'L27');
+insert into Inlness (name, cid) values('Liquen Simples Cronico e Prurigo', 'L28');
+insert into Inlness (name, cid) values('Prurido', 'L29');
+insert into Inlness (name, cid) values('Outras Dermatites', 'L30');
+insert into Inlness (name, cid) values('Psoriase', 'L40');
+insert into Inlness (name, cid) values('Parapsoriase', 'L41');
+insert into Inlness (name, cid) values('Pitiriase Rosea', 'L42');
+insert into Inlness (name, cid) values('Liquen Plano', 'L43');
+insert into Inlness (name, cid) values('Outras Afecções Papulo-Descamativas', 'L44');
+insert into Inlness (name, cid) values('Afecções Papulo-Descamativas em Doencas Classificadas em Outra Parte', 'L45');
+insert into Inlness (name, cid) values('Urticaria', 'L50');
+insert into Inlness (name, cid) values('Eritema Polimorfo (Eritema Multiforme)', 'L51');
+insert into Inlness (name, cid) values('Eritema Nodoso', 'L52');
+insert into Inlness (name, cid) values('Outras Afecções Eritematosas', 'L53');
+insert into Inlness (name, cid) values('Eritema em Doencas Classificadas em Outra Parte', 'L54');
+insert into Inlness (name, cid) values('Queimadura Solar', 'L55');
+insert into Inlness (name, cid) values('Outras Alterações Agudas da Pele Devidas a Radiação Ultravioleta', 'L56');
+insert into Inlness (name, cid) values('Alterações da Pele Devidas a Exposição Cronica a Radiação Não Ionizante', 'L57');
+insert into Inlness (name, cid) values('Radiodermatite', 'L58');
+insert into Inlness (name, cid) values('Outras Afecções da Pele e do Tecido Subcutaneo Relacionadas com a Radiação', 'L59');
+insert into Inlness (name, cid) values('Afecções das Unhas', 'L60');
+insert into Inlness (name, cid) values('Afecções das Unhas em Doencas Classificadas em Outra Parte', 'L62');
+insert into Inlness (name, cid) values('Alopecia Areata', 'L63');
+insert into Inlness (name, cid) values('Alopecia Androgenica', 'L64');
+insert into Inlness (name, cid) values('Outras Formas Não Cicatriciais da Perda de Cabelos ou Pelos', 'L65');
+insert into Inlness (name, cid) values('Alopecia Cicatricial [Perda de Cabelos ou Pelos, Cicatricial]', 'L66');
+insert into Inlness (name, cid) values('Hipertricose', 'L68');
+insert into Inlness (name, cid) values('Acne', 'L70');
+insert into Inlness (name, cid) values('Rosacea', 'L71');
+insert into Inlness (name, cid) values('Cistos Foliculares da Pele e do Tecido Subcutaneo', 'L72');
+insert into Inlness (name, cid) values('Outras Afecções Foliculares', 'L73');
+insert into Inlness (name, cid) values('Afecções das Glandulas Sudoriparas Ecrinas', 'L74');
+insert into Inlness (name, cid) values('Afecções das Glandulas Sudoriparas Apocrinas', 'L75');
+insert into Inlness (name, cid) values('Vitiligo', 'L80');
+insert into Inlness (name, cid) values('Outros Transtornos da Pigmentação', 'L81');
+insert into Inlness (name, cid) values('Ceratose Seborreica', 'L82');
+insert into Inlness (name, cid) values('Acantose Nigricans', 'L83');
+insert into Inlness (name, cid) values('Calos e Calosidades', 'L84');
+insert into Inlness (name, cid) values('Outras Formas de Espessamento Epidermico', 'L85');
+insert into Inlness (name, cid) values('Ceratodermia em Doencas Classificadas em Outra Parte', 'L86');
+insert into Inlness (name, cid) values('Transtornos da Eliminação Transepidermica', 'L87');
+insert into Inlness (name, cid) values('Piodermite Gangrenosa', 'L88');
+insert into Inlness (name, cid) values('Ulcera de Decubito', 'L89');
+insert into Inlness (name, cid) values('Afecções Atroficas da Pele', 'L90');
+insert into Inlness (name, cid) values('Afecções Hipertroficas da Pele', 'L91');
+insert into Inlness (name, cid) values('Afecções Granulomatosas da Pele e do Tecido Subcutaneo', 'L92');
+insert into Inlness (name, cid) values('Lupus Eritematoso', 'L93');
+insert into Inlness (name, cid) values('Outras Afecções Localizadas do Tecido Conjuntivo', 'L94');
+insert into Inlness (name, cid) values('Vasculite Limitada a Pele Não Classificadas em Outra Parte', 'L95');
+insert into Inlness (name, cid) values('Ulcera dos Membros Inferiores Não Classificada em Outra Parte', 'L97');
+insert into Inlness (name, cid) values('Outras Afecções da Pele e do Tecido Subcutaneo Não Classificadas em Outra Parte', 'L98');
+insert into Inlness (name, cid) values('Outras Afecções da Pele e do Tecido Subcutaneo em Doencas Classificadas em Outra Parte', 'L99');
+insert into Inlness (name, cid) values('Artrite Piogenica', 'M00');
+insert into Inlness (name, cid) values('Infecções Diretas da Articulação em Doencas Infecciosas e Parasitarias Classificadas em Outra Parte', 'M01');
+insert into Inlness (name, cid) values('Artropatias Reacionais', 'M02');
+insert into Inlness (name, cid) values('Artropatias Pos-Infecciosas e Reacionais em Doencas Infecciosas Classificadas em Outra Parte', 'M03');
+insert into Inlness (name, cid) values('Artrite Reumatoide Soro-Positiva', 'M05');
+insert into Inlness (name, cid) values('Outras Artrites Reumatoides', 'M06');
+insert into Inlness (name, cid) values('Artropatias Psoriasicas e Enteropaticas', 'M07');
+insert into Inlness (name, cid) values('Artrite Juvenil', 'M08');
+insert into Inlness (name, cid) values('Artrite Juvenil em Doencas Classificadas em Outra Parte', 'M09');
+insert into Inlness (name, cid) values('Gota', 'M10');
+insert into Inlness (name, cid) values('Outras Artropatias por Deposição de Cristais', 'M11');
+insert into Inlness (name, cid) values('Outras Artropatias Especificadas', 'M12');
+insert into Inlness (name, cid) values('Outras Artrites', 'M13');
+insert into Inlness (name, cid) values('Artropatias em Outras Doencas Classificadas em Outra Parte', 'M14');
+insert into Inlness (name, cid) values('Poliartrose', 'M15');
+insert into Inlness (name, cid) values('Coxartrose [Artrose do Quadril]', 'M16');
+insert into Inlness (name, cid) values('Gonartrose [Artrose do Joelho]', 'M17');
+insert into Inlness (name, cid) values('Artrose da Primeira Articulação Carpometacarpiana', 'M18');
+insert into Inlness (name, cid) values('Outras Artroses', 'M19');
+insert into Inlness (name, cid) values('Deformidades Adquiridas dos Dedos das Mãos e dos Pes', 'M20');
+insert into Inlness (name, cid) values('Outras Deformidades Adquiridas dos Membros', 'M21');
+insert into Inlness (name, cid) values('Transtornos da Rotula [Patela]', 'M22');
+insert into Inlness (name, cid) values('Transtornos Internos dos Joelhos', 'M23');
+insert into Inlness (name, cid) values('Outras Transtornos Articulares Especificos', 'M24');
+insert into Inlness (name, cid) values('Outros Transtornos Articulares Não Classificados em Outra Parte', 'M25');
+insert into Inlness (name, cid) values('Poliarterite Nodosa e Afecções Correlatas', 'M30');
+insert into Inlness (name, cid) values('Outras Vasculopatias Necrotizantes', 'M31');
+insert into Inlness (name, cid) values('Lupus Eritematoso Disseminado [Sistemico]', 'M32');
+insert into Inlness (name, cid) values('Dermatopoliomiosite', 'M33');
+insert into Inlness (name, cid) values('Esclerose Sistemica', 'M34');
+insert into Inlness (name, cid) values('Outras Afecções Sistemicas do Tecido Conjuntivo', 'M35');
+insert into Inlness (name, cid) values('Doencas Sistemicas do Tecido Conjuntivo em Doencas Classificadas em Outra Parte', 'M36');
+insert into Inlness (name, cid) values('Cifose e Lordose', 'M40');
+insert into Inlness (name, cid) values('Escoliose', 'M41');
+insert into Inlness (name, cid) values('Osteocondrose da Coluna Vertebral', 'M42');
+insert into Inlness (name, cid) values('Outras Dorsopatias Deformantes', 'M43');
+insert into Inlness (name, cid) values('Espondilite Ancilosante', 'M45');
+insert into Inlness (name, cid) values('Outras Espondilopatias Inflamatorias', 'M46');
+insert into Inlness (name, cid) values('Espondilose', 'M47');
+insert into Inlness (name, cid) values('Outras Espondilopatias', 'M48');
+insert into Inlness (name, cid) values('Espondilopatias em Doencas Classificadas em Outra Parte', 'M49');
+insert into Inlness (name, cid) values('Transtornos dos Discos Cervicais', 'M50');
+insert into Inlness (name, cid) values('Outros Transtornos de Discos Intervertebrais', 'M51');
+insert into Inlness (name, cid) values('Outras Dorsopatias Não Classificadas em Outra Parte', 'M53');
+insert into Inlness (name, cid) values('Dorsalgia', 'M54');
+insert into Inlness (name, cid) values('Miosite', 'M60');
+insert into Inlness (name, cid) values('Calcificação e Ossificação do Musculo', 'M61');
+insert into Inlness (name, cid) values('Outros Transtornos Musculares', 'M62');
+insert into Inlness (name, cid) values('Transtornos de Musculo em Doencas Classificadas em Outra Parte', 'M63');
+insert into Inlness (name, cid) values('Sinovite e Tenossinovite', 'M65');
+insert into Inlness (name, cid) values('Ruptura Espontanea de Sinovia e de Tendão', 'M66');
+insert into Inlness (name, cid) values('Outros Transtornos das Sinovias e dos Tendões', 'M67');
+insert into Inlness (name, cid) values('Transtorno de Sinovias e de Tendões em Doencas Classificadas em Outra Parte', 'M68');
+insert into Inlness (name, cid) values('Transtornos dos Tecidos Moles Relacionados com O Uso, Uso Excessivo e Pressão', 'M70');
+insert into Inlness (name, cid) values('Outras Bursopatias', 'M71');
+insert into Inlness (name, cid) values('Transtornos Fibroblasticos', 'M72');
+insert into Inlness (name, cid) values('Transtornos dos Tecidos Moles em Doencas Classificadas em Outra Parte', 'M73');
+insert into Inlness (name, cid) values('Lesões do Ombro', 'M75');
+insert into Inlness (name, cid) values('Entesopatias dos Membros Inferiores, Excluindo Pe', 'M76');
+insert into Inlness (name, cid) values('Outras Entesopatias', 'M77');
+insert into Inlness (name, cid) values('Outros Transtornos dos Tecidos Moles, Não Classificados em Outra Parte', 'M79');
+insert into Inlness (name, cid) values('Osteoporose com Fratura Patologica', 'M80');
+insert into Inlness (name, cid) values('Osteoporose sem Fratura Patologica', 'M81');
+insert into Inlness (name, cid) values('Osteoporose em Doencas Classificadas em Outra Parte', 'M82');
+insert into Inlness (name, cid) values('Osteomalacia do Adulto', 'M83');
+insert into Inlness (name, cid) values('Transtornos da Continuidade do Osso', 'M84');
+insert into Inlness (name, cid) values('Outros Transtornos da Densidade e da Estrutura Osseas', 'M85');
+insert into Inlness (name, cid) values('Osteomielite', 'M86');
+insert into Inlness (name, cid) values('Osteonecrose', 'M87');
+insert into Inlness (name, cid) values('Doenca de Paget do Osso (Osteite Deformante)', 'M88');
+insert into Inlness (name, cid) values('Outros Transtornos Osseos', 'M89');
+insert into Inlness (name, cid) values('Osteopatias em Doencas Classificadas em Outra Parte', 'M90');
+insert into Inlness (name, cid) values('Osteocondrose Juvenil do Quadril e da Pelve', 'M91');
+insert into Inlness (name, cid) values('Outras Osteocondroses Juvenis', 'M92');
+insert into Inlness (name, cid) values('Outras Osteocondropatias', 'M93');
+insert into Inlness (name, cid) values('Outros Transtornos das Cartilagens', 'M94');
+insert into Inlness (name, cid) values('Outras Deformidades Adquiridas do Sistema Osteomuscular e do Tecido Conjuntivo', 'M95');
+insert into Inlness (name, cid) values('Transtornos Osteomusculares Pos-Procedimentos Não Classificados em Outra Parte', 'M96');
+insert into Inlness (name, cid) values('Lesões Biomecanicas Não Classificadas em Outra Parte', 'M99');
+insert into Inlness (name, cid) values('Sindrome Nefritica Aguda', 'N00');
+insert into Inlness (name, cid) values('Sindrome Nefritica Rapidamente Progressiva', 'N01');
+insert into Inlness (name, cid) values('Hematuria Recidivante e Persistente', 'N02');
+insert into Inlness (name, cid) values('Sindrome Nefritica Cronica', 'N03');
+insert into Inlness (name, cid) values('Sindrome Nefrotica', 'N04');
+insert into Inlness (name, cid) values('Sindrome Nefritica Não Especificada', 'N05');
+insert into Inlness (name, cid) values('Proteinuria Isolada com Lesão Morfologica Especificada', 'N06');
+insert into Inlness (name, cid) values('Nefropatia Hereditaria Não Classificada em Outra Parte', 'N07');
+insert into Inlness (name, cid) values('Transtornos Glomerulares em Doencas Classificadas em Outra Parte', 'N08');
+insert into Inlness (name, cid) values('Nefrite Tubulo-Intersticial Aguda', 'N10');
+insert into Inlness (name, cid) values('Nefrite Tubulo-Intersticial Cronica', 'N11');
+insert into Inlness (name, cid) values('Nefrite Tubulo-Intersticial Não Especificada Se Aguda ou Cronica', 'N12');
+insert into Inlness (name, cid) values('Uropatia Obstrutiva e por Refluxo', 'N13');
+insert into Inlness (name, cid) values('Afecções Tubulares e Tubulo-Intersticiais Induzidas por Drogas ou Metais Pesados', 'N14');
+insert into Inlness (name, cid) values('Outras Doencas Renais Tubulo-Intersticiais', 'N15');
+insert into Inlness (name, cid) values('Transtornos Renais Tubulo-Intersticiais em Doencas Classificadas em Outra Parte', 'N16');
+insert into Inlness (name, cid) values('Insuficiencia Renal Aguda', 'N17');
+insert into Inlness (name, cid) values('Insuficiencia Renal Cronica', 'N18');
+insert into Inlness (name, cid) values('Insuficiencia Renal Não Especificada', 'N19');
+insert into Inlness (name, cid) values('Calculose do Rim e do Ureter', 'N20');
+insert into Inlness (name, cid) values('Calculose do Trato Urinario Inferior', 'N21');
+insert into Inlness (name, cid) values('Calculose do Trato Urinario Inferior em Doencas Classificadas em Outra Parte', 'N22');
+insert into Inlness (name, cid) values('Colica Nefretica Não Especificada', 'N23');
+insert into Inlness (name, cid) values('Transtornos Resultantes de Função Renal Tubular Alterada', 'N25');
+insert into Inlness (name, cid) values('Rim Contraido, Não Especificado', 'N26');
+insert into Inlness (name, cid) values('Hipoplasia Renal de Causa Desconhecida', 'N27');
+insert into Inlness (name, cid) values('Outros Transtornos do Rim e do Ureter Não Classificado em Outra Parte', 'N28');
+insert into Inlness (name, cid) values('Outros Transtornos do Rim e do Ureter em Doencas Classificadas em Outra Parte', 'N29');
+insert into Inlness (name, cid) values('Cistite', 'N30');
+insert into Inlness (name, cid) values('Disfunções Neuromusculares da Bexiga Não Classificados em Outra Parte', 'N31');
+insert into Inlness (name, cid) values('Outros Transtornos da Bexiga', 'N32');
+insert into Inlness (name, cid) values('Transtornos da Bexiga em Doencas Classificadas em Outra Parte', 'N33');
+insert into Inlness (name, cid) values('Uretrite e Sindrome Uretral', 'N34');
+insert into Inlness (name, cid) values('Estenose da Uretra', 'N35');
+insert into Inlness (name, cid) values('Outros Transtornos da Uretra', 'N36');
+insert into Inlness (name, cid) values('Transtornos da Uretra em Doencas Classificadas em Outra Parte', 'N37');
+insert into Inlness (name, cid) values('Outros Transtornos do Trato Urinario', 'N39');
+insert into Inlness (name, cid) values('Hiperplasia da Prostata', 'N40');
+insert into Inlness (name, cid) values('Doencas Inflamatorias da Prostata', 'N41');
+insert into Inlness (name, cid) values('Outras Afecções da Prostata', 'N42');
+insert into Inlness (name, cid) values('Hidrocele e Espermatocele', 'N43');
+insert into Inlness (name, cid) values('Torção do Testiculo', 'N44');
+insert into Inlness (name, cid) values('Orquite e Epididimite', 'N45');
+insert into Inlness (name, cid) values('Infertilidade Masculina', 'N46');
+insert into Inlness (name, cid) values('Hipertrofia do Prepucio, Fimose e Parafimose', 'N47');
+insert into Inlness (name, cid) values('Outros Transtornos do Penis', 'N48');
+insert into Inlness (name, cid) values('Transtornos Inflamatorios de Orgãos Genitais Masculinos, Não Classificados em Outra Parte', 'N49');
+insert into Inlness (name, cid) values('Outros Transtornos dos Orgãos Genitais Masculinos', 'N50');
+insert into Inlness (name, cid) values('Transtornos dos Orgãos Genitais Masculinos em Doencas Classificadas em Outra Parte', 'N51');
+insert into Inlness (name, cid) values('Displasias Mamarias Benignas', 'N60');
+insert into Inlness (name, cid) values('Transtornos Inflamatorios da Mama', 'N61');
+insert into Inlness (name, cid) values('Hipertrofia da Mama', 'N62');
+insert into Inlness (name, cid) values('Nodulo Mamario Não Especificado', 'N63');
+insert into Inlness (name, cid) values('Outras Doencas da Mama', 'N64');
+insert into Inlness (name, cid) values('Salpingite e Ooforite', 'N70');
+insert into Inlness (name, cid) values('Doenca Inflamatoria do Utero, Exceto O Colo', 'N71');
+insert into Inlness (name, cid) values('Doenca Inflamatoria do Colo do Utero', 'N72');
+insert into Inlness (name, cid) values('Outras Doencas Inflamatorias Pelvicas Femininas', 'N73');
+insert into Inlness (name, cid) values('Transtornos Inflamatorios da Pelve Feminina em Doencas Classificadas em Outra Parte', 'N74');
+insert into Inlness (name, cid) values('Doencas da Glandula de Bartholin', 'N75');
+insert into Inlness (name, cid) values('Outras Afecções Inflamatorias da Vagina e da Vulva', 'N76');
+insert into Inlness (name, cid) values('Ulceração e Inflamação Vulvovaginais em Doencas Classificadas em Outra Parte', 'N77');
+insert into Inlness (name, cid) values('Endometriose', 'N80');
+insert into Inlness (name, cid) values('Prolapso Genital Feminino', 'N81');
+insert into Inlness (name, cid) values('Fistulas do Trato Genital Feminino', 'N82');
+insert into Inlness (name, cid) values('Transtornos Não-Inflamatorios do Ovario, da Trompa de Falopio e do Ligamento Largo', 'N83');
+insert into Inlness (name, cid) values('Polipo do Trato Genital Feminino', 'N84');
+insert into Inlness (name, cid) values('Outros Transtornos Não-Inflamatorios do Utero, Exceto do Colo do Utero', 'N85');
+insert into Inlness (name, cid) values('Erosão e Ectropio do Colo do Utero', 'N86');
+insert into Inlness (name, cid) values('Displasia do Colo do Utero', 'N87');
+insert into Inlness (name, cid) values('Outros Transtornos Não-Inflamatorios do Colo do Utero', 'N88');
+insert into Inlness (name, cid) values('Outros Transtornos Não-Inflamatorios da Vagina', 'N89');
+insert into Inlness (name, cid) values('Outros Transtornos Não-Inflamatorios da Vulva e do Perineo', 'N90');
+insert into Inlness (name, cid) values('Menstruação Ausente, Escassa e Pouco Frequente', 'N91');
+insert into Inlness (name, cid) values('Menstruação Excessiva, Frequente e Irregular', 'N92');
+insert into Inlness (name, cid) values('Outros Sangramentos Anormais do Utero e da Vagina', 'N93');
+insert into Inlness (name, cid) values('Dor e Outras Afecções Associadas com Os Orgãos Genitais Femininos e com O Ciclo Menstrual', 'N94');
+insert into Inlness (name, cid) values('Transtornos da Menopausa e da Perimenopausa', 'N95');
+insert into Inlness (name, cid) values('Abortamento Habitual', 'N96');
+insert into Inlness (name, cid) values('Infertilidade Feminina', 'N97');
+insert into Inlness (name, cid) values('Complicações Associadas a Fecundação Artificial', 'N98');
+insert into Inlness (name, cid) values('Transtornos do Trato Geniturinario Pos-Procedimentos Não Classificados em Outra Parte', 'N99');
+insert into Inlness (name, cid) values('Gravidez Ectopica', 'O00');
+insert into Inlness (name, cid) values('Mola Hidatiforme', 'O01');
+insert into Inlness (name, cid) values('Outros Produtos Anormais da Concepção', 'O02');
+insert into Inlness (name, cid) values('Aborto Espontaneo', 'O03');
+insert into Inlness (name, cid) values('Aborto por Razões Medicas e Legais', 'O04');
+insert into Inlness (name, cid) values('Outros Tipos de Aborto', 'O05');
+insert into Inlness (name, cid) values('Aborto Não Especificado', 'O06');
+insert into Inlness (name, cid) values('Falha de Tentativa de Aborto', 'O07');
+insert into Inlness (name, cid) values('Complicações Consequentes a Aborto e Gravidez Ectopica ou Molar', 'O08');
+insert into Inlness (name, cid) values('Hipertensão Pre-Existente Complicando a Gravidez, O Parto e O Puerperio', 'O10');
+insert into Inlness (name, cid) values('Disturbio Hipertensivo Pre-Existente com Proteinuria Superposta', 'O11');
+insert into Inlness (name, cid) values('Edema e Proteinuria Gestacionais [Induzidos Pela Gravidez], sem Hipertensão', 'O12');
+insert into Inlness (name, cid) values('Hipertensão Gestacional [Induzida Pela Gravidez] sem Proteinuria Significativa', 'O13');
+insert into Inlness (name, cid) values('Hipertensão Gestacional [Induzida Pela Gravidez] com Proteinuria Significativa', 'O14');
+insert into Inlness (name, cid) values('Eclampsia', 'O15');
+insert into Inlness (name, cid) values('Hipertensão Materna Não Especificada', 'O16');
+insert into Inlness (name, cid) values('Hemorragia do Inicio da Gravidez', 'O20');
+insert into Inlness (name, cid) values('Vomitos Excessivos na Gravidez', 'O21');
+insert into Inlness (name, cid) values('Complicações Venosas na Gravidez', 'O22');
+insert into Inlness (name, cid) values('Infecções do Trato Geniturinario na Gravidez', 'O23');
+insert into Inlness (name, cid) values('Diabetes Mellitus na Gravidez', 'O24');
+insert into Inlness (name, cid) values('Desnutrição na Gravidez', 'O25');
+insert into Inlness (name, cid) values('Assistencia Materna por Outras Complicações Ligadas Predominantemente a Gravidez', 'O26');
+insert into Inlness (name, cid) values('Achados Anormais do Rastreamento [ Screening ] Antenatal da Mãe', 'O28');
+insert into Inlness (name, cid) values('Complicações de Anestesia Administrada Durante a Gravidez', 'O29');
+insert into Inlness (name, cid) values('Gestação Multipla', 'O30');
+insert into Inlness (name, cid) values('Complicações Especificas de Gestação Multipla', 'O31');
+insert into Inlness (name, cid) values('Assistencia Prestada a Mãe por Motivo de Apresentação Anormal, Conhecida ou Suspeitada, do Feto', 'O32');
+insert into Inlness (name, cid) values('Assistencia Prestada a Mãe por Uma Desproporção Conhecida ou Suspeita', 'O33');
+insert into Inlness (name, cid) values('Assistencia Prestada a Mãe por Anormalidade, Conhecida ou Suspeita, dos Orgãos Pelvicos Maternos', 'O34');
+insert into Inlness (name, cid) values('Assistencia Prestada a Mãe por Anormalidade e Lesão Fetais, Conhecidas ou Suspeitadas', 'O35');
+insert into Inlness (name, cid) values('Assistencia Prestada a Mãe por Outros Problemas Fetais Conhecidos ou Suspeitados', 'O36');
+insert into Inlness (name, cid) values('Polihidramnio', 'O40');
+insert into Inlness (name, cid) values('Outros Transtornos das Membranas e do Liquido Amniotico', 'O41');
+insert into Inlness (name, cid) values('Ruptura Prematura de Membranas', 'O42');
+insert into Inlness (name, cid) values('Transtornos da Placenta', 'O43');
+insert into Inlness (name, cid) values('Placenta Previa', 'O44');
+insert into Inlness (name, cid) values('Descolamento Prematuro da Placenta [Abruptio Placentae]', 'O45');
+insert into Inlness (name, cid) values('Hemorragia Anteparto Não Classificada em Outra Parte', 'O46');
+insert into Inlness (name, cid) values('Falso Trabalho de Parto', 'O47');
+insert into Inlness (name, cid) values('Gravidez Prolongada', 'O48');
+insert into Inlness (name, cid) values('Parto Pre-Termo', 'O60');
+insert into Inlness (name, cid) values('Falha na Indução do Trabalho de Parto', 'O61');
+insert into Inlness (name, cid) values('Anormalidades da Contração Uterina', 'O62');
+insert into Inlness (name, cid) values('Trabalho de Parto Prolongado', 'O63');
+insert into Inlness (name, cid) values('Obstrução do Trabalho de Parto Devida a Ma-Posição ou Ma-Apresentação do Feto', 'O64');
+insert into Inlness (name, cid) values('Obstrução do Trabalho de Parto Devida a Anormalidade Pelvica da Mãe', 'O65');
+insert into Inlness (name, cid) values('Outras Formas de Obstrução do Trabalho de Parto', 'O66');
+insert into Inlness (name, cid) values('Trabalho de Parto e Parto Complicados por Hemorragia Intraparto Não Classificados em Outra Parte', 'O67');
+insert into Inlness (name, cid) values('Trabalho de Parto e Parto Complicados por Sofrimento Fetal', 'O68');
+insert into Inlness (name, cid) values('Trabalho de Parto e Parto Complicados por Anormalidade do Cordão Umbilical', 'O69');
+insert into Inlness (name, cid) values('Laceração do Perineo Durante O Parto', 'O70');
+insert into Inlness (name, cid) values('Outros Traumatismos Obstetricos', 'O71');
+insert into Inlness (name, cid) values('Hemorragia Pos-Parto', 'O72');
+insert into Inlness (name, cid) values('Retenção da Placenta e das Membranas, sem Hemorragias', 'O73');
+insert into Inlness (name, cid) values('Outras Complicações do Trabalho de Parto e do Parto Não Classificadas em Outra Parte', 'O75');
+insert into Inlness (name, cid) values('Parto Unico Espontaneo', 'O80');
+insert into Inlness (name, cid) values('Parto Unico por Cesariana', 'O82');
+insert into Inlness (name, cid) values('Outros Tipos de Parto Unico Assistido', 'O83');
+insert into Inlness (name, cid) values('Parto Multiplo', 'O84');
+insert into Inlness (name, cid) values('Infecção Puerperal', 'O85');
+insert into Inlness (name, cid) values('Outras Infecções Puerperais', 'O86');
+insert into Inlness (name, cid) values('Complicações Venosas no Puerperio', 'O87');
+insert into Inlness (name, cid) values('Embolia de Origem Obstetrica', 'O88');
+insert into Inlness (name, cid) values('Complicações do Puerperio Não Classificadas em Outra Parte', 'O90');
+insert into Inlness (name, cid) values('Infecções Mamarias Associadas ao Parto', 'O91');
+insert into Inlness (name, cid) values('Outras Afecções da Mama e da Lactação Associadas ao Parto', 'O92');
+insert into Inlness (name, cid) values('Doencas Infecciosas e Parasitarias Maternas Classificaveis em Outra Parte Mas Que Compliquem a Gravidez, O Parto e O Puerperio', 'O98');
+insert into Inlness (name, cid) values('Outras Doencas da Mãe, Classificadas em Outra Parte, Mas Que Complicam a Gravidez O Parto e O Puerperio', 'O99');
+insert into Inlness (name, cid) values('Feto e Recem-Nascido Afetados por Afecções Maternas, Não Obrigatoriamente Relacionadas com a Gravidez Atual', 'P00');
+insert into Inlness (name, cid) values('Feto e Recem-Nascido Afetados por Complicações Maternas da Gravidez', 'P01');
+insert into Inlness (name, cid) values('Feto e Recem-Nascido Afetados por Complicações da Placenta, do Cordão Umbilical e das Membranas', 'P02');
+insert into Inlness (name, cid) values('Feto e Recem-Nascido Afetados por Outras Complicações do Trabalho de Parto e do Parto', 'P03');
+insert into Inlness (name, cid) values('Crescimento Fetal Retardado e Desnutrição Fetal', 'P05');
+insert into Inlness (name, cid) values('Transtornos Relacionados com a Gestação de Curta Duração e Peso Baixo ao Nascer Não Classificados em Outra Parte', 'P07');
+insert into Inlness (name, cid) values('Laceração Intracraniana e Hemorragia Devidas a Traumatismo de Parto', 'P10');
+insert into Inlness (name, cid) values('Outros Traumatismos de Parto do Sistema Nervoso Central', 'P11');
+insert into Inlness (name, cid) values('Lesões do Esqueleto Devidas a Traumatismo de Parto', 'P13');
+insert into Inlness (name, cid) values('Lesões ao Nascer do Sistema Nervoso Periferico', 'P14');
+insert into Inlness (name, cid) values('Outros Traumatismos de Parto', 'P15');
+insert into Inlness (name, cid) values('Hipoxia Intra-Uterina', 'P20');
+insert into Inlness (name, cid) values('Asfixia ao Nascer', 'P21');
+insert into Inlness (name, cid) values('Desconforto (Angustia) Respiratorio(A) do Recem-Nascido', 'P22');
+insert into Inlness (name, cid) values('Pneumonia Congenita', 'P23');
+insert into Inlness (name, cid) values('Transtornos Cardiovasculares Originados no Periodo Perinatal', 'P29');
+insert into Inlness (name, cid) values('Outras Doencas Infecciosas e Parasitarias Congenitas', 'P37');
+insert into Inlness (name, cid) values('Outras Infecções Especificas do Periodo Perinatal', 'P39');
+insert into Inlness (name, cid) values('Perda Sanguinea Fetal', 'P50');
+insert into Inlness (name, cid) values('Hemorragia Intracraniana Não-Traumatica do Feto e do Recem-Nascido', 'P52');
+insert into Inlness (name, cid) values('Outras Hemorragias Neonatais', 'P54');
+insert into Inlness (name, cid) values('Doenca Hemolitica do Feto e do Recem-Nascido', 'P55');
+insert into Inlness (name, cid) values('Hidropsia Fetal Devida a Doenca Hemolitica', 'P56');
+insert into Inlness (name, cid) values('Outras Obstruções Intestinais do Recem-Nascido', 'P76');
+insert into Inlness (name, cid) values('Outros Transtornos do Aparelho Digestivo do Periodo Perinatal', 'P78');
+insert into Inlness (name, cid) values('Outras Afecções Comprometendo O Tegumento Especificas do Feto e do Recem-Nascido', 'P83');
+insert into Inlness (name, cid) values('Problemas de Alimentação do Recem-Nascido', 'P92');
+insert into Inlness (name, cid) values('Morte Fetal de Causa Não Especificada', 'P95');
+insert into Inlness (name, cid) values('Outras Afecções Originadas no Periodo Perinatal', 'P96');
+insert into Inlness (name, cid) values('Anencefalia e Malformações Similares', 'Q00');
+insert into Inlness (name, cid) values('Encefalocele', 'Q01');
+insert into Inlness (name, cid) values('Microcefalia', 'Q02');
+insert into Inlness (name, cid) values('Hidrocefalia Congenita', 'Q03');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Cerebro', 'Q04');
+insert into Inlness (name, cid) values('Espinha Bifida', 'Q05');
+insert into Inlness (name, cid) values('Outras Malformaçõess Congenitas da Medula Espinhal', 'Q06');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Sistema Nervoso', 'Q07');
+insert into Inlness (name, cid) values('Malformações Congenitas das Palpebras, do Aparelho Lacrimal e da Orbita', 'Q10');
+insert into Inlness (name, cid) values('Anoftalmia, Microftalmia e Macroftalmia', 'Q11');
+insert into Inlness (name, cid) values('Malformações Congenitas do Cristalino', 'Q12');
+insert into Inlness (name, cid) values('Malformações Congenitas da Camara Anterior do Olho', 'Q13');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Olho', 'Q15');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas da Orelha', 'Q17');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas da Face e do Pescoço', 'Q18');
+insert into Inlness (name, cid) values('Malformações Congenitas das Camaras e das Comunicações Cardiacas', 'Q20');
+insert into Inlness (name, cid) values('Malformações Congenitas dos Septos Cardiacos', 'Q21');
+insert into Inlness (name, cid) values('Malformações Congenitas das Valvas Pulmonar e Tricuspide', 'Q22');
+insert into Inlness (name, cid) values('Malformações Congenitas das Valvas Aortica e Mitral', 'Q23');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Coração', 'Q24');
+insert into Inlness (name, cid) values('Malformações Congenitas das Grandes Arterias', 'Q25');
+insert into Inlness (name, cid) values('Malformações Congenitas das Grandes Veias', 'Q26');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Sistema Vascular Periferico', 'Q27');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Aparelho Circulatorio', 'Q28');
+insert into Inlness (name, cid) values('Malformação Congenita do Nariz', 'Q30');
+insert into Inlness (name, cid) values('Malformações Congenitas da Laringe', 'Q31');
+insert into Inlness (name, cid) values('Malformações Congenitas da Traqueia e dos Bronquios', 'Q32');
+insert into Inlness (name, cid) values('Malformações Congenitas do Pulmão', 'Q33');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Aparelho Respiratorio', 'Q34');
+insert into Inlness (name, cid) values('Fenda Palatina', 'Q35');
+insert into Inlness (name, cid) values('Fenda Labial', 'Q36');
+insert into Inlness (name, cid) values('Fenda Labial com Fenda Palatina', 'Q37');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas da Lingua, da Boca e da Faringe', 'Q38');
+insert into Inlness (name, cid) values('Malformações Congenitas do Esofago', 'Q39');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Trato Digestivo Superior', 'Q40');
+insert into Inlness (name, cid) values('Ausencia, Atresia e Estenose Congenita do Intestino Delgado', 'Q41');
+insert into Inlness (name, cid) values('Ausencia, Atresia e Estenose Congenita do Colon', 'Q42');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Intestino', 'Q43');
+insert into Inlness (name, cid) values('Malformações Congenitas da Vesicula Biliar, das Vias Biliares e do Figado', 'Q44');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Aparelho Digestivo', 'Q45');
+insert into Inlness (name, cid) values('Malformações Congenitas dos Ovarios, das Trompas de Falopio e dos Ligamentos Largos', 'Q50');
+insert into Inlness (name, cid) values('Malformações Congenitas do Utero e do Colo do Utero', 'Q51');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas dos Orgãos Genitais Femininos', 'Q52');
+insert into Inlness (name, cid) values('Testiculo Não-Descido', 'Q53');
+insert into Inlness (name, cid) values('Hipospadias', 'Q54');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas dos Orgãos Genitais Masculinos', 'Q55');
+insert into Inlness (name, cid) values('Sexo Indeterminado e Pseudo-Hermafroditismo', 'Q56');
+insert into Inlness (name, cid) values('Agenesia Renal e Outros Defeitos de Redução do Rim', 'Q60');
+insert into Inlness (name, cid) values('Doencas Cisticas do Rim', 'Q61');
+insert into Inlness (name, cid) values('Anomalias Congenitas Obstrutivas da Pelve Renal e Malformações Congenitas do Ureter', 'Q62');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Rim', 'Q63');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Aparelho Urinario', 'Q64');
+insert into Inlness (name, cid) values('Malformações Congenitas do Quadril', 'Q65');
+insert into Inlness (name, cid) values('Deformidades Congenitas do Pe', 'Q66');
+insert into Inlness (name, cid) values('Deformidades Osteomusculares Congenitas da Cabeca, da Face, da Coluna e do Torax', 'Q67');
+insert into Inlness (name, cid) values('Outras Deformidades Osteomusculares Congenitas', 'Q68');
+insert into Inlness (name, cid) values('Polidactilia', 'Q69');
+insert into Inlness (name, cid) values('Sindactilia', 'Q70');
+insert into Inlness (name, cid) values('Defeitos, por Redução, do Membro Superior', 'Q71');
+insert into Inlness (name, cid) values('Defeitos, por Redução, do Membro Inferior', 'Q72');
+insert into Inlness (name, cid) values('Defeitos por Redução de Membro Não Especificado', 'Q73');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas dos Membros', 'Q74');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas dos Ossos do Cranio e da Face', 'Q75');
+insert into Inlness (name, cid) values('Malformações Congenitas da Coluna Vertebral e dos Ossos do Torax', 'Q76');
+insert into Inlness (name, cid) values('Osteocondrodisplasia com Anomalias de Crescimento dos Ossos Longos e da Coluna Vertebral', 'Q77');
+insert into Inlness (name, cid) values('Outras Osteocondrodisplasias', 'Q78');
+insert into Inlness (name, cid) values('Malformações Congenitas do Sistema Osteomuscular Não Classificadas em Outra Parte', 'Q79');
+insert into Inlness (name, cid) values('Ictiose Congenita', 'Q80');
+insert into Inlness (name, cid) values('Epidermolise Bolhosa', 'Q81');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas da Pele', 'Q82');
+insert into Inlness (name, cid) values('Malformações Congenitas da Mama', 'Q83');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas do Tegumento', 'Q84');
+insert into Inlness (name, cid) values('Facomatoses Não Classificadas em Outra Parte', 'Q85');
+insert into Inlness (name, cid) values('Sindromes com Malformações Congenitas Devidas a Causas Exogenas Conhecidas, Não Classificadas em Outra Parte', 'Q86');
+insert into Inlness (name, cid) values('Outras Sindromes com Malformações Congenitas Que Acometem Multiplos Sistemas', 'Q87');
+insert into Inlness (name, cid) values('Outras Malformações Congenitas Não Classificadas em Outra Parte', 'Q89');
+insert into Inlness (name, cid) values('Sindrome de Down', 'Q90');
+insert into Inlness (name, cid) values('Sindrome de Edwards e Sindrome de Patau', 'Q91');
+insert into Inlness (name, cid) values('Monossomias e Deleções dos Autossomos, Não Classificadas em Outra Parte', 'Q93');
+insert into Inlness (name, cid) values('Sindrome de Turner', 'Q96');
+insert into Inlness (name, cid) values('Outras Anomalias dos Cromossomos, Não Classificadas em Outra Parte', 'Q99');
+insert into Inlness (name, cid) values('Anormalidades do Batimento Cardiaco', 'R00');
+insert into Inlness (name, cid) values('Gangrena Não Classificada em Outra Parte', 'R02');
+insert into Inlness (name, cid) values('Valor Anormal da Pressão Arterial sem Diagnostico', 'R03');
+insert into Inlness (name, cid) values('Hemorragia das Vias Respiratorias', 'R04');
+insert into Inlness (name, cid) values('Tosse', 'R05');
+insert into Inlness (name, cid) values('Anormalidades da Respiração', 'R06');
+insert into Inlness (name, cid) values('Dor de Garganta e no Peito', 'R07');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos Aos Aparelhos Circulatorio e Respiratorio', 'R09');
+insert into Inlness (name, cid) values('Dor Abdominal e Pelvica', 'R10');
+insert into Inlness (name, cid) values('Nausea e Vomitos', 'R11');
+insert into Inlness (name, cid) values('Disfagia', 'R13');
+insert into Inlness (name, cid) values('Incontinencia Fecal', 'R15');
+insert into Inlness (name, cid) values('Hepatomegalia e Esplenomegalia Não Classificadas em Outra Parte', 'R16');
+insert into Inlness (name, cid) values('Ictericia Não Especificada', 'R17');
+insert into Inlness (name, cid) values('Ascite', 'R18');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos ao Aparelho Digestivo e ao Abdome', 'R19');
+insert into Inlness (name, cid) values('Disturbios da Sensibilidade Cutanea', 'R20');
+insert into Inlness (name, cid) values('Eritema e Outras Erupções Cutaneas Não Especificadas', 'R21');
+insert into Inlness (name, cid) values('Tumefação, Massa ou Tumoração Localizadas da Pele e do Tecido Subcutaneo', 'R22');
+insert into Inlness (name, cid) values('Outras Alterações Cutaneas', 'R23');
+insert into Inlness (name, cid) values('Movimentos Involuntarios Anormais', 'R25');
+insert into Inlness (name, cid) values('Anormalidades da Marcha e da Mobilidade', 'R26');
+insert into Inlness (name, cid) values('Outros Disturbios da Coordenação', 'R27');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos Aos Sistemas Nervoso e Osteomuscular', 'R29');
+insert into Inlness (name, cid) values('Dor Associada a Micção', 'R30');
+insert into Inlness (name, cid) values('Hematuria Não Especificada', 'R31');
+insert into Inlness (name, cid) values('Incontinencia Urinaria Não Especificada', 'R32');
+insert into Inlness (name, cid) values('Retenção Urinaria', 'R33');
+insert into Inlness (name, cid) values('Anuria e Oliguria', 'R34');
+insert into Inlness (name, cid) values('Poliuria', 'R35');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos ao Aparelho Urinario', 'R39');
+insert into Inlness (name, cid) values('Sonolencia, Estupor e Coma', 'R40');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos a Função Cognitiva e a Consciencia', 'R41');
+insert into Inlness (name, cid) values('Tontura e Instabilidade', 'R42');
+insert into Inlness (name, cid) values('Disturbios do Olfato e do Paladar', 'R43');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Relativos as Sensaçõs e as Percepções Gerais', 'R44');
+insert into Inlness (name, cid) values('Sintomas e Sinais Relativos ao Estado Emocional', 'R45');
+insert into Inlness (name, cid) values('Sintomas e Sinais Relativos a Aparencia e ao Comportamento', 'R46');
+insert into Inlness (name, cid) values('Disturbios da Fala Não Classificados em Outra Parte', 'R47');
+insert into Inlness (name, cid) values('Dislexia e Outras Disfunções Simbolicas, Não Classificadas em Outra Parte', 'R48');
+insert into Inlness (name, cid) values('Disturbios da Voz', 'R49');
+insert into Inlness (name, cid) values('Febre de Origem Desconhecida', 'R50');
+insert into Inlness (name, cid) values('Cefaleia', 'R51');
+insert into Inlness (name, cid) values('Dor Não Classificada em Outra Parte', 'R52');
+insert into Inlness (name, cid) values('Mal Estar, Fadiga', 'R53');
+insert into Inlness (name, cid) values('Senilidade', 'R54');
+insert into Inlness (name, cid) values('Sincope e Colapso', 'R55');
+insert into Inlness (name, cid) values('Convulsões, Não Classificadas em Outra Parte', 'R56');
+insert into Inlness (name, cid) values('Choque Não Classificado em Outra Parte', 'R57');
+insert into Inlness (name, cid) values('Hemorragia Não Classificada em Outra Parte', 'R58');
+insert into Inlness (name, cid) values('Aumento de Volume dos Ganglios Linfaticos', 'R59');
+insert into Inlness (name, cid) values('Edema Não Classificado em Outra Parte', 'R60');
+insert into Inlness (name, cid) values('Hiperidrose', 'R61');
+insert into Inlness (name, cid) values('Retardo do Desenvolvimento Fisiologico Normal', 'R62');
+insert into Inlness (name, cid) values('Sintomas e Sinais Relativos a Ingestão de Alimentos e Liquidos', 'R63');
+insert into Inlness (name, cid) values('Caquexia', 'R64');
+insert into Inlness (name, cid) values('Outros Sintomas e Sinais Gerais', 'R68');
+insert into Inlness (name, cid) values('Causas Desconhecidas e Não Especificadas de Morbidade', 'R69');
+insert into Inlness (name, cid) values('Traumatismo Superficial da Cabeca', 'S00');
+insert into Inlness (name, cid) values('Ferimento da Cabeca', 'S01');
+insert into Inlness (name, cid) values('Fratura do Cranio e dos Ossos da Face', 'S02');
+insert into Inlness (name, cid) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos da Cabeca', 'S03');
+insert into Inlness (name, cid) values('Traumatismo dos Nervos Cranianos', 'S04');
+insert into Inlness (name, cid) values('Traumatismo do Olho e da Orbita Ocular', 'S05');
+insert into Inlness (name, cid) values('Traumatismo Intracraniano', 'S06');
+insert into Inlness (name, cid) values('Lesõe por Esmagamento da Cabeca', 'S07');
+insert into Inlness (name, cid) values('Amputação Traumatica de Parte da Cabeca', 'S08');
+insert into Inlness (name, cid) values('Outros Traumatismos da Cabeca e Os Não Especificados', 'S09');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Pescoço', 'S10');
+insert into Inlness (name, cid) values('Ferimento do Pescoço', 'S11');
+insert into Inlness (name, cid) values('Fratura do Pescoço', 'S12');
+insert into Inlness (name, cid) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos do Pescoço', 'S13');
+insert into Inlness (name, cid) values('Traumatismo de Nervos e da Medula Espinhal ao Nivel Cervical', 'S14');
+insert into Inlness (name, cid) values('Traumatismo dos Vasos Sanguineos ao Nivel do Pescoço', 'S15');
+insert into Inlness (name, cid) values('Traumatismo de Tendões e de Musculos do Pescoço', 'S16');
+insert into Inlness (name, cid) values('Lesões por Esmagamento do Pescoço', 'S17');
+insert into Inlness (name, cid) values('Amputação Traumatica ao Nivel do Pescoço', 'S18');
+insert into Inlness (name, cid) values('Outros Traumatismos do Pescoço e Os Não Especificados', 'S19');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Torax', 'S20');
+insert into Inlness (name, cid) values('Ferimento do Torax', 'S21');
+insert into Inlness (name, cid) values('Fratura de Costela(s), Esterno e Coluna Toracica', 'S22');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão de Articulações e dos Ligamentos do Torax', 'S23');
+insert into Inlness (name, cid) values('Traumatismos de Nervos e da Medula Espinhal ao Nivel do Torax', 'S24');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos do Torax', 'S25');
+insert into Inlness (name, cid) values('Traumatismo do Coração', 'S26');
+insert into Inlness (name, cid) values('Traumatismo de Outros Orgãos Intratoracicos e dos Não Especificados', 'S27');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Torax e Amputação Traumatica de Parte do Torax', 'S28');
+insert into Inlness (name, cid) values('Outros Traumatismos do Torax e Os Não Especificados', 'S29');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Abdome, do Dorso e da Pelve', 'S30');
+insert into Inlness (name, cid) values('Ferimento do Abdome, do Dorso e da Pelve', 'S31');
+insert into Inlness (name, cid) values('Fratura da Coluna Lombar e da Pelve', 'S32');
+insert into Inlness (name, cid) values('Luxação, Entorse ou Distensão das Articulações e dos Ligamentos da Coluna Lombar e da Pelve', 'S33');
+insert into Inlness (name, cid) values('Traumatismo dos Nervos e da Medula Lombar ao Nivel do Abdome, do Dorso e da Pelve', 'S34');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos ao Nivel do Abdome, do Dorso e da Pelve', 'S35');
+insert into Inlness (name, cid) values('Traumatismo de Orgãos Intra-Abdominais', 'S36');
+insert into Inlness (name, cid) values('Traumatismo do Aparelho Urinario e de Orgãos Pelvicos', 'S37');
+insert into Inlness (name, cid) values('Lesão por Esmagamento e Amputação Traumatica de Parte do Abdome, do Dorso e da Pelve', 'S38');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados do Abdome, do Dorso e da Pelve', 'S39');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Ombro e do Braco', 'S40');
+insert into Inlness (name, cid) values('Ferimento do Ombro e do Braco', 'S41');
+insert into Inlness (name, cid) values('Fratura do Ombro e do Braco', 'S42');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos da Cintura Escapular', 'S43');
+insert into Inlness (name, cid) values('Traumatismo de Nervos ao Nivel do Ombro e do Braco', 'S44');
+insert into Inlness (name, cid) values('Traumatismo dos Vasos Sanguineos ao Nivel do Ombro e do Braco', 'S45');
+insert into Inlness (name, cid) values('Traumatismo de Tendão e Musculo ao Nivel do Ombro e do Braco', 'S46');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Ombro e do Braco', 'S47');
+insert into Inlness (name, cid) values('Amputação Traumatica do Ombro e do Braco', 'S48');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados do Ombro e do Braco', 'S49');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Cotovelo e do Antebraco', 'S50');
+insert into Inlness (name, cid) values('Ferimento do Antebraco', 'S51');
+insert into Inlness (name, cid) values('Fratura do Antebraco', 'S52');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos do Cotovelo', 'S53');
+insert into Inlness (name, cid) values('Traumatismo de Nervos ao Nivel do Antebraco', 'S54');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos ao Nivel do Antebraco', 'S55');
+insert into Inlness (name, cid) values('Traumatismo do Musculo e Tendão ao Nivel do Antebraco', 'S56');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Antebraco', 'S57');
+insert into Inlness (name, cid) values('Amputação Traumatica do Cotovelo e do Antebraco', 'S58');
+insert into Inlness (name, cid) values('Outros Traumatismos do Antebraco e Os Não Especificados', 'S59');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Punho e da Mão', 'S60');
+insert into Inlness (name, cid) values('Ferimento do Punho e da Mão', 'S61');
+insert into Inlness (name, cid) values('Fratura ao Nivel do Punho e da Mão', 'S62');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos ao Nivel do Punho e da Mão', 'S63');
+insert into Inlness (name, cid) values('Traumatismo de Nervos ao Nivel do Punho e da Mão', 'S64');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos ao Nivel do Punho e da Mão', 'S65');
+insert into Inlness (name, cid) values('Traumatismo de Musculo e Tendão ao Nivel do Punho e da Mão', 'S66');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Punho e da Mão', 'S67');
+insert into Inlness (name, cid) values('Amputação Traumatica ao Nivel do Punho e da Mão', 'S68');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados do Punho e da Mão', 'S69');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Quadril e da Coxa', 'S70');
+insert into Inlness (name, cid) values('Ferimento do Quadril e da Coxa', 'S71');
+insert into Inlness (name, cid) values('Fratura do Femur', 'S72');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão da Articulação e dos Ligamentos do Quadril', 'S73');
+insert into Inlness (name, cid) values('Traumatismo de Nervos ao Nivel do Quadril e da Coxa', 'S74');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos ao Nivel do Quadril e da Coxa', 'S75');
+insert into Inlness (name, cid) values('Traumatismo de Musculo e de Tendão ao Nivel do Quadril e da Coxa', 'S76');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Quadril e da Coxa', 'S77');
+insert into Inlness (name, cid) values('Amputação Traumatica do Quadril e da Coxa', 'S78');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados do Quadril e da Coxa', 'S79');
+insert into Inlness (name, cid) values('Traumatismo Superficial da Perna', 'S80');
+insert into Inlness (name, cid) values('Ferimento da Perna', 'S81');
+insert into Inlness (name, cid) values('Fratura da Perna, Incluindo Tornozelo', 'S82');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos do Joelho', 'S83');
+insert into Inlness (name, cid) values('Traumatismo de Nervos Perifericos da Perna', 'S84');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos da Perna', 'S85');
+insert into Inlness (name, cid) values('Traumatismos de Musculo e de Tendão ao Nivel da Perna', 'S86');
+insert into Inlness (name, cid) values('Traumatismo por Esmagamento da Perna', 'S87');
+insert into Inlness (name, cid) values('Amputação Traumatica da Perna', 'S88');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados da Perna', 'S89');
+insert into Inlness (name, cid) values('Traumatismo Superficial do Tornozelo e do Pe', 'S90');
+insert into Inlness (name, cid) values('Ferimentos do Tornozelo e do Pe', 'S91');
+insert into Inlness (name, cid) values('Fratura do Pe (Exceto do Tornozelo)', 'S92');
+insert into Inlness (name, cid) values('Luxação, Entorse e Distensão das Articulações e dos Ligamentos ao Nivel do Tornozelo e do Pe', 'S93');
+insert into Inlness (name, cid) values('Traumatismo dos Nervos ao Nivel do Tornozelo e do Pe', 'S94');
+insert into Inlness (name, cid) values('Traumatismo de Vasos Sanguineos ao Nivel do Tornozelo e do Pe', 'S95');
+insert into Inlness (name, cid) values('Traumatismos do Musculo e Tendão ao Nivel do Tornozelo e do Pe', 'S96');
+insert into Inlness (name, cid) values('Lesão por Esmagamento do Tornozelo e do Pe', 'S97');
+insert into Inlness (name, cid) values('Amputação Traumatica do Tornozelo e do Pe', 'S98');
+insert into Inlness (name, cid) values('Outros Traumatismos e Os Não Especificados do Tornozelo e do Pe', 'S99');
+insert into Inlness (name, cid) values('Traumatismos Superficiais Envolvendo Multiplas Regiões do Corpo', 'T00');
+insert into Inlness (name, cid) values('Ferimentos Envolvendo Multiplas Regiões do Corpo', 'T01');
+insert into Inlness (name, cid) values('Fraturas Envolvendo Multiplas Regiões do Corpo', 'T02');
+insert into Inlness (name, cid) values('Luxações, Entorses e Distensões Envolvendo Regiões Multiplas do Corpo', 'T03');
+insert into Inlness (name, cid) values('Traumatismos por Esmagamento Envolvendo Multiplas Regiões do Corpo', 'T04');
+insert into Inlness (name, cid) values('Amputações Traumaticas Envolvendo Multiplas Regiões do Corpo', 'T05');
+insert into Inlness (name, cid) values('Outros Traumatismos Envolvendo Regiões Multiplas do Corpo, Não Classificados em Outra Parte', 'T06');
+insert into Inlness (name, cid) values('Traumatismos Multiplos Não Especificados', 'T07');
+insert into Inlness (name, cid) values('Fratura da Coluna, Nivel Não Especificado', 'T08');
+insert into Inlness (name, cid) values('Outros Traumatismos de Coluna e Tronco, Nivel Não Especificado', 'T09');
+insert into Inlness (name, cid) values('Fratura do Membro Superior, Nivel Não Especificado', 'T10');
+insert into Inlness (name, cid) values('Outros Traumatismos de Membro Superior, Nivel Não Especificado', 'T11');
+insert into Inlness (name, cid) values('Fratura do Membro Inferior, Nivel Não Especificado', 'T12');
+insert into Inlness (name, cid) values('Outros Traumatismos de Membro Inferior, Nivel Não Especificado', 'T13');
+insert into Inlness (name, cid) values('Traumatismo de Região Não Especificada do Corpo', 'T14');
+insert into Inlness (name, cid) values('Corpo Estranho na Parte Externa do Olho', 'T15');
+insert into Inlness (name, cid) values('Corpo Estranho no Trato Respiratorio', 'T17');
+insert into Inlness (name, cid) values('Corpo Estranho no Aparelho Digestivo', 'T18');
+insert into Inlness (name, cid) values('Corpo Estranho no Trato Geniturinario', 'T19');
+insert into Inlness (name, cid) values('Queimadura e Corrosão da Cabeca e Pescoço', 'T20');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Tronco', 'T21');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Ombro e Membro Superior, Exceto Punho e Mão', 'T22');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Punho e da Mão', 'T23');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Quadril e Membro Inferior, Exceto Tornozelo e do Pe', 'T24');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Tornozelo e do Pe', 'T25');
+insert into Inlness (name, cid) values('Queimadura e Corrosão Limitadas ao Olho e Seus Anexos', 'T26');
+insert into Inlness (name, cid) values('Queimadura e Corrosão do Trato Respiratorio', 'T27');
+insert into Inlness (name, cid) values('Queimadura e Corrosão de Outros Orgãos Internos', 'T28');
+insert into Inlness (name, cid) values('Queimaduras e Corrosões de Multiplas Regiões do Corpo', 'T29');
+insert into Inlness (name, cid) values('Queimadura e Corrosão, Parte Não Especificada do Corpo', 'T30');
+insert into Inlness (name, cid) values('Queimaduras Classificadas Segundo a Extensão da Superficie Corporal Atingida', 'T31');
+insert into Inlness (name, cid) values('Corrosões Classificadas Segundo a Extensão da Superficie Corporal Atingida', 'T32');
+insert into Inlness (name, cid) values('Geladura com Necrose de Tecidos', 'T34');
+insert into Inlness (name, cid) values('Intoxicação por Antibioticos Sistemicos', 'T36');
+insert into Inlness (name, cid) values('Intoxicação por Hormonios, Seus Substitutos Sinteticos e Seus Antagonistas Não Classificados em Outra Parte', 'T38');
+insert into Inlness (name, cid) values('Intoxicação por Narcoticos e Psicodislepticos [Alucinogenos]', 'T40');
+insert into Inlness (name, cid) values('Intoxicação por Antiepilepticos, Sedativos-Hipnoticos e Antiparkinsonianos', 'T42');
+insert into Inlness (name, cid) values('Intoxicação por Drogas Psicotropicas Não Classificadas em Outra Parte', 'T43');
+insert into Inlness (name, cid) values('Intoxicação por Drogas Que Afetam Principalmente O Sistema Nervoso Autonomo', 'T44');
+insert into Inlness (name, cid) values('Intoxicação por Substancias de Ação Essencialmente Sistemica e Substancias Hematologicas, Não Classificadas em Outra Parte', 'T45');
+insert into Inlness (name, cid) values('Intoxicação por Substancias Que Atuam Primariamente Sobre O Aparelho Circulatorio', 'T46');
+insert into Inlness (name, cid) values('Intoxicação por Substancias Que Atuam Primariamente Sobre O Aparelho Gastrointestinal', 'T47');
+insert into Inlness (name, cid) values('Intoxicação por Substancias Que Atuam Primariamente Sobre Os Musculos Lisos e Esqueleticos e Sobre O Aparelho Respiratorio', 'T48');
+insert into Inlness (name, cid) values('Intoxicação por Substancias de Uso Topico Que Atuam Primariamente Sobre a Pele e as Mucosas e por Medicamentos Utilizados em Oftalmologia, Otorrinolar', 'T49');
+insert into Inlness (name, cid) values('Intoxicação por Diureticos e Outras Drogas, Medicamentos e Substancias Biologicas e as Não Especificadas', 'T50');
+insert into Inlness (name, cid) values('Efeito Toxico do Alcool', 'T51');
+insert into Inlness (name, cid) values('Efeito Toxico de Corrosivos', 'T54');
+insert into Inlness (name, cid) values('Efeito Toxico de Metais', 'T56');
+insert into Inlness (name, cid) values('Efeito Toxico de Monoxido de Carbono', 'T58');
+insert into Inlness (name, cid) values('Efeito Toxico de Pesticidas', 'T60');
+insert into Inlness (name, cid) values('Efeito Toxico de Contato com Animais Venenosos', 'T63');
+insert into Inlness (name, cid) values('Efeito Toxico de Outras Substancias e as Não Especificadas', 'T65');
+insert into Inlness (name, cid) values('Efeitos do Calor e da Luz', 'T67');
+insert into Inlness (name, cid) values('Efeitos da Pressão Atmosferica e da Pressão da Agua', 'T70');
+insert into Inlness (name, cid) values('Asfixia', 'T71');
+insert into Inlness (name, cid) values('Sindromes de Maus Tratos', 'T74');
+insert into Inlness (name, cid) values('Efeitos de Outras Causas Externas', 'T75');
+insert into Inlness (name, cid) values('Efeitos Adversos Não Classificados em Outra Parte', 'T78');
+insert into Inlness (name, cid) values('Algumas Complicações Precoces dos Traumatismos Não Classificadas em Outra Parte', 'T79');
+insert into Inlness (name, cid) values('Complicações Consequentes a Infusão, Transfusão ou Injeção Terapeutica', 'T80');
+insert into Inlness (name, cid) values('Complicações de Procedimentos Não Classificadas em Outra Parte', 'T81');
+insert into Inlness (name, cid) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Cardiacos e Vasculares', 'T82');
+insert into Inlness (name, cid) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Geniturinarios Internos', 'T83');
+insert into Inlness (name, cid) values('Complicações de Dispositivos Proteticos, Implantes e Enxertos Ortopedicos Internos', 'T84');
+insert into Inlness (name, cid) values('Complicações de Outros Dispositivos Proteticos, Implantes e Enxertos Internos', 'T85');
+insert into Inlness (name, cid) values('Falha e Rejeição de Orgãos e Tecidos Transplantados', 'T86');
+insert into Inlness (name, cid) values('Complicações Proprias de Reimplante e Amputação', 'T87');
+insert into Inlness (name, cid) values('Outras Complicações de Cuidados Medicos e Cirurgicos Não Classificadas em Outra Parte', 'T88');
+insert into Inlness (name, cid) values('Sequelas de Traumatismo da Cabeca', 'T90');
+insert into Inlness (name, cid) values('Sequelas de Traumatismos do Pescoço e do Tronco', 'T91');
+insert into Inlness (name, cid) values('Sequelas de Traumatismos do Membro Superior', 'T92');
+insert into Inlness (name, cid) values('Sequelas de Traumatismos do Membro Inferior', 'T93');
+insert into Inlness (name, cid) values('Sequelas de Traumatismos Envolvendo Multiplas Regiões do Corpo e as Não Especificadas', 'T94');
+insert into Inlness (name, cid) values('Sequelas de Queimaduras, Corrosões e Geladuras', 'T95');
+insert into Inlness (name, cid) values('Sequelas de Intoxicação por Drogas, Medicamentos e Substancias Biologicas', 'T96');
+insert into Inlness (name, cid) values('Sequelas de Efeitos Toxicos de Substancias de Origem Predominantemente Não-Medicinal', 'T97');
+insert into Inlness (name, cid) values('Sequelas de Outros Efeitos de Causas Externas e dos Não Especificados', 'T98');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Colisão com Um Veiculo a Pedal', 'V01');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V02');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V03');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou com Um Onibus', 'V04');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Colisão com Outro Veiculo Não-Motorizado', 'V06');
+insert into Inlness (name, cid) values('Pedestre Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V09');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V10');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Colisão com Outro Veiculo a Pedal', 'V11');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Colisão com Um Automovel,  Pick Up  ou Caminhonete', 'V13');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V14');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Um Acidente de Transporte sem Colisão', 'V18');
+insert into Inlness (name, cid) values('Ciclista Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V19');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V20');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Veiculo a Pedal', 'V21');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V22');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V23');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V24');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Trem ou Um Veiculo Ferroviario', 'V25');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Outro Veiculo Não-Motorizado', 'V26');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Colisão com Um Objeto Fixo ou Parado', 'V27');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Um Acidente de Transporte sem Colisão', 'V28');
+insert into Inlness (name, cid) values('Motociclista Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V29');
+insert into Inlness (name, cid) values('Ocupante de Um Triciclo Motorizado Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V34');
+insert into Inlness (name, cid) values('Ocupante de Um Triciclo Motorizado Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V39');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Pedestre ou Um Animal', 'V40');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Automovel [Carro],  Pick Up  ou Caminhonete', 'V43');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Veiculo de Transporte Pesado ou Um Onibus', 'V44');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Colisão com Um Objeto Fixo ou Parado', 'V47');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Um Acidente de Transporte sem Colisão', 'V48');
+insert into Inlness (name, cid) values('Ocupante de Um Automovel [Carro] Traumatizado em Outro Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V49');
+insert into Inlness (name, cid) values('Ocupante de Uma Caminhonete Traumatizado em Outros Acidentes de Transporte e em Acidentes de Transporte Não Especificados', 'V59');
+insert into Inlness (name, cid) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Veiculo a Motor de Duas ou Tres Rodas', 'V62');
+insert into Inlness (name, cid) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Automovel [Carro] ou Uma Caminhonete', 'V63');
+insert into Inlness (name, cid) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Colisão com Um Outro Veiculo de Transporte Pesado ou Um Onibus', 'V64');
+insert into Inlness (name, cid) values('Ocupante de Um Veiculo de Transporte Pesado Traumatizado em Outros Acidentes de Transporte Não Especificados', 'V69');
+insert into Inlness (name, cid) values('Ocupante de Um Onibus Traumatizado em Um Acidente de Transporte sem Colisão', 'V78');
+insert into Inlness (name, cid) values('Pessoa Montada em Animal ou Ocupante de Um Veiculo a Tração Animal Traumatizado em Um Acidente de Transporte', 'V80');
+insert into Inlness (name, cid) values('Ocupante de Um Bonde [Carro Eletrico] Traumatizado em Um Acidente de Transporte', 'V82');
+insert into Inlness (name, cid) values('Acidente de Transito de Tipo Especificado, Mas Sendo Desconhecido O Modo de Transporte da Vitima', 'V87');
+insert into Inlness (name, cid) values('Acidente Não-De-Transito de Tipo Especificado, Mas Sendo Desconhecido O Modo de Transporte da Vitima', 'V88');
+insert into Inlness (name, cid) values('Acidente com Um Veiculo a Motor ou Não-Motorizado, Tipo(s) de Veiculo(s) Não Especificado(s)', 'V89');
+insert into Inlness (name, cid) values('Acidente com Embarcação Causando Outro Tipo de Traumatismo', 'V91');
+insert into Inlness (name, cid) values('Acidente de Aeronave a Motor Causando Traumatismo ao Ocupante', 'V95');
+insert into Inlness (name, cid) values('Outros Acidentes de Transporte Especificados', 'V98');
+insert into Inlness (name, cid) values('Acidente de Transporte Não Especificado', 'V99');
+insert into Inlness (name, cid) values('Queda no Mesmo Nivel por Escorregão, Tropeção ou Passos em Falsos [Traspes]', 'W01');
+insert into Inlness (name, cid) values('Queda Envolvendo Patins de Rodas ou para Gelo, Esqui ou Pranchas de Rodas', 'W02');
+insert into Inlness (name, cid) values('Outras Quedas no Mesmo Nivel por Colisão com ou Empurrão por Outra Pessoa', 'W03');
+insert into Inlness (name, cid) values('Queda de Uma Cadeira', 'W07');
+insert into Inlness (name, cid) values('Queda Envolvendo Equipamento de  Playground ', 'W09');
+insert into Inlness (name, cid) values('Queda em ou de Escadas ou Degraus', 'W10');
+insert into Inlness (name, cid) values('Queda em ou de Escadas de Mão', 'W11');
+insert into Inlness (name, cid) values('Queda em ou de Um Andaime', 'W12');
+insert into Inlness (name, cid) values('Queda de ou para Fora de Edificios ou Outras Estruturas', 'W13');
+insert into Inlness (name, cid) values('Outras Quedas de Um Nivel a Outro', 'W17');
+insert into Inlness (name, cid) values('Outras Quedas no Mesmo Nivel', 'W18');
+insert into Inlness (name, cid) values('Queda sem Especificação', 'W19');
+insert into Inlness (name, cid) values('Impacto Causado por Objeto Lancado, Projetado ou em Queda', 'W20');
+insert into Inlness (name, cid) values('Impacto Acidental Ativo ou Passivo Causado por Outros Objetos', 'W22');
+insert into Inlness (name, cid) values('Contato com Vidro Cortante', 'W25');
+insert into Inlness (name, cid) values('Contato com Faca, Espada e Punhal', 'W26');
+insert into Inlness (name, cid) values('Contato com Maquinaria Agricola', 'W30');
+insert into Inlness (name, cid) values('Contato com Outras Maquinas e com as Não Especificadas', 'W31');
+insert into Inlness (name, cid) values('Projetil de Revolver', 'W32');
+insert into Inlness (name, cid) values('Rifle, Espingarda e Armas de Fogo de Maior Tamanho', 'W33');
+insert into Inlness (name, cid) values('Projeteis de Outras Armas de Fogo e das Não Especificadas', 'W34');
+insert into Inlness (name, cid) values('Explosão ou Ruptura de Pneumatico, Tubulação ou Mangueira, Pressurizados', 'W37');
+insert into Inlness (name, cid) values('Queima de Fogos de Artificio', 'W39');
+insert into Inlness (name, cid) values('Explosão de Outros Materiais', 'W40');
+insert into Inlness (name, cid) values('Penetração de Corpo Estranho no ou Atraves de Olho ou Orificio Natural', 'W44');
+insert into Inlness (name, cid) values('Penetração de Corpo ou Objeto Estranho Atraves da Pele', 'W45');
+insert into Inlness (name, cid) values('Exposição a Outras Forcas Mecanicas Inanimadas e as Não Especificadas', 'W49');
+insert into Inlness (name, cid) values('Golpe, Pancada, Pontape, Mordedura ou Escoriação Infligidos por Outra Pessoa', 'W50');
+insert into Inlness (name, cid) values('Mordedura ou Golpe Provocado por Cão', 'W54');
+insert into Inlness (name, cid) values('Mordedura ou Golpe Provocado por Outros Animais Mamiferos', 'W55');
+insert into Inlness (name, cid) values('Mordeduras e Picadas de Inseto e de Outros Artropodes, Não-Venenosos', 'W57');
+insert into Inlness (name, cid) values('Mordedura ou Esmagamento Provocado por Outros Repteis', 'W59');
+insert into Inlness (name, cid) values('Exposição a Outras Forcas Mecanicas Animadas e as Não Especificadas', 'W64');
+insert into Inlness (name, cid) values('Afogamento e Submersão Consequente a Queda Dentro de Uma Piscina', 'W68');
+insert into Inlness (name, cid) values('Afogamento e Submersão Consequentes a Queda Dentro de Aguas Naturais', 'W70');
+insert into Inlness (name, cid) values('Afogamento e Submersão Não Especificados', 'W74');
+insert into Inlness (name, cid) values('Risco a Respiração Devido a Desmoronamento, Queda de Terra e de Outras Substancias', 'W77');
+insert into Inlness (name, cid) values('Riscos Não Especificados a Respiração', 'W84');
+insert into Inlness (name, cid) values('Exposição a Linhas de Transmissão de Corrente Eletrica', 'W85');
+insert into Inlness (name, cid) values('Exposição a Outra Corrente Eletrica Especificada', 'W86');
+insert into Inlness (name, cid) values('Exposição a Corrente Eletrica Não Especificada', 'W87');
+insert into Inlness (name, cid) values('Exposição a Outros Tipos de Radiação Não-Ionizante', 'W90');
+insert into Inlness (name, cid) values('Exposição a Tipo Não Especificado de Fumaças, Fogo ou Chamas', 'X09');
+insert into Inlness (name, cid) values('Contato com Outros Liquidos Quentes', 'X12');
+insert into Inlness (name, cid) values('Contato com Serpentes e Lagartos Venenosos', 'X20');
+insert into Inlness (name, cid) values('Contato com Aranhas Venenosas', 'X21');
+insert into Inlness (name, cid) values('Contato com Escorpiões', 'X22');
+insert into Inlness (name, cid) values('Contato com Abelhas, Vespas e Vespões', 'X23');
+insert into Inlness (name, cid) values('Contato com Outros Animais Venenosos Especificados', 'X27');
+insert into Inlness (name, cid) values('Contato com Animais ou Plantas Venenosos, sem Especificação', 'X29');
+insert into Inlness (name, cid) values('Vitima de Raio', 'X33');
+insert into Inlness (name, cid) values('Exposição a Outras Forcas da Natureza e as Não Especificadas', 'X39');
+insert into Inlness (name, cid) values('Envenenamento [Intoxicação] Acidental por e Exposição a Outras Drogas, Medicamentos e Substancias Biologicas Não Especificadas', 'X44');
+insert into Inlness (name, cid) values('Envenenamento [Intoxicação] Acidental por e Exposição a Pesticidas', 'X48');
+insert into Inlness (name, cid) values('Excesso de Exercicios e Movimentos Vigorosos ou Repetitivos', 'X50');
+insert into Inlness (name, cid) values('Estadia Prolongada em Ambiente Agravitacional', 'X52');
+insert into Inlness (name, cid) values('Exposição a Outros Fatores Especificados', 'X58');
+insert into Inlness (name, cid) values('Exposição a Fatores Não Especificados', 'X59');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Analgesicos, Antipireticos e Anti-Reumaticos, Não-Opiaceos', 'X60');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Drogas Anticonvulsivantes [Antiepilepticos] Sedativos, Hipnoticos, Antiparkinsonianos e Psicotropicos', 'X61');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Narcoticos e Psicodislepticos [Alucinogenos] Não Classificados em Outra Parte', 'X62');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Outras Substancias Farmacologicas de Ação Sobre O Sistema Nervoso Autonomo', 'X63');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Outras Drogas, Medicamentos e Substancias Biologicas e as Não Especificadas', 'X64');
+insert into Inlness (name, cid) values('Auto-Intoxicação Voluntaria por Alcool', 'X65');
+insert into Inlness (name, cid) values('Auto-Intoxicação Intencional por Solventes Organicos, Hidrocarbonetos Halogenados e Seus Vapores', 'X66');
+insert into Inlness (name, cid) values('Auto-Intoxicação Intencional por Outros Gases e Vapores', 'X67');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Pesticidas', 'X68');
+insert into Inlness (name, cid) values('Auto-Intoxicação por e Exposição, Intencional, a Outros Produtos Quimicos e Substancias Nocivas Não Especificadas', 'X69');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Enforcamento, Estrangulamento e Sufocação', 'X70');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Disparo de Arma de Fogo de Mão', 'X72');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Disparo de Outra Arma de Fogo e de Arma de Fogo Não Especificada', 'X74');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Objeto Cortante ou Penetrante', 'X78');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Precipitação de Um Lugar Elevado', 'X80');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Impacto de Um Veiculo a Motor', 'X82');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Outros Meios Especificados', 'X83');
+insert into Inlness (name, cid) values('Lesão Autoprovocada Intencionalmente por Meios Não Especificados', 'X84');
+insert into Inlness (name, cid) values('Agressão por Meio de Substancias Corrosivas', 'X86');
+insert into Inlness (name, cid) values('Agressão por Meio de Produtos Quimicos e Substancias Nocivas Não Especificados', 'X90');
+insert into Inlness (name, cid) values('Agressão por Meio de Enforcamento, Estrangulamento e Sufocação', 'X91');
+insert into Inlness (name, cid) values('Agressão por Meio de Afogamento e Submersão', 'X92');
+insert into Inlness (name, cid) values('Agressão por Meio de Disparo de Arma de Fogo de Mão', 'X93');
+insert into Inlness (name, cid) values('Agressão por Meio de Disparo de Espingarda, Carabina ou Arma de Fogo de Maior Calibre', 'X94');
+insert into Inlness (name, cid) values('Agressão por Meio de Disparo de Outra Arma de Fogo ou de Arma Não Especificada', 'X95');
+insert into Inlness (name, cid) values('Agressão por Meio de Fumaca, Fogo e Chamas', 'X97');
+insert into Inlness (name, cid) values('Agressão por Meio de Objeto Cortante ou Penetrante', 'X99');
+insert into Inlness (name, cid) values('Agressão por Meio de Um Objeto Contundente', 'Y00');
+insert into Inlness (name, cid) values('Agressão por Meio de Impacto de Um Veiculo a Motor', 'Y03');
+insert into Inlness (name, cid) values('Agressão por Meio de Forca Corporal', 'Y04');
+insert into Inlness (name, cid) values('Agressão Sexual por Meio de Forca Fisica', 'Y05');
+insert into Inlness (name, cid) values('Agressão por Outros Meios Especificados', 'Y08');
+insert into Inlness (name, cid) values('Agressão por Meios Não Especificados', 'Y09');
+insert into Inlness (name, cid) values('Envenenamento [Intoxicação] por e Exposição a Outros Produtos Quimicos e Substancias Nocivas e Aos Não Especificados, Intenção Não Determinada', 'Y19');
+insert into Inlness (name, cid) values('Enforcamento, Estrangulamento e Sufocação, Intenção Não Determinada', 'Y20');
+insert into Inlness (name, cid) values('Disparo de Pistola, Intenção Não Determinada', 'Y22');
+insert into Inlness (name, cid) values('Disparo de Fuzil, Carabina e Arma de Fogo de Maior Calibre, Intenção Não Determinada', 'Y23');
+insert into Inlness (name, cid) values('Disparo de Outra Arma de Fogo e de Arma de Fogo Não Especificada, Intenção Não Determinada', 'Y24');
+insert into Inlness (name, cid) values('Exposição a Fumaca, Fogo e Chamas, Intenção Não Determinada', 'Y26');
+insert into Inlness (name, cid) values('Contato com Objeto Cortante ou Penetrante, Intenção Não Determinada', 'Y28');
+insert into Inlness (name, cid) values('Contato com Objeto Contundente, Intenção Não Determinada', 'Y29');
+insert into Inlness (name, cid) values('Outros Fatos ou Eventos Especificados, Intenção Não Determinada', 'Y33');
+insert into Inlness (name, cid) values('Fatos ou Eventos Não Especificados e Intenção Não Determinada', 'Y34');
+insert into Inlness (name, cid) values('Hormonios e Seus Substitutos Sinteticos e Antagonistas, Não Classificados em Outra Parte', 'Y42');
+insert into Inlness (name, cid) values('Substancias de Ação Primariamente Sistemica', 'Y43');
+insert into Inlness (name, cid) values('Substancias Farmacologicas Que Atuam Primariamente Sobre Os Constituintes do Sangue', 'Y44');
+insert into Inlness (name, cid) values('Substancias Analgesicas, Antipireticas e Antiinflamatorias', 'Y45');
+insert into Inlness (name, cid) values('Estimulantes do Sistema Nervoso Central, Não Classificados em Outra Parte', 'Y50');
+insert into Inlness (name, cid) values('Substancias Que Atuam Primariamente Sobre O Aparelho Gastrointestinal', 'Y53');
+insert into Inlness (name, cid) values('Substancias Que Atuam Primariamente Sobre O Metabolismo da Agua, dos Sais Minerais e do Acido Urico', 'Y54');
+insert into Inlness (name, cid) values('Outras Drogas e Medicamentos e as Não Especificadas', 'Y57');
+insert into Inlness (name, cid) values('Outras Vacinas e Substancias Biologicas e as Não Especificadas', 'Y59');
+insert into Inlness (name, cid) values('Corte, Punção, Perfuração ou Hemorragia Acidentais Durante a Prestação de Cuidados Medicos ou Cirurgicos', 'Y60');
+insert into Inlness (name, cid) values('Objeto Estranho Deixado Acidentalmente no Corpo Durante a Prestação de Cuidados Cirurgicos e Medicos', 'Y61');
+insert into Inlness (name, cid) values('Assepsia Insuficiente Durante a Prestação de Cuidados Cirurgicos e Medicos', 'Y62');
+insert into Inlness (name, cid) values('Outros Acidentes Durante a Prestação de Cuidados Medicos e Cirurgicos', 'Y65');
+insert into Inlness (name, cid) values('Acidente Não Especificado Durante a Prestação de Cuidado Medico e Cirurgico', 'Y69');
+insert into Inlness (name, cid) values('Dispositivos (Aparelhos) Usados em Gastroenterologia e em Urologia, Associados a Incidentes Adversos', 'Y73');
+insert into Inlness (name, cid) values('Dispositivos (Aparelhos) Utilizados em Obstetricia e em Ginecologia, Associados a Incidentes Adversos', 'Y76');
+insert into Inlness (name, cid) values('Dispositivos (Aparelhos) Ortopedicos, Associado a Incidentes Adversos', 'Y79');
+insert into Inlness (name, cid) values('Dispositivos (Aparelhos) Utilizados em Medicina Fisica (Fisiatria), Associado a Incidentes Adversos', 'Y80');
+insert into Inlness (name, cid) values('Dispositivos (Aparelhos) Utilizados em Cirurgia Geral ou Cirurgia Plastica, Associados a Incidente Adversos', 'Y81');
+insert into Inlness (name, cid) values('Outros Dispositivos (Aparelhos) Associados a Incidentes Adversos e Os Não Especificados', 'Y82');
+insert into Inlness (name, cid) values('Reação Anormal em Paciente ou Complicação Tardia, Causadas por Intervenção Cirurgica e por Outros Atos Cirurgicos, sem Menção de Acidente Durante a In', 'Y83');
+insert into Inlness (name, cid) values('Reação Anormal em Paciente ou Complicação Tardia, Causadas por Outros Procedimentos Medicos, sem Menção de Acidente Durante O Procedimento', 'Y84');
+insert into Inlness (name, cid) values('Sequelas de Acidentes de Transporte', 'Y85');
+insert into Inlness (name, cid) values('Sequelas de Outros Acidentes', 'Y86');
+insert into Inlness (name, cid) values('Sequelas de Cuidado Medico ou Cirurgico Considerados Como Uma Causa Externa', 'Y88');
+insert into Inlness (name, cid) values('Sequelas de Outras Causas Externas', 'Y89');
+insert into Inlness (name, cid) values('Evidencia de Alcoolismo Determinada Pelo Nivel da Intoxicação', 'Y91');
+insert into Inlness (name, cid) values('Circunstancia Relativa as Condições de Trabalho', 'Y96');
+insert into Inlness (name, cid) values('Exame Geral e Investigação de Pessoas sem Queixas ou Diagnostico Relatado', 'Z00');
+insert into Inlness (name, cid) values('Exame Medico e Consulta com Finalidades Administrativas', 'Z02');
+insert into Inlness (name, cid) values('Observação e Avaliação Medica por Doencas e Afecções Suspeitas', 'Z03');
+insert into Inlness (name, cid) values('Exame e Observação por Outras Razões', 'Z04');
+insert into Inlness (name, cid) values('Exame de Seguimento Apos Tratamento por Neoplasia Maligna', 'Z08');
+insert into Inlness (name, cid) values('Exame de Seguimento Apos Tratamento de Outras Afecções Que Não Neoplasias Malignas', 'Z09');
+insert into Inlness (name, cid) values('Exame Geral de Rotina ( Check Up ) de Uma Subpopulação Definida', 'Z10');
+insert into Inlness (name, cid) values('Contato com e Exposição a Doencas Transmissiveis', 'Z20');
+insert into Inlness (name, cid) values('Estado de Infecção Assintomatica Pelo Virus da Imunodeficiencia Humana [Hiv]', 'Z21');
+insert into Inlness (name, cid) values('Portador de Doenca Infecciosa', 'Z22');
+insert into Inlness (name, cid) values('Necessidade de Outras Medidas Profilaticas', 'Z29');
+insert into Inlness (name, cid) values('Anticoncepcão', 'Z30');
+insert into Inlness (name, cid) values('Medidas de Procriaão', 'Z31');
+insert into Inlness (name, cid) values('Exame ou Teste de Gravidez', 'Z32');
+insert into Inlness (name, cid) values('Gravidez Como Achado Casual', 'Z33');
+insert into Inlness (name, cid) values('Supervisão de Gravidez de Alto Risco', 'Z35');
+insert into Inlness (name, cid) values('Rastreamento ( Screening ) Pre-Natal', 'Z36');
+insert into Inlness (name, cid) values('Assistencia e Exame Pos-Natal', 'Z39');
+insert into Inlness (name, cid) values('Cirurgia Profilatica', 'Z40');
+insert into Inlness (name, cid) values('Procedimentos para Outros Propositos Exceto Cuidados de Saude', 'Z41');
+insert into Inlness (name, cid) values('Atencão a Orificios Artificiais', 'Z43');
+insert into Inlness (name, cid) values('Colocação e Ajustamento de Aparelhos de Protese Externa', 'Z44');
+insert into Inlness (name, cid) values('Ajustamento e Manuseio de Dispositivo Implantado', 'Z45');
+insert into Inlness (name, cid) values('Colocação e Ajustamento de Outros Aparelhos', 'Z46');
+insert into Inlness (name, cid) values('Outros Cuidados de Seguimento Ortopedico', 'Z47');
+insert into Inlness (name, cid) values('Outro Seguimento Cirurgico', 'Z48');
+insert into Inlness (name, cid) values('Cuidados Envolvendo Dialise', 'Z49');
+insert into Inlness (name, cid) values('Cuidados Envolvendo O Uso de Procedimentos de Reabilitação', 'Z50');
+insert into Inlness (name, cid) values('Outros Cuidados Medicos', 'Z51');
+insert into Inlness (name, cid) values('Doadores de Orgãos e Tecidos', 'Z52');
+insert into Inlness (name, cid) values('Pessoas em Contato com Servicos de Saude para Procedimentos Especificos Não Realizados', 'Z53');
+insert into Inlness (name, cid) values('Convalescenca', 'Z54');
+insert into Inlness (name, cid) values('Problemas Relacionados com O Emprego e com O Desemprego', 'Z56');
+insert into Inlness (name, cid) values('Exposição Ocupacional a Fatores de Risco', 'Z57');
+insert into Inlness (name, cid) values('Problemas Relacionados com a Habitação e com as Condições Economicas', 'Z59');
+insert into Inlness (name, cid) values('Problemas Relacionados com O Meio Social', 'Z60');
+insert into Inlness (name, cid) values('Problemas Relacionados com Eventos Negativos de Vida na Infancia', 'Z61');
+insert into Inlness (name, cid) values('Outros Problemas Relacionados com a Educação da Crianca', 'Z62');
+insert into Inlness (name, cid) values('Outros Problemas Relacionados com O Grupo Primario de Apoio, Inclusive com a Situação Familiar', 'Z63');
+insert into Inlness (name, cid) values('Problemas Relacionados com Algumas Outras Circuntancias Psicossociais', 'Z64');
+insert into Inlness (name, cid) values('Problemas Relacionados com Outras Circunstancias Psicossociais', 'Z65');
+insert into Inlness (name, cid) values('Problemas Relacionados com O Estilo de Vida', 'Z72');
+insert into Inlness (name, cid) values('Problemas Relacionados com a Organização de Seu Modo de Vida', 'Z73');
+insert into Inlness (name, cid) values('Problemas Relacionados com a Dependencia de Uma Pessoa Que Oferece Cuidados de Saude', 'Z74');
+insert into Inlness (name, cid) values('Problemas Relacionados com as Facilidades Medicas e Outros Cuidados de Saude', 'Z75');
+insert into Inlness (name, cid) values('Pessoas em Contato com Os Servicos de Saude em Outras Circunstancias', 'Z76');
+insert into Inlness (name, cid) values('Historia Familiar de Neoplasia Maligna', 'Z80');
+insert into Inlness (name, cid) values('Historia Familiar de Algumas Incapacidades e Doencas Cronicas Que Conduzem a Incapacitação', 'Z82');
+insert into Inlness (name, cid) values('Historia Pessoal de Neoplasia Maligna', 'Z85');
+insert into Inlness (name, cid) values('Historia Pessoal de Algumas Outras Doencas', 'Z86');
+insert into Inlness (name, cid) values('Historia Pessoal de Outras Doencas e Afecções', 'Z87');
+insert into Inlness (name, cid) values('Ausencia Adquirida de Membros', 'Z89');
+insert into Inlness (name, cid) values('Ausencia Adquirida de Orgãos Não Classificados em Outra Parte', 'Z90');
+insert into Inlness (name, cid) values('Historia Pessoal de Fatores de Risco, Não Classificados em Outra Parte', 'Z91');
+insert into Inlness (name, cid) values('Orificios Artificiais', 'Z93');
+insert into Inlness (name, cid) values('Orgãos e Tecidos Transplantados', 'Z94');
+insert into Inlness (name, cid) values('Presenca de Implantes e Enxertos Cardiacos e Vasculares', 'Z95');
+insert into Inlness (name, cid) values('Presenca de Outros Implantes Funcionais', 'Z96');
+insert into Inlness (name, cid) values('Presenca de Outros Dispositivos Proteticos', 'Z97');
+insert into Inlness (name, cid) values('Outros Estados Pos-Cirurgicos', 'Z98');
+insert into Inlness (name, cid) values('Dependência de Maquinas e Dispositivos Capacitantes, Não Classificados em Outra Parte', 'Z99');

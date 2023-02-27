@@ -7,180 +7,611 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model AdminUser {
-  userId         String           @id @db.Uuid
-  users          Users            @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  adminUserRoles AdminUserRoles[]
+model address {
+  id              String            @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  street          String            @db.VarChar(40)
+  number          String            @db.VarChar(6)
+  neighborhood    String            @db.VarChar(40)
+  complement      String?
+  reference       String?           @db.VarChar(50)
+  city_id         String            @db.Uuid
+  city            city              @relation(fields: [city_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  assistent       assistent[]
+  doctor          doctor[]
+  hospital_clinic hospital_clinic[]
+  nurse           nurse[]
+  pacient         pacient[]
+  receptionist    receptionist[]
 }
 
-model AdminUserRoles {
-  roleId      String    @db.Uuid
-  adminUserId String    @db.Uuid
-  adminUser   AdminUser @relation(fields: [adminUserId], references: [userId], onDelete: NoAction, onUpdate: NoAction)
-  role        Role      @relation(fields: [roleId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-
-  @@id([roleId, adminUserId])
+model admin_user {
+  user_id         String            @id @db.Uuid
+  users           users             @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  admin_user_role admin_user_role[]
 }
 
-model City {
-  id      String    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  name    String    @db.VarChar(100)
-  uf      String    @db.Char(2)
-  state   State     @relation(fields: [uf], references: [uf], onDelete: NoAction, onUpdate: NoAction)
-  Address Address[]
+model admin_user_role {
+  role_id       String     @db.Uuid
+  admin_user_id String     @db.Uuid
+  admin_user    admin_user @relation(fields: [admin_user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+  role          role       @relation(fields: [role_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@id([role_id, admin_user_id])
 }
 
-model Illness {
-  id             String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  name           String           @db.VarChar(255)
-  cid            String           @db.VarChar(4)
-  status         Boolean          @default(true)
-  Pacienthistory Pacienthistory[]
+model city {
+  id       String    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name     String    @db.VarChar(100)
+  state_uf String    @db.Char(2)
+  address  address[]
+  state    state     @relation(fields: [state_uf], references: [uf], onDelete: NoAction, onUpdate: NoAction)
 }
 
-model Laboratory {
+model illness {
+  id                                                                 String            @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                                                               String            @db.VarChar(255)
+  cid                                                                String            @db.VarChar(4)
+  status                                                             Boolean           @default(true)
+  pacient_history_pacient_history_after_exams_illness_idToillness    pacient_history[] @relation("pacient_history_after_exams_illness_idToillness")
+  pacient_history_pacient_history_first_analysis_illness_idToillness pacient_history[] @relation("pacient_history_first_analysis_illness_idToillness")
+}
+
+model laboratory {
   id       String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
   name     String
   cnpj     String?    @db.Char(14)
   status   Boolean    @default(true)
-  medicine Medicine[]
+  medicine medicine[]
 }
 
-model Medicine {
-  id              String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  name            String
-  activePrinciple String
-  register        String     @db.VarChar(20)
-  laboratoryId    String     @db.Uuid
-  situation       Boolean    @default(true)
-  expiration      DateTime?  @db.Timestamp(6)
-  laboratory      Laboratory @relation(fields: [laboratoryId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+model medicine {
+  id                        String                      @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                      String
+  active_principle          String
+  register                  String                      @db.VarChar(20)
+  laboratory_id             String                      @db.Uuid
+  situation                 Boolean                     @default(true)
+  expiration                DateTime?                   @db.Timestamp(6)
+  medical_care_prescription medical_care_prescription[]
+  laboratory                laboratory                  @relation(fields: [laboratory_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
-model Role {
-  id             String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  name           String           @unique @db.VarChar(30)
-  status         Boolean          @default(true)
-  adminuserroles AdminUserRoles[]
+model pacient {
+  id                  String                @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id             String                @db.Uuid
+  first_name          String                @db.VarChar(40)
+  last_name           String                @db.VarChar(60)
+  cpf                 String?               @db.Char(11)
+  document            String?
+  sus_card            String?               @db.VarChar(15)
+  birthday            DateTime              @db.Date
+  height              Int                   @db.SmallInt
+  weight              Decimal               @db.Decimal(3, 3)
+  blood_type          blood_type?
+  address_id          String                @db.Uuid
+  address             address               @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  users               users                 @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pacient_health_plan pacient_health_plan[]
+  pacient_history     pacient_history[]
+  pre_triage          pre_triage[]
 }
 
-model Specialization {
-  id     String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  name   String  @unique @db.VarChar(40)
-  status Boolean @default(true)
+model pacient_history {
+  id                                                         String                    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  pacient_id                                                 String                    @db.Uuid
+  date_time                                                  DateTime                  @db.Timestamp(6)
+  first_analysis_illness_id                                  String?                   @db.Uuid
+  after_exams_illness_id                                     String?                   @db.Uuid
+  illness_pacient_history_after_exams_illness_idToillness    illness?                  @relation("pacient_history_after_exams_illness_idToillness", fields: [after_exams_illness_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  illness_pacient_history_first_analysis_illness_idToillness illness?                  @relation("pacient_history_first_analysis_illness_idToillness", fields: [first_analysis_illness_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pacient                                                    pacient                   @relation(fields: [pacient_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pacient_history_symptom                                    pacient_history_symptom[]
 }
 
-model State {
+model pacient_history_symptom {
+  id                    String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  pacient_history_id    String             @db.Uuid
+  symptom_occurrence_id String             @db.Uuid
+  pacient_history       pacient_history    @relation(fields: [pacient_history_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  symptom_occurrence    symptom_occurrence @relation(fields: [symptom_occurrence_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model pre_triage {
+  id                 String               @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  protocol           String               @db.VarChar(30)
+  date_time          DateTime             @db.Timestamp(6)
+  pacient_id         String?              @db.Uuid
+  description        String?              @db.VarChar(255)
+  pacient            pacient?             @relation(fields: [pacient_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pre_triage_symptom pre_triage_symptom[]
+  triage             triage[]
+}
+
+model pre_triage_symptom {
+  id                    String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  pre_triage_id         String             @db.Uuid
+  symptom_occurrence_id String             @db.Uuid
+  pre_triage            pre_triage         @relation(fields: [pre_triage_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  symptom_occurrence    symptom_occurrence @relation(fields: [symptom_occurrence_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model role {
+  id              String            @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name            String            @unique @db.VarChar(30)
+  status          Boolean           @default(true)
+  admin_user_role admin_user_role[]
+}
+
+model specialization {
+  id                             String                           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                           String                           @unique @db.VarChar(40)
+  status                         Boolean                          @default(true)
+  doctor_specialization          doctor_specialization[]
+  hospital_clinic_specialization hospital_clinic_specialization[]
+  hospital_office                hospital_office[]
+}
+
+model state {
   uf   String @id @db.Char(2)
   name String @db.VarChar(40)
-  city City[]
+  city city[]
 }
 
-model Symptom {
-  id               String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  description      String             @unique @db.VarChar(100)
-  status           Boolean            @default(true)
-  symptomOcorrence SymptomOcorrence[]
+model symptom {
+  id                 String               @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  description        String               @unique @db.VarChar(100)
+  status             Boolean              @default(true)
+  symptom_occurrence symptom_occurrence[]
 }
 
-model Users {
-  id        String     @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  email     String     @unique @db.VarChar(50)
-  username  String     @unique @db.VarChar(30)
-  password  String     @db.VarChar(50)
-  createdat DateTime   @default(now()) @db.Timestamp(6)
-  status    Boolean    @default(true)
-  adminuser AdminUser?
-  pacient   Pacient[]
+model symptom_occurrence {
+  id                      String                    @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  occurrence              occurrence
+  description             String?
+  symptom_id              String                    @db.Uuid
+  pacient_history_symptom pacient_history_symptom[]
+  pre_triage_symptom      pre_triage_symptom[]
+  symptom                 symptom                   @relation(fields: [symptom_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage_symptom          triage_symptom[]
 }
 
-enum Bloodtype {
-  aNegative
-  aPositive
-  bNegative
-  bPositive
-  abNegative
-  abPositive
-  oNegative
-  oPositive
+model users {
+  id           String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  email        String         @unique @db.VarChar(50)
+  username     String         @unique @db.VarChar(30)
+  password     String         @db.VarChar(50)
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  status       Boolean        @default(true)
+  admin_user   admin_user?
+  assistent    assistent[]
+  doctor       doctor[]
+  nurse        nurse[]
+  pacient      pacient[]
+  receptionist receptionist[]
 }
 
-enum Gender {
-  masculine
-  feminine
-  notBinary
+model assistent {
+  id                               String                             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id                          String                             @db.Uuid
+  first_name                       String                             @db.VarChar(40)
+  last_name                        String                             @db.VarChar(60)
+  cpf                              String                             @unique @db.Char(11)
+  phone                            String                             @db.VarChar(11)
+  address_id                       String?                            @db.Uuid
+  status                           assistent_status                   @default(ATTENDING)
+  assistent_role                   assistent_role
+  address                          address?                           @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  users                            users                              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_procedure_assistent medical_care_procedure_assistent[]
 }
 
-enum PaymentWay {
-  pix
-  creditCard
-  debitCard
-  money
+model doctor {
+  id                            String                          @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id                       String                          @db.Uuid
+  first_name                    String                          @db.VarChar(40)
+  last_name                     String                          @db.VarChar(60)
+  crm                           String                          @db.VarChar(15)
+  rqe                           String?                         @db.VarChar(15)
+  phone                         String                          @db.VarChar(11)
+  address_id                    String                          @db.Uuid
+  status                        doctor_status                   @default(ATTENDING)
+  address                       address                         @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  users                         users                           @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  doctor_specialization         doctor_specialization[]
+  medical_care                  medical_care[]
+  medical_care_procedure_doctor medical_care_procedure_doctor[]
+  medical_care_schedule         medical_care_schedule[]
 }
 
-enum BillStatus {
-  open
-  cancelled
-  delayed
-  paid
+model doctor_specialization {
+  id                String         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  specialization_id String         @db.Uuid
+  doctor_id         String         @db.Uuid
+  doctor            doctor         @relation(fields: [doctor_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  specialization    specialization @relation(fields: [specialization_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
-model Address {
-  id           String  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  street       String  @db.VarChar(50)
-  number       String  @db.VarChar(6)
-  neighborhood String  @db.VarChar(40)
-  complement   String?
-  reference    String?
-  cityId       String  @db.Uuid
-  city         City    @relation(fields: [cityId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+model health_plan {
+  id                  String                @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                String                @db.VarChar(30)
+  status              Boolean               @default(true)
+  pacient_health_plan pacient_health_plan[]
 }
 
-enum Ocorrence {
-  never
-  rare
-  sometimes
-  common
-  always
+model hospital_clinic {
+  id                             String                           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  company_name                   String?                          @db.VarChar(100)
+  name                           String                           @db.VarChar(100)
+  description                    String?
+  phone                          String?                          @db.Char(10)
+  cellphone                      String                           @db.Char(11)
+  email                          String?                          @db.VarChar(50)
+  address_id                     String                           @db.Uuid
+  treatment                      hospital_clinic_treatment?       @default(PRIVATE)
+  address                        address                          @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_clinic_specialization hospital_clinic_specialization[]
+  hospital_office                hospital_office[]
+  hospital_room                  hospital_room[]
 }
 
-model SymptomOcorrence {
-  id               String          @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  ocorrence        Ocorrence
-  description      String?
-  symptomId        String          @db.Uuid
-  symptom          Symptom         @relation(fields: [symptomId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  pacientHistory   Pacienthistory? @relation(fields: [pacientHistoryId], references: [id])
-  pacientHistoryId String?         @db.Uuid
+model hospital_clinic_specialization {
+  id                 String          @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  specialization_id  String          @db.Uuid
+  hospital_clinic_id String          @db.Uuid
+  hospital_clinic    hospital_clinic @relation(fields: [hospital_clinic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  specialization     specialization  @relation(fields: [specialization_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
-model Pacienthistory {
-  id                  String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
-  pacientId           String             @db.Uuid
-  pacient             Pacient            @relation(fields: [pacientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  symptomsocorrences  SymptomOcorrence[]
-  datetime            DateTime           @default(now()) @db.Timestamp(6)
-  diagnosticIllnessId String?            @db.Uuid
-  diagnosticIllness   Illness?           @relation(fields: [diagnosticIllnessId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+model hospital_office {
+  id                     String                   @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  description            String
+  status                 hospital_office_status   @default(WORKING)
+  hospital_clinic_id     String                   @db.Uuid
+  specialization_id      String?                  @db.Uuid
+  hospital_clinic        hospital_clinic          @relation(fields: [hospital_clinic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  specialization         specialization?          @relation(fields: [specialization_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care           medical_care[]
+  medical_care_exam      medical_care_exam[]
+  medical_care_procedure medical_care_procedure[]
+  medical_care_schedule  medical_care_schedule[]
 }
 
-model Pacient {
-  id             String           @id @db.Uuid
-  user           Users            @relation(fields: [id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  firstname      String           @db.VarChar(40)
-  lastname       String           @db.VarChar(60)
-  cpf            String?          @db.Char(11)
-  document       String?
-  suscard        String?
-  birthday       DateTime         @db.Date
-  height         Int?
-  weight         Float?
-  bloodtype      Bloodtype
-  pacienthistory Pacienthistory[]
+model hospital_room {
+  id                               String                             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                             String                             @db.VarChar(30)
+  description                      String?
+  is_private                       Boolean                            @default(false)
+  status                           hospital_room_status?              @default(WORKING)
+  price                            Decimal                            @db.Decimal(10, 2)
+  hospital_clinic_id               String                             @db.Uuid
+  medical_bill_id                  String?                            @db.Uuid
+  hospital_clinic                  hospital_clinic                    @relation(fields: [hospital_clinic_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_bill                     medical_bill?                      @relation(fields: [medical_bill_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_room_hospital_room_item hospital_room_hospital_room_item[]
+  medical_care_procedure           medical_care_procedure[]
 }
 
-//model Pretriage {
-//}
+model hospital_room_hospital_room_item {
+  id                                                                                         String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  hospital_room_id                                                                           String             @db.Uuid
+  hospital_room_item                                                                         String             @db.Uuid
+  hospital_room                                                                              hospital_room      @relation(fields: [hospital_room_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_room_item_hospital_room_hospital_room_item_hospital_room_itemTohospital_room_item hospital_room_item @relation("hospital_room_hospital_room_item_hospital_room_itemTohospital_room_item", fields: [hospital_room_item], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
 
-//model Triage {
-//}
+model hospital_room_item {
+  id                                                                                                       String                             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  name                                                                                                     String                             @db.VarChar(30)
+  description                                                                                              String?
+  price                                                                                                    Decimal                            @db.Decimal(10, 2)
+  status                                                                                                   Boolean                            @default(true)
+  hospital_room_hospital_room_item_hospital_room_hospital_room_item_hospital_room_itemTohospital_room_item hospital_room_hospital_room_item[] @relation("hospital_room_hospital_room_item_hospital_room_itemTohospital_room_item")
+}
+
+model medical_bill {
+  id                     String                   @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  total_value            Decimal                  @db.Decimal(8, 2)
+  description            String?
+  payment_way            payment_way              @default(MONEY)
+  status                 bill_status              @default(OPEN)
+  hospital_room          hospital_room[]
+  medical_care           medical_care[]
+  medical_care_exam      medical_care_exam[]
+  medical_care_procedure medical_care_procedure[]
+}
+
+model medical_care {
+  id                        String                      @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  triage_id                 String?                     @db.Uuid
+  doctor_id                 String                      @db.Uuid
+  start_date_time           DateTime                    @default(now()) @db.Timestamp(6)
+  end_date_time             DateTime                    @db.Timestamp(6)
+  hospital_office_id        String                      @db.Uuid
+  price                     Decimal?                    @db.Decimal(6, 2)
+  description               String?                     @db.VarChar(255)
+  medical_bill_id           String?                     @db.Uuid
+  doctor                    doctor                      @relation(fields: [doctor_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_office           hospital_office             @relation(fields: [hospital_office_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_bill              medical_bill?               @relation(fields: [medical_bill_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage                    triage?                     @relation(fields: [triage_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_exam         medical_care_exam[]
+  medical_care_prescription medical_care_prescription[]
+  medical_care_procedure    medical_care_procedure[]
+}
+
+model medical_care_exam {
+  id                 String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  medical_care_id    String           @db.Uuid
+  name               String
+  description        String?          @db.VarChar(255)
+  hospital_office_id String?          @db.Uuid
+  where_can_be_done  String?
+  price              Decimal?         @db.Decimal(6, 2)
+  medical_bill_id    String?          @db.Uuid
+  hospital_office    hospital_office? @relation(fields: [hospital_office_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_bill       medical_bill?    @relation(fields: [medical_bill_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care       medical_care     @relation(fields: [medical_care_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model medical_care_prescription {
+  id              String       @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  medical_care_id String       @db.Uuid
+  medicine_id     String       @db.Uuid
+  use_way         String
+  cares           String?
+  medical_care    medical_care @relation(fields: [medical_care_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medicine        medicine     @relation(fields: [medicine_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model medical_care_procedure {
+  id                               String                             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  description                      String
+  medical_care_id                  String                             @db.Uuid
+  status                           procedure_status                   @default(SCHEDULED)
+  hospital_office_id               String?                            @db.Uuid
+  expect_duration_in_minutes       Int?
+  end_prognosis                    String?
+  price                            Decimal?                           @db.Decimal(6, 2)
+  medical_schedule_id              String?                            @db.Uuid
+  medical_bill_id                  String?                            @db.Uuid
+  hospital_room_id                 String?                            @db.Uuid
+  hospital_office                  hospital_office?                   @relation(fields: [hospital_office_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_room                    hospital_room?                     @relation(fields: [hospital_room_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_bill                     medical_bill?                      @relation(fields: [medical_bill_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care                     medical_care                       @relation(fields: [medical_care_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_schedule            medical_care_schedule?             @relation(fields: [medical_schedule_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_procedure_assistent medical_care_procedure_assistent[]
+  medical_care_procedure_doctor    medical_care_procedure_doctor[]
+  medical_care_procedure_nurse     medical_care_procedure_nurse[]
+}
+
+model medical_care_procedure_assistent {
+  id                        String                 @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  medical_care_procedure_id String                 @db.Uuid
+  assistent_id              String                 @db.Uuid
+  assistent                 assistent              @relation(fields: [assistent_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_procedure    medical_care_procedure @relation(fields: [medical_care_procedure_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model medical_care_procedure_doctor {
+  id                        String                 @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  medical_care_procedure_id String                 @db.Uuid
+  doctor_id                 String                 @db.Uuid
+  doctor                    doctor                 @relation(fields: [doctor_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  medical_care_procedure    medical_care_procedure @relation(fields: [medical_care_procedure_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model medical_care_procedure_nurse {
+  id                        String                 @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  medical_care_procedure_id String                 @db.Uuid
+  nurse_id                  String                 @db.Uuid
+  medical_care_procedure    medical_care_procedure @relation(fields: [medical_care_procedure_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  nurse                     nurse                  @relation(fields: [nurse_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model medical_care_schedule {
+  id                     String                   @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  date_time              DateTime                 @db.Timestamp(6)
+  protocol               String                   @db.VarChar(30)
+  hospital_office_id     String?                  @db.Uuid
+  doctor_id              String                   @db.Uuid
+  status                 schedule_status          @default(SCHEDULED)
+  medical_care_procedure medical_care_procedure[]
+  doctor                 doctor                   @relation(fields: [doctor_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  hospital_office        hospital_office?         @relation(fields: [hospital_office_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model nurse {
+  id                           String                         @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id                      String                         @db.Uuid
+  first_name                   String                         @db.VarChar(40)
+  last_name                    String                         @db.VarChar(60)
+  cpf                          String                         @unique @db.Char(11)
+  coren                        String                         @db.VarChar(20)
+  phone                        String                         @db.VarChar(11)
+  address_id                   String?                        @db.Uuid
+  status                       nurse_status                   @default(ATTENDING)
+  medical_care_procedure_nurse medical_care_procedure_nurse[]
+  address                      address?                       @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  users                        users                          @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage                       triage[]
+}
+
+model pacient_health_plan {
+  id                   String                @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  pacient_id           String                @db.Uuid
+  health_plan_id       String                @db.Uuid
+  coverage             health_plan_coverage?
+  coverage_description String?
+  value                Decimal?              @db.Decimal(6, 2)
+  type                 value_type?
+  status               Boolean               @default(true)
+  health_plan          health_plan           @relation(fields: [health_plan_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pacient              pacient               @relation(fields: [pacient_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model receptionist {
+  id         String              @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  user_id    String              @db.Uuid
+  first_name String              @db.VarChar(40)
+  last_name  String              @db.VarChar(60)
+  cpf        String              @unique @db.Char(11)
+  phone      String              @db.VarChar(11)
+  address_id String?             @db.Uuid
+  status     receptionist_status @default(ATTENDING)
+  address    address?            @relation(fields: [address_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  users      users               @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage     triage[]
+}
+
+model triage {
+  id              String           @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  protocol        String           @db.VarChar(30)
+  pre_triage_id   String?          @db.Uuid
+  receptionist_id String?          @db.Uuid
+  nurse_id        String           @db.Uuid
+  medical_care    medical_care[]
+  nurse           nurse            @relation(fields: [nurse_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  pre_triage      pre_triage?      @relation(fields: [pre_triage_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  receptionist    receptionist?    @relation(fields: [receptionist_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage_symptom  triage_symptom[]
+}
+
+model triage_symptom {
+  id                    String             @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  triage_id             String             @db.Uuid
+  symptom_occurrence_id String             @db.Uuid
+  symptom_occurrence    symptom_occurrence @relation(fields: [symptom_occurrence_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  triage                triage             @relation(fields: [triage_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+enum bill_status {
+  OPEN
+  CANCELLED
+  DELAYED
+  PAID
+}
+
+enum blood_type {
+  A_NEGATIVE
+  A_POSITIVE
+  B_NEGATIVE
+  B_POSITIVE
+  AB_NEGATIVE
+  AB_POSITIVE
+  O_NEGATIVE
+  O_POSITIVE
+}
+
+enum gender {
+  MASCULINE
+  FEMININE
+  NOT_BINARY
+}
+
+enum occurrence {
+  NEVER
+  RARE
+  SOMETIMES
+  COMMON
+  ALWAYS
+}
+
+enum assistent_role {
+  ANESTHETIST
+  INSTRUMENTATOR
+  CLERK
+  CLEANING
+}
+
+enum assistent_status {
+  ATTENDING
+  SUSPENDED
+  FIRED
+  ON_VACATION
+  DAY_OFF
+  OUTSIDE_ATTENDING_HOURS
+}
+
+enum doctor_status {
+  ATTENDING
+  SUSPENDED
+  FIRED
+  ON_VACATION
+  DAY_OFF
+  OUTSIDE_ATTENDING_HOURS
+}
+
+enum health_plan_coverage {
+  COMPLETE
+  HALF
+  PARTIAL
+}
+
+enum hospital_clinic_treatment {
+  POPULAR
+  PRIVATE
+  BOTH
+}
+
+enum hospital_office_status {
+  WORKING
+  UNDER_MAINTENANCE
+  DISABLED
+}
+
+enum hospital_room_status {
+  WORKING
+  UNDER_MAINTENANCE
+  DISABLED
+}
+
+enum nurse_status {
+  ATTENDING
+  SUSPENDED
+  FIRED
+  ON_VACATION
+  DAY_OFF
+  OUTSIDE_ATTENDING_HOURS
+}
+
+enum payment_way {
+  MONEY
+  PIX
+  CREDIT_CARD
+  DEBIT_CARD
+  EDT
+  BANK_BILL
+}
+
+enum procedure_status {
+  SCHEDULED
+  DONE
+  DELAYED
+  CANCELLED
+}
+
+enum receptionist_status {
+  ATTENDING
+  SUSPENDED
+  FIRED
+  ON_VACATION
+  DAY_OFF
+  OUTSIDE_ATTENDING_HOURS
+}
+
+enum schedule_status {
+  SCHEDULED
+  CANCELLED
+  DONE
+}
+
+enum treatment_way {
+  PRIVATE
+  PUBLIC
+}
+
+enum value_type {
+  VALUE
+  PORCENTAGE
+}
